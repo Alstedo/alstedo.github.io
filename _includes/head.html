@@ -7,11 +7,17 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- External: Bootstrap / jQuery -->
-  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "{{ site.github.url }}/css/bootstrap.min.css"}}">
+  <link rel="stylesheet" href="{{ "{{ site.github.url }}/css/bootstrap-theme.min.css"}}">
+
+  <script src="{{ "{{ site.github.url }}/js/jquery-3.1.0.min.js"}}"></script>
+  <script src="{{ "{{ site.github.url }}/js/bootstrap.min.js"}}"></script>
+
+  <!-- <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl }}">
 
-  <script src="{{ "/js/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/jquery-3.1.0.min.js" | prepend: site.baseurl }}"></script> -->
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "/img/icon.png" | prepend: site.baseurl }}">

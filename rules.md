@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Rules
+permalink: /rules/
 ---
 
 ## Pre Game
