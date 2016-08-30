@@ -1,14 +1,44 @@
 ---
 layout: page
 title: Tournaments
-permalink: /tournaments/
 ---
 
-<ul>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6">
+      <h3>EU</h3>
+      <ul>
+        {% for post in site.posts %}
+          {% if post.category == 'EU' %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-lg-6">
+      <h3>NA</h3>
+      <ul>
+        {% for post in site.posts %}
+          {% if post.category == 'NA' %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- <ul>
   {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <span> {{ post.date }} </span>
+    <span> {{ post.date | date: "%b %-d, %Y" }} </span>
   </li>
   {% endfor %}
-</ul>
+</ul> -->

@@ -1,37 +1,30 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
+      <div class="col-lg-4 col-md-4">
+        <ul>
           <li>
-            {% include icon-github.html username=site.github_username %}
+            Battlefy: <a href="https://battlefy.com/{{ site.battlefy_username }}">{{ site.battlefy_username }}</a>
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            Discord: <a href="https://discord.me/{{ site.discord_username }}">{{ site.discord_username }}</a>
           </li>
-          {% endif %}
+          <li>
+            Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
+          </li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
+      <div class="col-lg-4 col-md-4">
         <p>{{ site.description }}</p>
       </div>
     </div>
-
   </div>
+
 </footer>
