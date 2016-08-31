@@ -61,6 +61,10 @@ layout: default
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <span> {{ post.date | date: "%b %-d, %Y" }} </span>
               <p>{{ post.content }}</p>
+              <button type="button" class="btn btn-primary">
+                <a href="{{ post.info_url }}">Join Tournament</a>
+              </button>
+              <!-- <iframe src="{{ post.join_url }}" title="{{ post.title }}" width="186" height="50" scrolling="no" frameborder="0"></iframe> -->
             </p>
           {% break %}
           {% endif %}
@@ -74,12 +78,16 @@ layout: default
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <span> {{ post.date | date: "%b %-d, %Y" }} </span>
               <p>{{ post.content }}</p>
+              <button type="button" class="btn btn-primary">
+                <a href="{{ post.info_url }}">Join Tournament</a>
+              </button>
+              <!-- <iframe src="{{ post.join_url }}" title="{{ post.title }}" width="186" height="50" scrolling="no" frameborder="0"></iframe> -->
             </p>
           {% break %}
           {% endif %}
         {% endfor %}
       </div>
     </div>
-    
+
   </div>
 </div>
