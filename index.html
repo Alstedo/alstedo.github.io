@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- <div style="background-image: {{ site.baseurl }}/img/background.jpg"> -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <div class="row">
     <div class="col-lg-6">
       <h3>EU</h3>
@@ -33,5 +33,53 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+  </div>
+</div> -->
+
+<div class="jumbotron">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Welcome to {{ site.title }}!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>EU</h3>
+        {% for post in site.posts %}
+          {% if post.category == 'EU' %}
+            <p>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+              <p>{{ post.content }}</p>
+            </p>
+          {% break %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="col-lg-6">
+        <h3>NA</h3>
+        {% for post in site.posts %}
+          {% if post.category == 'NA' %}
+            <p>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+              <p>{{ post.content }}</p>
+            </p>
+          {% break %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    
   </div>
 </div>
