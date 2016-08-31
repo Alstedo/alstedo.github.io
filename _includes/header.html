@@ -1,33 +1,30 @@
 <header class="">
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/img/logo.png"
+          <span> {{ site.title }} </span>
         </a>
+        <!-- <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img alt="Brand" src="{{ site.baseurl }}/img/logo.png"
+        </a> -->
       </div>
 
-      {% for page in site.pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-          {{ page.title }}
-        </a>
-        {% endif %}
-      {% endfor %}
-
-      <!-- <ul class="nav navbar-nav">
-        <li>
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">
-              {{ my_page.title }}
-            </a>
-            {% endif %}
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          {% for page in site.pages %}
+            <li>
+              {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                {{ page.title }}
+              </a>
+              {% endif %}
+            </li>
           {% endfor %}
-        </li>
-      </ul> -->
+        </ul>
+      </div>
 
     </div><!-- /.container-fluid -->
   </nav>
