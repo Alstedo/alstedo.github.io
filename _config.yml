@@ -12,6 +12,13 @@ description: > # ignore newlines until next property
   Shift Pro League was established in March of 2016 as a place
   where players of all skill levels can come together for weekly matchups.
 repository: shift/willis2342.github.io
+collections:
+  eu:
+    layout: post
+    permalink: /eu/:title/
+  na:
+    layout: post
+    permalink: /na/:title/
 
 # Social Media
 battlefy_username: shift-pro-league
