@@ -18,33 +18,61 @@ layout: default
 
     <br/>
 
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+
     <div class="row">
       <div class="col-lg-6">
         <h3>EU</h3>
-        {% for post in site.posts %}
-          {% if post.category == 'EU' %}
-            <p>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-              <p>{{ post.content }}</p>
-              <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-            </p>
+        {% assign eu = site.eu %}
+        {% for post in eu %}
+        {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+
+        {% if nowunix < posttime %}
+          <p>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            <p>{{ post.content }}</p>
+            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+          </p>
           {% break %}
-          {% endif %}
+        {% endif %}
+
+        {% if post == eu.last %}
+          <p>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            <p>{{ post.content }}</p>
+            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+          </p>
+        {% endif %}
+
         {% endfor %}
       </div>
       <div class="col-lg-6">
         <h3>NA</h3>
-        {% for post in site.posts %}
-          {% if post.category == 'NA' %}
-            <p>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-              <p>{{ post.content }}</p>
-              <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-            </p>
+        {% assign na = site.na %}
+        {% for post in na %}
+        {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+
+        {% if nowunix < posttime %}
+          <p>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            <p>{{ post.content }}</p>
+            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+          </p>
           {% break %}
-          {% endif %}
+        {% endif %}
+
+        {% if post == na.last %}
+          <p>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            <p>{{ post.content }}</p>
+            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+          </p>
+        {% endif %}
+
         {% endfor %}
       </div>
     </div>
