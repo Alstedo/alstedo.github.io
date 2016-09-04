@@ -3,7 +3,9 @@ layout: page
 title: Rules
 ---
 
-## Pre Game
+# Rules
+
+### Pre Game
 
 1. Your team captain __MUST__ join Discord and be connected to our server until your team is eliminated or completes the tournament.  Your team will be disqualified immediately if your team captain is not on the Discord.
 2. Team Captains __MUST__ join Discord with the name indicated on Battlefy. If we are unable to find you, your team will be disqualified from the tournament after 5 minutes.
@@ -18,7 +20,7 @@ title: Rules
   - Please have a _100x100px_ render of your logo for our streaming purposes. You can upload this to the #team-logos text channel in the Discord.
 
 
-## During Game
+### During Game
 
 1. The default map for play is __DFH Stadium__ unless otherwise agreed upon by both team captains.
 2. The default server for this tournament is __US East__. The server can be changed if agreed upon by both team captains.
@@ -34,11 +36,11 @@ title: Rules
 12. Split-screen is __NOT ALLOWED__.
 
 
-## Post Game
+### Post Game
 
 1. It is __STRONGLY__ recommended that you save the replay for each game played in a round. If any conflicts arise and only one team can provide a replay for that match, the results will be based on that one replay alone. If no one can provide a replay, a rematch will ensue being over watched by a moderator.
 
-## Everything
+### Everything
 
 Have fun! We do these tournaments because we love the community and hope we can become a large part in it! <3
 
