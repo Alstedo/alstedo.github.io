@@ -5,65 +5,37 @@ title: Tournaments
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-6">
 
-      <div class="panel panel-primary">
-        <!-- Default panel contents -->
-        <div class="panel-heading"><b>EU</b></div>
-        <!-- <div class="panel-body">
-          <p>Blah</p>
-        </div> -->
+    <!-- <div class="col-lg-2">
+      <span>Filter by: </span>
+    </div> -->
 
-        <!-- Table -->
-        <table class="table">
-          <tr>
-            <th>Tournament</th>
-            <th>Date</th>
-          </tr>
-          {% assign eu = site.eu | reverse %}
-          {% for post in eu %}
-          <tr>
-              <td>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </td>
-              <td>
-                <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-              </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
+    <div class="col-lg-10">
 
-    </div>
-    <div class="col-lg-6">
-
-      <div class="panel panel-primary">
-        <!-- Default panel contents -->
-        <div class="panel-heading"><b>NA</b></div>
-        <!-- <div class="panel-body">
-          <p>Blah</p>
-        </div> -->
-
-        <!-- Table -->
-        <table class="table">
-          <tr>
-            <th>Tournament</th>
-            <th>Date</th>
-          </tr>
-          {% assign na = site.na | reverse %}
-          {% for post in na %}
-          <tr>
-              <td>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </td>
-              <td>
-                <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-              </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
+      <table class="table table-bordered table-hover">
+        <tr>
+          <th>Tournament</th>
+          <th>Region</th>
+          <th>Date</th>
+        </tr>
+        <!-- {% assign eu = site.eu | reverse %} -->
+        {% assign eu = site.posts | where:"category","EU" %}
+        {% for post in site.posts %}
+        <tr>
+            <td>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </td>
+            <td>
+              <span> {{ post.category }} </span>
+            </td>
+            <td>
+              <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            </td>
+        </tr>
+        {% endfor %}
+      </table>
 
     </div>
+
   </div>
 </div>
