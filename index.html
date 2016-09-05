@@ -18,70 +18,26 @@ layout: default
 
     <br/>
 
-    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-
     <div class="row">
       <div class="col-lg-6">
         <h3>EU</h3>
-        {% assign eu = site.eu %}
-        {% for post in eu %}
-        {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+        {% assign eu = site.posts | where:"category","EU" %}
+        {% include next_tourney.html posts=eu %}
 
-        {% if nowunix < posttime %}
-          <p>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-            <p>{{ post.content }}</p>
-            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-          </p>
-          {% break %}
-        {% endif %}
-
-        {% if post == eu.last %}
-          <p>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-            <p>{{ post.content }}</p>
-            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-          </p>
-        {% endif %}
-
-        {% endfor %}
       </div>
       <div class="col-lg-6">
         <h3>NA</h3>
-        {% assign na = site.na %}
-        {% for post in na %}
-        {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+        {% assign na = site.posts | where:"category","NA" %}
+        {% include next_tourney.html posts=na %}
 
-        {% if nowunix < posttime %}
-          <p>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-            <p>{{ post.content }}</p>
-            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-          </p>
-          {% break %}
-        {% endif %}
-
-        {% if post == na.last %}
-          <p>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-            <p>{{ post.content }}</p>
-            <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
-          </p>
-        {% endif %}
-
-        {% endfor %}
       </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-12">
         <iframe src="https://discordapp.com/widget?id=160203665645371392&amp;theme=dark" width="1000" height="500" allowtransparency="true" frameborder="0"></iframe>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
