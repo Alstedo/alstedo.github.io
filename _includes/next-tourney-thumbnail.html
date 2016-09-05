@@ -1,0 +1,33 @@
+
+<!-- if the next tourney is available, show content for it. if the next tourney
+     is not available, show the content for previous tourney. -->
+
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+
+<!-- Posts are sorted by date in descending order (from the furthest date out).
+     We want to go in ascending order to find the next tourney. -->
+{% assign posts = include.posts | reverse %}
+{% for post in posts %}
+
+{% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+
+{% if nowunix < posttime %}
+  <p>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+    <p>{{ post.content }}</p>
+    <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+  </p>
+  {% break %}
+{% endif %}
+
+{% if post == posts.last %}
+  <p>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+    <p>{{ post.content }}</p>
+    <a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a>
+  </p>
+{% endif %}
+
+{% endfor %}
