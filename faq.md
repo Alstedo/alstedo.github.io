@@ -4,6 +4,8 @@ title: FAQ
 permalink: /faq/
 ---
 
+# Frequently Asked Questions (FAQ)
+
 ### How do I check-in?
 
 Check-in begins an hour before the tourney start time. At that time, go to the tournament page and click the red "Check-in" button. You can make sure you are checked in by clicking the "Participants" tab. If you need further help, post a message in #help on Discord.
