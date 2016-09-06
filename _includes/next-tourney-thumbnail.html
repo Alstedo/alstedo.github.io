@@ -1,4 +1,10 @@
 
+<!-- BUGS:
+  - banner is too large when the window width is made smaller. pushes
+    description and button outside the thumbnail
+  - button font is not white
+ -->
+
 <!-- if the next tourney is available, show content for it. if the next tourney
      is not available, show the content for previous tourney. -->
 
@@ -13,7 +19,7 @@
 
 {% if nowunix < posttime %}
   <div class="thumbnail" style="width: 100%; height:600px;">
-    <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner">
+    <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner" class="img-responsive">
     <div class="caption">
       <a href="{{ post.url | prepend: site.baseurl }}">
         <h3> {{ post.title }} </h3>
