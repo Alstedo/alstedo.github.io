@@ -44,4 +44,4 @@ title: Rules
 
 Have fun! We do these tournaments because we love the community and hope we can become a large part in it! <3
 
-Note: Admins/Mods have have final say on judgement calls (rules are always subject to change).
+Note: Admins/Mods have final say on judgement calls (rules are always subject to change).
