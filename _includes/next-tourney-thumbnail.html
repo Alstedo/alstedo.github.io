@@ -1,50 +1,35 @@
 
 <!-- BUGS:
-  - banner is too large when the window width is made smaller. pushes
-    description and button outside the thumbnail
   - button font is not white
  -->
 
-<!-- if the next tourney is available, show content for it. if the next tourney
-     is not available, show the content for previous tourney. -->
+{% assign posts = include.posts %}
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-
-<!-- Posts are sorted by date in descending order (from the furthest date out).
-     We want to go in ascending order to find the next tourney. -->
-{% assign posts = include.posts | reverse %}
+ <!-- Find the next tourney -->
+{% capture sitetime %} {{ site.time | date: '%s' }} {% endcapture %}
 {% for post in posts %}
 
-{% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+{% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
 
-{% if nowunix < posttime %}
-  <!-- style="width: 100%; height:600px;" -->
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner" class="img-responsive">
-    <div class="caption">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3> {{ post.title }} </h3>
-      </a>
-      <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-      <p>{{ post.content }}</p>
-      <p><a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a></p>
-    </div>
-  </div>
-  {% break %}
-{% endif %}
-
-{% if post == posts.last %}
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner">
-    <div class="caption">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3> {{ post.title }} </h3>
-      </a>
-      <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-      <p>{{ post.content }}</p>
-      <p><a class="btn btn-primary" href="{{ post.info_url }}" role="button">Join Tournament</a></p>
-    </div>
-  </div>
+{% if posttime > sitetime %}
+ {% assign next = post %}
+{% else %}
+ {% break %}
 {% endif %}
 
 {% endfor %}
+
+<!-- Use the previous tourney if the next tourney isn't available -->
+{% assign tourney = next | default: posts.first %}
+
+<div class="thumbnail">
+  <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner" class="img-responsive">
+  <div class="caption">
+    <a href="{{ tourney.url | prepend: site.baseurl }}">
+      <h3> {{ tourney.title }} </h3>
+    </a>
+    <span> {{ tourney.date | date: "%b %-d, %Y" }} </span>
+    <p>{{ tourney.content }}</p>
+    <p><a class="btn btn-primary" href="{{ tourney.info_url }}" role="button">Join Tournament</a></p>
+  </div>
+</div>

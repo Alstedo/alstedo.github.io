@@ -4,20 +4,21 @@ sitemap: false
 permalink: /eu/
 ---
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign posts = site.posts | where: "category", "EU"%}
 
-{% assign posts = site.posts | where: "category", "EU" | reverse %}
+{% capture sitetime %} {{ site.time | date: '%s' }} {% endcapture %}
 {% for post in posts %}
 
-{% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+{% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
 
-{% if nowunix < posttime %}
-  {{ post.url | prepend: site.baseurl }}
-  {% break %}
-{% endif %}
-
-{% if post == posts.last %}
-  {{ post.url | prepend: site.baseurl }}
+{% if posttime > sitetime %}
+ {% assign next = post %}
+{% else %}
+ {% break %}
 {% endif %}
 
 {% endfor %}
+
+{% assign tourney = next | default: posts.first %}
+
+{{ tourney.url | prepend: site.baseurl }}
