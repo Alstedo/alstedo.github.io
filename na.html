@@ -1,0 +1,23 @@
+---
+layout: redirect
+sitemap: false
+permalink: /na/
+---
+
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+
+{% assign posts = site.posts | where: "category", "NA" | reverse %}
+{% for post in posts %}
+
+{% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
+
+{% if nowunix < posttime %}
+  {{ post.url | prepend: site.baseurl }}
+  {% break %}
+{% endif %}
+
+{% if post == posts.last %}
+  {{ post.url | prepend: site.baseurl }}
+{% endif %}
+
+{% endfor %}
