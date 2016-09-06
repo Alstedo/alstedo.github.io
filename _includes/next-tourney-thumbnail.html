@@ -18,7 +18,8 @@
 {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
 
 {% if nowunix < posttime %}
-  <div class="thumbnail" style="width: 100%; height:600px;">
+  <!-- style="width: 100%; height:600px;" -->
+  <div class="thumbnail">
     <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner" class="img-responsive">
     <div class="caption">
       <a href="{{ post.url | prepend: site.baseurl }}">
@@ -33,7 +34,7 @@
 {% endif %}
 
 {% if post == posts.last %}
-  <div class="thumbnail" style="width: 100%; height:600px;">
+  <div class="thumbnail">
     <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner">
     <div class="caption">
       <a href="{{ post.url | prepend: site.baseurl }}">
