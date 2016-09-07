@@ -247,10 +247,6 @@
   padding-top: 20px;
 }
 
-.divider {
-  padding: 15px;
-}
-
 .cover {
   padding-top: 250px;
   padding-bottom: 250px;
@@ -260,4 +256,15 @@
   background-color: rgba($background-color, 0.5);
   border-radius: 10px;
   padding: 10px;
+}
+
+.pane {
+  padding: 20px;
+  background-color: $background-color;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pane-alt {
+  padding: 20px;
+  background-color: $background-color-alt;
 }

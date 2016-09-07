@@ -26,6 +26,8 @@
     </a>
     <span> {{ tourney.date | date: "%b %-d, %Y" }} </span>
     <p>{{ tourney.content }}</p>
-    <p><a class="btn btn-primary" href="{{ tourney.info_url }}" role="button">Join Tournament</a></p>
+    <div class="text-center">
+      <a class="btn btn-lg btn-success" href="{{ tourney.info_url }}" role="button">Join Tournament</a>
+    </div>
   </div>
 </div>
