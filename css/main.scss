@@ -11,23 +11,22 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.woff') format('woff');
 }
 
 // Our variables
-// $base-font-family: "Bebas Neue";
-$base-font-family: Verdana, Geneva, sans-serif;
-$base-font-size:   16px;
+// $base-font-family: 'Droid Sans', sans-serif;
+$base-font-family: 'Roboto', sans-serif;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-// $text-color:       #111;
-// $background-color: #fdfdfd;
-// $brand-color:      #2a7ae2;
+
 
 $text-color:       #fff;
-$background-color: #2e2e2e;
-$background-color-alt: #394f74;
-$brand-color:      #0050bf;
+$background-color: #181818;
+$background-color-light: #2e2e2e;
+$background-color-alt: #1c3e6d;
+$brand-color:      #3d79da;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

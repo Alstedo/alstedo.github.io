@@ -24,10 +24,12 @@
     <a href="{{ tourney.url | prepend: site.baseurl }}">
       <h3> {{ tourney.title }} </h3>
     </a>
-    <span> {{ tourney.date | date: "%b %-d, %Y" }} </span>
-    <p>{{ tourney.content }}</p>
-    <div class="text-center">
-      <a class="btn btn-lg btn-success" href="{{ tourney.info_url }}" role="button">Join Tournament</a>
-    </div>
+    <p>
+      <span> {{ tourney.date | date: "%b %-d, %Y" }} </span>
+      <p>{{ tourney.content }}</p>
+      <div class="text-center">
+        <a class="btn btn-lg btn-primary" href="{{ tourney.info_url }}" role="button">Join Tournament</a>
+      </div>
+    </p>
   </div>
 </div>

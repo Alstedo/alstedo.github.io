@@ -98,7 +98,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -260,11 +260,18 @@
 
 .pane {
   padding: 20px;
-  background-color: $background-color;
-  border-bottom: 1px solid #e8e8e8;
+  // background-color: $background-color;
 }
 
 .pane-alt {
   padding: 20px;
-  background-color: $background-color-alt;
+  // background-color: $background-color-alt;
+}
+
+.thumbnail {
+  background-color: $background-color-light;
+
+  .caption, p {
+    color: $text-color;
+  }
 }
