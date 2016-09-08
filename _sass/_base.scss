@@ -222,3 +222,7 @@ table {
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #9d9d9d;
 }
+
+.table-header {
+  background-color: $brand-color;
+}
