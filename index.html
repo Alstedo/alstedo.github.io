@@ -2,34 +2,78 @@
 layout: default
 ---
 
-<div class="cover" style="background: url('{{ site.baseurl }}/img/screenshots/neo-tokyo.jpg') no-repeat center center fixed;
-                              -webkit-background-size: cover;
-                              -moz-background-size: cover;
-                              -o-background-size: cover;
-                              background-size: cover;">
-  <div class="container">
-    <div class="row cover-blurb">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+  </ol>
 
-      <div class="col-lg-12 text-center">
-        <h1> Welcome to {{site.title}}!</h1>
-        <p>{{site.description}}</p>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
 
-        <!-- Icons -->
+    <div class="item active">
+      <img class="img-responsive" src="{{ site.baseurl }}/img/screenshots/score.jpg" alt="slide">
+      <div class="carousel-caption">
+        <h1 class="visible-md-block visible-lg-block">Welcome to Shift Pro League!</h1>
+        <h3 class="visible-xs-block visible-sm-block">Welcome to Shift Pro League!</h3>
+
         <!-- <div class="container">
           <div class="row">
               <div class="span12 text-center">
-                  <a href="" class="share-icon facebook" title="Share on facebook"><img src={{ site.baseurl }}/img/social/twitter-icon.png /></a>
-                  <a href="" class="share-icon twitter" title="Share on twitter"><img src={{ site.baseurl }}/img/social/twitter-icon.png/></a>
-                  <a href="" class="share-icon email" title="Share in an email"><img src={{ site.baseurl }}/img/social/twitter-icon.png/></a>
-                  <a href="" class="share-icon email" title="Share in an email"><img src={{ site.baseurl }}/img/social/twitter-icon.png/></a>
+                  <a href="" class="share-icon facebook" title="Share on facebook">
+                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png" />
+                  </a>
+                  <a href="" class="share-icon twitter" title="Share on twitter">
+                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
+                  </a>
+                  <a href="" class="share-icon email" title="Share in an email">
+                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
+                  </a>
+                  <a href="" class="share-icon email" title="Share in an email">
+                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
+                  </a>
               </div>
           </div>
         </div> -->
 
       </div>
-
     </div>
+
+    <div class="item">
+      <a href="{{ site.baseurl }}/na/SPL-3v3-Weekly-3/">
+        <img class="img-responsive" src="{{ site.baseurl }}/img/screenshots/neo-tokyo.jpg" alt="slide">
+      </a>
+
+      <div class="carousel-caption">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1></h1>
+              <h1 class="visible-md-block visible-lg-block">Congratulations to Momentum for winning SPL Weekly #3!</h1>
+              <h3 class="visible-xs-block visible-sm-block">Congratulations to Momentum for winning SPL Weekly #3!</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- <p>First</p>
+    <p>Second</p>
+    <p>Third</p> -->
   </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 <div class="container-fluid pane">
