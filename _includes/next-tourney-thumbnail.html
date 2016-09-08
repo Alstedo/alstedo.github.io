@@ -19,7 +19,7 @@
 {% assign tourney = next | default: posts.first %}
 
 <div class="thumbnail">
-  <img src="{{ site.baseurl }}/img/banner.jpg" alt="banner" class="img-responsive">
+  <img src="{{ site.baseurl }}/img/banners/{{ tourney.banner }}" alt="banner" class="img-responsive">
   <div class="caption">
     <a href="{{ tourney.url | prepend: site.baseurl }}">
       <h3> {{ tourney.title }} </h3>
