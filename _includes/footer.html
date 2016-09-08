@@ -2,16 +2,16 @@
 
   <div class="container-fluid">
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-4">
         <p>{{ site.description }}</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="row" style="padding-bottom: 20px;">
       <div class="col-lg-12">
         <div class="text-center">
-          <span>&copy;{{ site.title }}</span>
+          <span>&copy;{{ site.time | date: "%Y" }} {{ site.title }}</span>
         </div>
       </div>
     </div>
