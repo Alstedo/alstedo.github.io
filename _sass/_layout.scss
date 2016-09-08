@@ -243,13 +243,20 @@
 
 
 
-.post {
-  padding-top: 20px;
-}
+// .post {
+//   padding-top: 20px;
+// }
 
 .cover {
   padding-top: 300px;
   padding-bottom: 300px;
+}
+
+article {
+  .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 .cover-blurb {
@@ -279,4 +286,5 @@
 .questions, p {
   margin-left: 10px;
   margin-right: 10px;
+  padding-below: 10px;
 }
