@@ -1,0 +1,1958 @@
+{
+  "2016-08-19": {
+    "date": "2016-08-19",
+    "name": "SPL-1-Up",
+    "teams": {
+      "0 Facts Given": {
+        "name": "0 Facts Given",
+        "roster": [
+          "Jacobgw45",
+          "Mr_fureee",
+          "Chicago"
+        ],
+        "standing": "9"
+      },
+      "A Passing Fancy": {
+        "name": "A Passing Fancy",
+        "roster": [
+          "chucknorrispwns",
+          "Hypnagogia0",
+          "Jerry",
+          "Taylor Drift",
+          "2 kids in a trench coat"
+        ],
+        "standing": "17"
+      },
+      "A Spoon and some utensils": {
+        "name": "A Spoon and some utensils",
+        "roster": [
+          "WiZarD",
+          "felixgg123",
+          "Expozzia",
+          "s3b"
+        ],
+        "standing": "9"
+      },
+      "Advancing Challenges": {
+        "name": "Advancing Challenges",
+        "roster": [
+          "Mmossmann",
+          "Szaro",
+          "Mago",
+          "Haseo"
+        ],
+        "standing": "9"
+      },
+      "All Boys School": {
+        "name": "All Boys School",
+        "roster": [
+          "MeatMarkets",
+          "Chelios22",
+          "ChoppingLemons"
+        ],
+        "standing": "17"
+      },
+      "Backflips Anonymous": {
+        "name": "Backflips Anonymous",
+        "roster": [
+          "D-rekt",
+          "chatt324",
+          "Mohulis"
+        ],
+        "standing": "33"
+      },
+      "Banana Squad": {
+        "name": "Banana Squad",
+        "roster": [
+          "Hydra",
+          "blaze",
+          "Kattastrophy",
+          "ASUHborg"
+        ],
+        "standing": "33"
+      },
+      "Breakfast At 9": {
+        "name": "Breakfast At 9",
+        "roster": [
+          "Outsid3_Shoot3r",
+          "Achlys15",
+          "Silver_Saviior"
+        ],
+        "standing": "17"
+      },
+      "Calculated": {
+        "name": "Calculated",
+        "roster": [
+          "StarcraftAlaska",
+          "RobertLovesGames",
+          "Thehate"
+        ],
+        "standing": "33"
+      },
+      "Cosmic Unicorn": {
+        "name": "Cosmic Unicorn",
+        "roster": [
+          "Moltapor",
+          "Urbegon",
+          "Armagedon123123",
+          "Dark_asterix",
+          "xxraligunxx"
+        ],
+        "standing": "33"
+      },
+      "Danger Zone": {
+        "name": "Danger Zone",
+        "roster": [
+          "NigNogDiggityDog",
+          "Falcon",
+          "Flinney McMillon"
+        ],
+        "standing": "17"
+      },
+      "Deadly 3": {
+        "name": "Deadly 3",
+        "roster": [
+          "Antheboss23",
+          "shidoniplays",
+          "Zach535"
+        ],
+        "standing": "33"
+      },
+      "Deception": {
+        "name": "Deception",
+        "roster": [
+          "Bell",
+          "Fireworks",
+          "Vince",
+          "CorruptedG"
+        ],
+        "standing": "2"
+      },
+      "Definitely NOT iBuyPower Cosmic": {
+        "name": "Definitely NOT iBuyPower Cosmic",
+        "roster": [
+          "Jayb1234_",
+          "Jayson_G12",
+          "Tysmooth3"
+        ],
+        "standing": "33"
+      },
+      "Firebrand eSports Inferno": {
+        "name": "Firebrand eSports Inferno",
+        "roster": [
+          "billyscape",
+          "Jarrrrl",
+          "September",
+          "MrChaotyk"
+        ],
+        "standing": "17"
+      },
+      "Firebrand eSports NA": {
+        "name": "Firebrand eSports NA",
+        "roster": [
+          "Decibel",
+          "Chaotyk",
+          "Lazarus",
+          "Makro",
+          "SigmaBlack"
+        ],
+        "standing": "17"
+      },
+      "Flaming Meatballs": {
+        "name": "Flaming Meatballs",
+        "roster": [
+          "AlexC",
+          "Yung Walrus [Lf Inner Peace]",
+          "Gotta Go...Fast"
+        ],
+        "standing": "33"
+      },
+      "Funky Gorrillaz": {
+        "name": "Funky Gorrillaz",
+        "roster": [
+          "Yoda100400",
+          "Pizzadude206",
+          "Rguo",
+          "Yoda100400"
+        ],
+        "standing": "33"
+      },
+      "HYPEGaming": {
+        "name": "HYPEGaming",
+        "roster": [
+          "Javi sweatpants",
+          "Kaiijuu",
+          "HighFalleN"
+        ],
+        "standing": "17"
+      },
+      "Hail FC": {
+        "name": "Hail FC",
+        "roster": [
+          "king-azoz-11188",
+          "ali-666ss",
+          "arabian--sparta"
+        ],
+        "standing": "33"
+      },
+      "Hardcore Boostiality": {
+        "name": "Hardcore Boostiality",
+        "roster": [
+          "Rito_Dorito",
+          "Fmds",
+          "Velum",
+          "Dat Boi",
+          "Bam Bam"
+        ],
+        "standing": "17"
+      },
+      "Invictos": {
+        "name": "Invictos",
+        "roster": [
+          "[IVT] JoelRC14",
+          "[IVT] DRMS",
+          "[IVT] Injustice"
+        ],
+        "standing": "17"
+      },
+      "Invictus": {
+        "name": "Invictus",
+        "roster": [
+          "SavvySeal",
+          "iOghma",
+          "Haku"
+        ],
+        "standing": "5"
+      },
+      "Ironhype": {
+        "name": "Ironhype",
+        "roster": [
+          "Loomin | Twitch.tv/Ironhype",
+          "Attackerby",
+          "J.RAx",
+          "Nc! Satthew",
+          "ColemanA"
+        ],
+        "standing": "9"
+      },
+      "Karma Whores": {
+        "name": "Karma Whores",
+        "roster": [
+          "Serser0",
+          "Barrax",
+          "Mr_Lovette"
+        ],
+        "standing": "9"
+      },
+      "Legacy Esports NA": {
+        "name": "Legacy Esports NA",
+        "roster": [
+          "phat man",
+          "Kri0s",
+          "Rocket Van Persie",
+          "Squire",
+          "Calik"
+        ],
+        "standing": "3"
+      },
+      "Lemonade For Turtles": {
+        "name": "Lemonade For Turtles",
+        "roster": [
+          "SquishyMuffinz",
+          "Epicjonny17",
+          "Gimmick",
+          "Skyzz"
+        ],
+        "standing": "1"
+      },
+      "Leviathans of Rocket Drifting": {
+        "name": "Leviathans of Rocket Drifting",
+        "roster": [
+          "LoRD Sylanthus",
+          "LoRD BroFather",
+          "LoRD mokio",
+          "LoRD HoraryHellfire"
+        ],
+        "standing": "17"
+      },
+      "Lions Kings": {
+        "name": "Lions Kings",
+        "roster": [
+          "Miltxn",
+          "Nagat0'",
+          "NickoLDM",
+          "Pulga Nob",
+          "RC | Makf"
+        ],
+        "standing": "33"
+      },
+      "M-m-m-my KKona": {
+        "name": "M-m-m-my KKona",
+        "roster": [
+          "HeFty",
+          "ENIGMA_PLEASE",
+          "Fatality"
+        ],
+        "standing": "17"
+      },
+      "Make 'em Pay": {
+        "name": "Make 'em Pay",
+        "roster": [
+          "KiNG",
+          "C0M0D0",
+          "jabroke",
+          "Absilute"
+        ],
+        "standing": "33"
+      },
+      "MoDz": {
+        "name": "MoDz",
+        "roster": [
+          "chano",
+          "IkerRmz",
+          "StratoGeorge"
+        ],
+        "standing": "33"
+      },
+      "Momentum": {
+        "name": "Momentum",
+        "roster": [
+          "Watsupmijo_24",
+          "Timi_f",
+          "J_knaps"
+        ],
+        "standing": "5"
+      },
+      "Mythic": {
+        "name": "Mythic",
+        "roster": [
+          "Omega Phoenix",
+          "OhCoolStoryBruh",
+          "Cheiffa"
+        ],
+        "standing": "33"
+      },
+      "No Hands Gaming": {
+        "name": "No Hands Gaming",
+        "roster": [
+          "NoH | mynameis1496",
+          "NoH | Ghent",
+          "NoH | Checopster",
+          "NoH | Roylan"
+        ],
+        "standing": "33"
+      },
+      "October Sky": {
+        "name": "October Sky",
+        "roster": [
+          "MythicPinkMist",
+          "DietBroccoli",
+          "mdico91"
+        ],
+        "standing": "17"
+      },
+      "Okay.": {
+        "name": "Okay.",
+        "roster": [
+          "Onion",
+          "Charter",
+          "Mawile"
+        ],
+        "standing": "17"
+      },
+      "One Round and Down": {
+        "name": "One Round and Down",
+        "roster": [
+          "SarcasticMind",
+          "Mitch-Rass",
+          "NickKnack15"
+        ],
+        "standing": "33"
+      },
+      "Rocketo PAAAANCH!": {
+        "name": "Rocketo PAAAANCH!",
+        "roster": [
+          "TheArsenal1414",
+          "DeviousBoy8",
+          "vicdamoun_10",
+          "AlkaSulz5",
+          "SanguineAssasin7",
+          "Herp-Uhh-Derp",
+          "Killzonerare",
+          "TheLastAvenger5",
+          "BigWheel"
+        ],
+        "standing": "33"
+      },
+      "Stage 1 Hypertension": {
+        "name": "Stage 1 Hypertension",
+        "roster": [
+          "InanimateJ",
+          "Minamacky",
+          "Turtlebear",
+          "Sneaux"
+        ],
+        "standing": "17"
+      },
+      "Stuck in Challenger": {
+        "name": "Stuck in Challenger",
+        "roster": [
+          "jtskinz",
+          "Fafnir",
+          "Skrrt",
+          "Kyle"
+        ],
+        "standing": "33"
+      },
+      "Superposition": {
+        "name": "Superposition",
+        "roster": [
+          "Klexic",
+          "Nomad",
+          "Pepper"
+        ],
+        "standing": "4"
+      },
+      "Sympathy eSports": {
+        "name": "Sympathy eSports",
+        "roster": [
+          "Symp | Catalyst",
+          "Symp | Doughnut",
+          "Symp | Kesler",
+          "Symp | Rayden",
+          "Symp | Connor"
+        ],
+        "standing": "33"
+      },
+      "Taco geek rule": {
+        "name": "Taco geek rule",
+        "roster": [
+          "Sir Kitboard",
+          "Derka",
+          "enestor27",
+          "M3alem"
+        ],
+        "standing": "33"
+      },
+      "Team Lag Triangle [NAE]": {
+        "name": "Team Lag Triangle [NAE]",
+        "roster": [
+          "trebel360",
+          "jives13",
+          "blastifize"
+        ],
+        "standing": "33"
+      },
+      "TeamProdigy": {
+        "name": "TeamProdigy",
+        "roster": [
+          "Prodigy | Aegis",
+          "Prodigy | Heist",
+          "Prodigy | Ill",
+          "Prodigy | Human"
+        ],
+        "standing": "9"
+      },
+      "The Calculators": {
+        "name": "The Calculators",
+        "roster": [
+          "Sp4rkz_Will_Fly",
+          "darknight56783",
+          "konaintayab",
+          "hasthebants",
+          "JJLudwig"
+        ],
+        "standing": "33"
+      },
+      "The Warriors of Rocket League": {
+        "name": "The Warriors of Rocket League",
+        "roster": [
+          "|TWR| Bruno_Neves\u2122",
+          "|TWR| Pedroca_",
+          "|TWR| The killer Gamer 2304",
+          "|TWR| KODAA",
+          "VyTor"
+        ],
+        "standing": "33"
+      },
+      "The Weekend Warriors": {
+        "name": "The Weekend Warriors",
+        "roster": [
+          "j0SHw",
+          "SlimSchadey",
+          "Science Museum"
+        ],
+        "standing": "33"
+      },
+      "TheBattleBeer": {
+        "name": "TheBattleBeer",
+        "roster": [
+          "TBB | Kugi",
+          "TBB | RubiiksHD",
+          "TBB | #Mooose",
+          "TBB | Kazeq"
+        ],
+        "standing": "17"
+      },
+      "Uh Oh, Here We Go!": {
+        "name": "Uh Oh, Here We Go!",
+        "roster": [
+          "Bruce_2k11",
+          "InvaderZed",
+          "gibmireinfas"
+        ],
+        "standing": "33"
+      },
+      "VAPE": {
+        "name": "VAPE",
+        "roster": [
+          "KODAK",
+          "yungtangl0rd",
+          "BRESVI"
+        ],
+        "standing": "33"
+      },
+      "Wings": {
+        "name": "Wings",
+        "roster": [
+          "R\u00e9pi",
+          "Ninja23509",
+          "Diplex",
+          "Liberato"
+        ],
+        "standing": "9"
+      },
+      "Winkeys Out for Monkey Man": {
+        "name": "Winkeys Out for Monkey Man",
+        "roster": [
+          "Oshnatour",
+          "Dismembers",
+          "Colt"
+        ],
+        "standing": "9"
+      },
+      "ZeN": {
+        "name": "ZeN",
+        "roster": [
+          "Kai Micah Mills",
+          "Rocife",
+          "Swoops"
+        ],
+        "standing": "33"
+      },
+      "burp simpson": {
+        "name": "burp simpson",
+        "roster": [
+          "King Wizard",
+          "byrdman",
+          "sir timbers"
+        ],
+        "standing": "5"
+      },
+      "ohlarac aob": {
+        "name": "ohlarac aob",
+        "roster": [
+          "Firefox",
+          "Freedom",
+          "theKillah!"
+        ],
+        "standing": "5"
+      },
+      "vVv Gaming": {
+        "name": "vVv Gaming",
+        "roster": [
+          "Azazel",
+          "Ecko",
+          "Alcapwn",
+          "HadABradDay"
+        ],
+        "standing": "17"
+      }
+    }
+  },
+  "2016-08-26": {
+    "date": "2016-08-26",
+    "name": "SPL-Weekly-3v3-#2",
+    "teams": {
+      "Advancing Challenges": {
+        "name": "Advancing Challenges",
+        "roster": [
+          "Haseo",
+          "Szaro",
+          "MANG0",
+          "mmossmann"
+        ],
+        "standing": "17"
+      },
+      "Blame Dark": {
+        "name": "Blame Dark",
+        "roster": [
+          "Arraussi",
+          "Dark Demise",
+          "Tyme",
+          "Saint",
+          "Nc! Emptiness"
+        ],
+        "standing": "17"
+      },
+      "Bums of Beckwith Park": {
+        "name": "Bums of Beckwith Park",
+        "roster": [
+          "Satthew",
+          "Sub'n",
+          "sQuillis"
+        ],
+        "standing": "3"
+      },
+      "Dark Matter": {
+        "name": "Dark Matter",
+        "roster": [
+          "DM | BB",
+          "DM | Bird",
+          "DM-PRL | Tyrus"
+        ],
+        "standing": "17"
+      },
+      "Discipline": {
+        "name": "Discipline",
+        "roster": [
+          "Liquid",
+          "Zolhay",
+          "Filberto",
+          "xZEROAMAZE"
+        ],
+        "standing": "4"
+      },
+      "Empyreal eSports": {
+        "name": "Empyreal eSports",
+        "roster": [
+          "Calik",
+          "Phat Man",
+          "Rocket van Persie"
+        ],
+        "standing": "5"
+      },
+      "Finger Suckers": {
+        "name": "Finger Suckers",
+        "roster": [
+          "pringlicious",
+          "Gooseman",
+          "Infamouse"
+        ],
+        "standing": "9"
+      },
+      "Firebrand eSports Blaze": {
+        "name": "Firebrand eSports Blaze",
+        "roster": [
+          "Decibel",
+          "Chaotyk",
+          "Billyscape",
+          "Makro",
+          "SigmaBlack"
+        ],
+        "standing": "9"
+      },
+      "Hardcore Boostiality": {
+        "name": "Hardcore Boostiality",
+        "roster": [
+          "Rito_Dorito",
+          "Fmds",
+          "Velum",
+          "Dat Boi",
+          "Bam Bam"
+        ],
+        "standing": "9"
+      },
+      "I'd Leave Too": {
+        "name": "I'd Leave Too",
+        "roster": [
+          "JO3_YOUN9",
+          "Bagz",
+          "Science Museum"
+        ],
+        "standing": "17"
+      },
+      "I'm not good with creativity [NAE]": {
+        "name": "I'm not good with creativity [NAE]",
+        "roster": [
+          "neocow",
+          "8Poosniffer9",
+          "Tallgeese87"
+        ],
+        "standing": "17"
+      },
+      "Inertia": {
+        "name": "Inertia",
+        "roster": [
+          "Weedwizard",
+          "Zednine",
+          "Nexate"
+        ],
+        "standing": "2"
+      },
+      "Invictos": {
+        "name": "Invictos",
+        "roster": [
+          "[IVT] JoelRC14",
+          "[IVT] DRMS",
+          "[IVT] Kcin_Legend",
+          "[IVT] Sonia <2",
+          "[IVT] Injustice"
+        ],
+        "standing": "33"
+      },
+      "Ironhype": {
+        "name": "Ironhype",
+        "roster": [
+          "Loomin | Twitch.tv/Ironhype",
+          "Attackerby",
+          "J.RAx",
+          "ColemanA"
+        ],
+        "standing": "5"
+      },
+      "Legendary Style": {
+        "name": "Legendary Style",
+        "roster": [
+          "LGS I Fubuki",
+          "LGS I GustoBr",
+          "LGS I Flasheeyy"
+        ],
+        "standing": "33"
+      },
+      "Leviathans of Rocket Drifting": {
+        "name": "Leviathans of Rocket Drifting",
+        "roster": [
+          "LoRD Sylanthus",
+          "LoRD BroFather",
+          "LoRD mokio",
+          "LoRD HoraryHellfire"
+        ],
+        "standing": "9"
+      },
+      "Leviticus": {
+        "name": "Leviticus",
+        "roster": [
+          "Flinney McMillon",
+          "elyodah1",
+          "Morsias",
+          "Falcon"
+        ],
+        "standing": "17"
+      },
+      "M-m-m-my KKona": {
+        "name": "M-m-m-my KKona",
+        "roster": [
+          "HeFty",
+          "ENIGMA_PLEASE",
+          "Fatality",
+          "Knuggs"
+        ],
+        "standing": "33"
+      },
+      "Make 'em Pay": {
+        "name": "Make 'em Pay",
+        "roster": [
+          "KiNG",
+          "C0M0D0",
+          "jabroke",
+          "Absilute"
+        ],
+        "standing": "17"
+      },
+      "MoDz": {
+        "name": "MoDz",
+        "roster": [
+          "StratoGeorge",
+          "chano",
+          "IkerRmz"
+        ],
+        "standing": "33"
+      },
+      "Momentum": {
+        "name": "Momentum",
+        "roster": [
+          "demonator1217",
+          "Watsupmijo_24",
+          "Timi_f",
+          "Dappur",
+          "J_knaps"
+        ],
+        "standing": "1"
+      },
+      "Mythic": {
+        "name": "Mythic",
+        "roster": [
+          "Ohcoolstorybruh",
+          "Cheiffa",
+          "toohn45"
+        ],
+        "standing": "17"
+      },
+      "Nefarious": {
+        "name": "Nefarious",
+        "roster": [
+          "Ptownicus",
+          "Darby",
+          "A Ficus Plant"
+        ],
+        "standing": "17"
+      },
+      "NoX.LD": {
+        "name": "NoX.LD",
+        "roster": [
+          "SaladUp | NOX.LD",
+          "CAIOTG1 | NOX.LD",
+          "Lancek1ng | NOX.LD",
+          "frotA | NOX.LD"
+        ],
+        "standing": "9"
+      },
+      "Novelty Prize": {
+        "name": "Novelty Prize",
+        "roster": [
+          "IKILLYOU!!!",
+          "Aaron",
+          "eskimoje4sus"
+        ],
+        "standing": "33"
+      },
+      "Oblivion Blade": {
+        "name": "Oblivion Blade",
+        "roster": [
+          "Andomals",
+          "Blaka",
+          "General Disarray",
+          "Chipwreck"
+        ],
+        "standing": "17"
+      },
+      "Prodigy Red": {
+        "name": "Prodigy Red",
+        "roster": [
+          "Prodigy | Purg",
+          "Prodigy | JSpaZ",
+          "Prodigy | Pancake"
+        ],
+        "standing": "9"
+      },
+      "Rocketo PAAAANCH!": {
+        "name": "Rocketo PAAAANCH!",
+        "roster": [
+          "TheArsenal1414",
+          "DeviousBoy8",
+          "vicdamoun_10",
+          "AlkaSulz5",
+          "SanguineAssasin7",
+          "Herp-Uhh-Derp",
+          "Killzonerare",
+          "TheLastAvenger5",
+          "BigWheel",
+          "Hydro-_-Ponic"
+        ],
+        "standing": "17"
+      },
+      "So Close": {
+        "name": "So Close",
+        "roster": [
+          "NickoLDM",
+          "Pulga Nob",
+          "RC | Makf",
+          "Martinengo"
+        ],
+        "standing": "17"
+      },
+      "Stage 1 Hypertension": {
+        "name": "Stage 1 Hypertension",
+        "roster": [
+          "InanimateJ",
+          "Minamacky",
+          "Turtlebear",
+          "Sneaux"
+        ],
+        "standing": "5"
+      },
+      "Superposition": {
+        "name": "Superposition",
+        "roster": [
+          "Klexic",
+          "preamblee",
+          "Nomad",
+          "Pepper"
+        ],
+        "standing": "9"
+      },
+      "Sympathy eSports": {
+        "name": "Sympathy eSports",
+        "roster": [
+          "CheeseTrap",
+          "Shammy",
+          "* Catalyst`",
+          "Symp | Rayden769",
+          "Jakarr Sampson",
+          "Doughnut King",
+          "Symp | Kesler"
+        ],
+        "standing": "17"
+      },
+      "TeamSavage": {
+        "name": "TeamSavage",
+        "roster": [
+          "AreYMad",
+          "ZenNh",
+          "Da Buddha B"
+        ],
+        "standing": "17"
+      },
+      "The MuffinMen": {
+        "name": "The MuffinMen",
+        "roster": [
+          "Epicjonny17",
+          "Lethamyr",
+          "SquishyMuffinz"
+        ],
+        "standing": "5"
+      },
+      "The Warriors of Rocket League": {
+        "name": "The Warriors of Rocket League",
+        "roster": [
+          "|TWR| Bruno_Neves\u2122",
+          "|TWR| Peehline",
+          "|TWR| The killer Gamer 2304",
+          "|TWR| KODAA",
+          "GuriSapeka_"
+        ],
+        "standing": "33"
+      },
+      "Velocity": {
+        "name": "Velocity",
+        "roster": [
+          "Antheboss23",
+          "shidoniplays",
+          "Zach535",
+          "AllInNoRubber",
+          "ChippyParticle"
+        ],
+        "standing": "17"
+      },
+      "Victorious Secret": {
+        "name": "Victorious Secret",
+        "roster": [
+          "Saltie LFT",
+          "Dynamo",
+          "marz"
+        ],
+        "standing": "33"
+      },
+      "Watch My Screen": {
+        "name": "Watch My Screen",
+        "roster": [
+          "Ghost",
+          "Tyler15263",
+          "jeffsays"
+        ],
+        "standing": "33"
+      },
+      "Wings": {
+        "name": "Wings",
+        "roster": [
+          "R\u00e9pi",
+          "Ninja23509",
+          "Diplex",
+          "Liberato"
+        ],
+        "standing": "33"
+      },
+      "Winkeys Out for Monkey Man": {
+        "name": "Winkeys Out for Monkey Man",
+        "roster": [
+          "Oshnataur",
+          "MyrC Stabbers",
+          "Dismembers",
+          "Colt"
+        ],
+        "standing": "9"
+      },
+      "vVv Gaming": {
+        "name": "vVv Gaming",
+        "roster": [
+          "Azazel",
+          "Ecko",
+          "Alcapwn",
+          "HadABradDay"
+        ],
+        "standing": "17"
+      }
+    }
+  },
+  "2016-09-02": {
+    "date": "2016-09-02",
+    "name": "SPL-Weekly-3v3-#3",
+    "teams": {
+      "2 Be Determined": {
+        "name": "2 Be Determined",
+        "roster": [
+          "RAWGREGHxC",
+          "mysterydude12",
+          "eirenman28"
+        ],
+        "standing": "17"
+      },
+      "AIR PLS": {
+        "name": "AIR PLS",
+        "roster": [
+          "Vafele",
+          "AirRejectz-",
+          "PreM"
+        ],
+        "standing": "5"
+      },
+      "ARA": {
+        "name": "ARA",
+        "roster": [
+          "Alex",
+          "Austra",
+          "Reblotic"
+        ],
+        "standing": "33"
+      },
+      "Beyond Incorperation": {
+        "name": "Beyond Incorperation",
+        "roster": [
+          "[BIC]MA",
+          "[BIC]OomerShadow",
+          "[BIC]reineifersucht"
+        ],
+        "standing": "33"
+      },
+      "Black Dragons": {
+        "name": "Black Dragons",
+        "roster": [
+          "G O D A N",
+          "Freedom",
+          "Krames",
+          "DuO"
+        ],
+        "standing": "17"
+      },
+      "Bums of Beckwith Park": {
+        "name": "Bums of Beckwith Park",
+        "roster": [
+          "Satthew",
+          "Sub'n",
+          "sQuillis"
+        ],
+        "standing": "5"
+      },
+      "Classic Stanley": {
+        "name": "Classic Stanley",
+        "roster": [
+          "King Wizard",
+          "byrdman",
+          "sir timbers"
+        ],
+        "standing": "5"
+      },
+      "Dark Matter": {
+        "name": "Dark Matter",
+        "roster": [
+          "DudeWithTheNose",
+          "DM | BB",
+          "DM | Bird"
+        ],
+        "standing": "9"
+      },
+      "Defiants": {
+        "name": "Defiants",
+        "roster": [
+          "javi2489",
+          "MrYisus92",
+          "theadrian1033"
+        ],
+        "standing": "33"
+      },
+      "Delirium": {
+        "name": "Delirium",
+        "roster": [
+          "Sisco",
+          "JO3_YOUN9",
+          "maconex"
+        ],
+        "standing": "9"
+      },
+      "Empyreal eSports": {
+        "name": "Empyreal eSports",
+        "roster": [
+          "phat man",
+          "Kri0s",
+          "Rocket Van Persie",
+          "Squire",
+          "Calik"
+        ],
+        "standing": "17"
+      },
+      "Espionage RL": {
+        "name": "Espionage RL",
+        "roster": [
+          "Dosma",
+          "Caudark",
+          "Luink",
+          "Ghent"
+        ],
+        "standing": "33"
+      },
+      "GAF": {
+        "name": "GAF",
+        "roster": [
+          "Stiff",
+          "Kevo",
+          "Goalie"
+        ],
+        "standing": "33"
+      },
+      "Galleon": {
+        "name": "Galleon",
+        "roster": [
+          "Primethunder",
+          "Eveh",
+          "Skyzz"
+        ],
+        "standing": "5"
+      },
+      "Goal Security": {
+        "name": "Goal Security",
+        "roster": [
+          "El Snootchador",
+          "Jordan of the Jungle",
+          "Oshnatour"
+        ],
+        "standing": "17"
+      },
+      "HYPE Gaming": {
+        "name": "HYPE Gaming",
+        "roster": [
+          "Javi Sweatpants",
+          "GetsomeUAL",
+          "Munchkinator"
+        ],
+        "standing": "33"
+      },
+      "Hey guys": {
+        "name": "Hey guys",
+        "roster": [
+          "kevpert",
+          "Squishy",
+          "Values",
+          "Drakerake"
+        ],
+        "standing": "17"
+      },
+      "I'm not good with creativity [NAE]": {
+        "name": "I'm not good with creativity [NAE]",
+        "roster": [
+          "neocow",
+          "8Poosniffer9",
+          "Tallgeese87"
+        ],
+        "standing": "33"
+      },
+      "Identity Crisis": {
+        "name": "Identity Crisis",
+        "roster": [
+          "IC | Sona",
+          "IC | E_M_E_T",
+          "IC | BIOS"
+        ],
+        "standing": "17"
+      },
+      "Inertia": {
+        "name": "Inertia",
+        "roster": [
+          "Kerupt",
+          "Zednine",
+          "weedwizard"
+        ],
+        "standing": "17"
+      },
+      "Invictos": {
+        "name": "Invictos",
+        "roster": [
+          "[IVT] JoelRC14",
+          "[IVT] DRMS",
+          "[IVT] Kcin_Legend",
+          "[IVT] Sonia <2"
+        ],
+        "standing": "17"
+      },
+      "Invictus2": {
+        "name": "Invictus2",
+        "roster": [
+          "RedemptionHound",
+          "iOghma",
+          "Haku"
+        ],
+        "standing": "17"
+      },
+      "Ironhype": {
+        "name": "Ironhype",
+        "roster": [
+          "Loomin | Twitch.tv/Ironhype",
+          "Attackerby",
+          "J.RAx",
+          "ColemanA"
+        ],
+        "standing": "9"
+      },
+      "Leviathans of Rocket Drifting": {
+        "name": "Leviathans of Rocket Drifting",
+        "roster": [
+          "LoRD Sylanthus",
+          "LoRD mokio",
+          "LoRD HoraryHellfire",
+          "Jlorenzi5"
+        ],
+        "standing": "9"
+      },
+      "Leviticus": {
+        "name": "Leviticus",
+        "roster": [
+          "theKillah!",
+          "Falcon",
+          "Flinney McMillon"
+        ],
+        "standing": "17"
+      },
+      "Lief, Tyrus Up Sexay": {
+        "name": "Lief, Tyrus Up Sexay",
+        "roster": [
+          "GrandMaster Sexay",
+          "Liefx",
+          "Tyrus"
+        ],
+        "standing": "17"
+      },
+      "Literally": {
+        "name": "Literally",
+        "roster": [
+          "xbLeU",
+          "LemonPuppy203",
+          "JWismont"
+        ],
+        "standing": "4"
+      },
+      "M-m-m-my KKona": {
+        "name": "M-m-m-my KKona",
+        "roster": [
+          "HeFty",
+          "ENIGMA_PLEASE",
+          "Fatality",
+          "Knuggs",
+          "Kazoo"
+        ],
+        "standing": "3"
+      },
+      "Maximum Gains": {
+        "name": "Maximum Gains",
+        "roster": [
+          "H4iiRy_GaRRy",
+          "cbolt3113",
+          "Trap Lord"
+        ],
+        "standing": "33"
+      },
+      "Mexican Space Program": {
+        "name": "Mexican Space Program",
+        "roster": [
+          "Dragonslayer955",
+          "Chillers",
+          "Flying Squirrel"
+        ],
+        "standing": "33"
+      },
+      "Momentum": {
+        "name": "Momentum",
+        "roster": [
+          "Watsupmijo_24",
+          "Timi_f",
+          "Dappur",
+          "J_knaps"
+        ],
+        "standing": "1"
+      },
+      "Muted": {
+        "name": "Muted",
+        "roster": [
+          "Corn Bread",
+          "Muted | UM4R3X",
+          "Bond_Brother",
+          "VonJiggles",
+          "jiffyjake"
+        ],
+        "standing": "17"
+      },
+      "Mythic": {
+        "name": "Mythic",
+        "roster": [
+          "Ohcoolstorybruh",
+          "Sigma",
+          "Cheiffa",
+          "toohn45"
+        ],
+        "standing": "9"
+      },
+      "New Era": {
+        "name": "New Era",
+        "roster": [
+          "LilPlayer-V3",
+          "CBKxNinja",
+          "byHalcyon"
+        ],
+        "standing": "33"
+      },
+      "No Thanks": {
+        "name": "No Thanks",
+        "roster": [
+          "Edgecrusher",
+          "Thundah",
+          "Rilo",
+          "Knives"
+        ],
+        "standing": "17"
+      },
+      "NoX.LD": {
+        "name": "NoX.LD",
+        "roster": [
+          "SaladKing | NOX.LD",
+          "Lancek1ng | NOX.LD",
+          "CAIOTG1 | NOX.LD",
+          "frotA | NOX.LD"
+        ],
+        "standing": "9"
+      },
+      "October Sky": {
+        "name": "October Sky",
+        "roster": [
+          "MythicPinkMist",
+          "DietBroccoli",
+          "mdico91"
+        ],
+        "standing": "33"
+      },
+      "One Shot": {
+        "name": "One Shot",
+        "roster": [
+          "Aj16",
+          "skibs",
+          "|OS| elyodah",
+          "|OS| Onyx"
+        ],
+        "standing": "33"
+      },
+      "Pink Panthers": {
+        "name": "Pink Panthers",
+        "roster": [
+          "plague",
+          "Carsillas",
+          "malakiss"
+        ],
+        "standing": "9"
+      },
+      "Prime Example": {
+        "name": "Prime Example",
+        "roster": [
+          "HitTheJim",
+          "Justice",
+          "Dom"
+        ],
+        "standing": "17"
+      },
+      "Prodigy Red": {
+        "name": "Prodigy Red",
+        "roster": [
+          "Prodigy | LilJonny11",
+          "Prodigy | Purg",
+          "Prodigy | JSpaZ",
+          "Prodigy | sumlol",
+          "Classy(LFBACH)"
+        ],
+        "standing": "33"
+      },
+      "Rocketo PAAAANCH!": {
+        "name": "Rocketo PAAAANCH!",
+        "roster": [
+          "TheArsenal1414",
+          "DeviousBoy8",
+          "vicdamoun_10",
+          "AlkaSulz5",
+          "SanguineAssasin7",
+          "Herp-Uhh-Derp",
+          "Killzonerare",
+          "TheLastAvenger5",
+          "BIGWHEEL",
+          "Hydro-_-Ponic"
+        ],
+        "standing": "33"
+      },
+      "Stage 1 Hypertension": {
+        "name": "Stage 1 Hypertension",
+        "roster": [
+          "InanimateJ",
+          "Minamacky",
+          "Turtlebear",
+          "Sneaux"
+        ],
+        "standing": "9"
+      },
+      "Superposition": {
+        "name": "Superposition",
+        "roster": [
+          "Klexic",
+          "preamblee",
+          "Nomad",
+          "Pepper"
+        ],
+        "standing": "33"
+      },
+      "Synergized": {
+        "name": "Synergized",
+        "roster": [
+          "Schmaltz92",
+          "cinamon22",
+          "cinamon22",
+          "beezycareezy",
+          "Mark__Jones"
+        ],
+        "standing": "33"
+      },
+      "TeamProdigy": {
+        "name": "TeamProdigy",
+        "roster": [
+          "Prodigy | Aegis",
+          "Prodigy | Heist",
+          "Prodigy | Ill",
+          "Prodigy | Conceal"
+        ],
+        "standing": "17"
+      },
+      "The Machos": {
+        "name": "The Machos",
+        "roster": [
+          "maycon",
+          "joaocisquim",
+          "Guar\u00e1 Vita"
+        ],
+        "standing": "33"
+      },
+      "Vendetta": {
+        "name": "Vendetta",
+        "roster": [
+          "Torment",
+          "Lethamyr",
+          "SquishyMuffinz"
+        ],
+        "standing": "2"
+      },
+      "Voltage": {
+        "name": "Voltage",
+        "roster": [
+          "Netflix?",
+          "Saltie",
+          "Marz"
+        ],
+        "standing": "33"
+      },
+      "Whiffs n' Waffles": {
+        "name": "Whiffs n' Waffles",
+        "roster": [
+          "Jordraino",
+          "Mrs. Buttrworthh",
+          "Demy the Demolitionist"
+        ],
+        "standing": "33"
+      },
+      "Wings": {
+        "name": "Wings",
+        "roster": [
+          "R\u00e9pi",
+          "Ninja23509",
+          "Diplex",
+          "Liberato"
+        ],
+        "standing": "33"
+      },
+      "vVv Gaming": {
+        "name": "vVv Gaming",
+        "roster": [
+          "Azazel",
+          "Ecko",
+          "Alcapwn",
+          "HadABradDay"
+        ],
+        "standing": "17"
+      }
+    }
+  },
+  "2016-09-09": {
+    "date": "2016-09-09",
+    "name": "SPL-Weekly-3v3-#4",
+    "teams": {
+      "A Passing Fancy": {
+        "name": "A Passing Fancy",
+        "roster": [
+          "chucknorrispwns",
+          "Hypnagogia0",
+          "Jerry",
+          "2 kids in a trench coat",
+          "Andy"
+        ],
+        "standing": "9"
+      },
+      "Angels34": {
+        "name": "Angels34",
+        "roster": [
+          "Agura",
+          "GamerPlay_26_",
+          "Digo_14"
+        ],
+        "standing": "17"
+      },
+      "Angry Nuggets": {
+        "name": "Angry Nuggets",
+        "roster": [
+          "Null",
+          "Classic",
+          "bebeJ",
+          "bebeJ"
+        ],
+        "standing": "17"
+      },
+      "Boricuas plus one": {
+        "name": "Boricuas plus one",
+        "roster": [
+          "laveron",
+          "zeroflux",
+          "xstream587"
+        ],
+        "standing": "17"
+      },
+      "Breakfast At 9": {
+        "name": "Breakfast At 9",
+        "roster": [
+          "Outsid3_Shoot3r",
+          "Achlys15",
+          "Silver_Saviior"
+        ],
+        "standing": "33"
+      },
+      "Bumping Baboons": {
+        "name": "Bumping Baboons",
+        "roster": [
+          "VikingKing17",
+          "Twice The Tang",
+          "Watupz"
+        ],
+        "standing": "17"
+      },
+      "BustaevoM": {
+        "name": "BustaevoM",
+        "roster": [
+          "HohoMcAngles",
+          "alonzi401",
+          "Aroh11"
+        ],
+        "standing": "33"
+      },
+      "Defiants": {
+        "name": "Defiants",
+        "roster": [
+          "javi2489",
+          "MrYisus92",
+          "theadrian1033"
+        ],
+        "standing": "33"
+      },
+      "Empyreal eSports": {
+        "name": "Empyreal eSports",
+        "roster": [
+          "Phat Man",
+          "Calik",
+          "Rocket van Persie"
+        ],
+        "standing": "9"
+      },
+      "Frosbite": {
+        "name": "Frosbite",
+        "roster": [
+          "Octagon",
+          "Crown",
+          "Triangle",
+          "Cross"
+        ],
+        "standing": "33"
+      },
+      "Get Schwifty": {
+        "name": "Get Schwifty",
+        "roster": [
+          "surelyitsriggs",
+          "sturg29",
+          "efchiefs",
+          "anfi3ld"
+        ],
+        "standing": "33"
+      },
+      "HYPE Gaming": {
+        "name": "HYPE Gaming",
+        "roster": [
+          "macPSU",
+          "Munchkinator",
+          "Javi Sweatpants",
+          "Kaiijuu",
+          "getsomeual"
+        ],
+        "standing": "33"
+      },
+      "Hardcore Boostiality": {
+        "name": "Hardcore Boostiality",
+        "roster": [
+          "Rito_Dorito",
+          "Velum",
+          "Dat Boi",
+          "Bam Bam",
+          "greamer"
+        ],
+        "standing": "9"
+      },
+      "Hey guys": {
+        "name": "Hey guys",
+        "roster": [
+          "Values",
+          "Squishy",
+          "Kevpert",
+          "Drakerake"
+        ],
+        "standing": "17"
+      },
+      "Invictos": {
+        "name": "Invictos",
+        "roster": [
+          "[IVT] JoelRC14",
+          "[IVT] DRMS",
+          "[IVT] Kcin_Legend",
+          "[IVT] Big Nana"
+        ],
+        "standing": "17"
+      },
+      "Leafy Snowflakes": {
+        "name": "Leafy Snowflakes",
+        "roster": [
+          "Jordraino",
+          "Demy",
+          "Ballfather",
+          "Leaf(:"
+        ],
+        "standing": "17"
+      },
+      "Leviathans of Rocket Drifting": {
+        "name": "Leviathans of Rocket Drifting",
+        "roster": [
+          "LoRD Sylanthus",
+          "LoRD mokio",
+          "LoRD HoraryHellfire",
+          "Jlorenzi5"
+        ],
+        "standing": "33"
+      },
+      "Literally": {
+        "name": "Literally",
+        "roster": [
+          "LemonPuppy203",
+          "xbLeU",
+          "JWismont"
+        ],
+        "standing": "1"
+      },
+      "Maximum Gains": {
+        "name": "Maximum Gains",
+        "roster": [
+          "kenny_boy676",
+          "cbolt3113",
+          "BalthierXIII",
+          "H4iiRy_GaRRy"
+        ],
+        "standing": "33"
+      },
+      "Nemesis": {
+        "name": "Nemesis",
+        "roster": [
+          "Liente",
+          "Centri",
+          "Bluebrain",
+          "KJ"
+        ],
+        "standing": "5"
+      },
+      "No Thanks": {
+        "name": "No Thanks",
+        "roster": [
+          "Edgecrusher",
+          "Thundah",
+          "Rilo",
+          "Knives"
+        ],
+        "standing": "33"
+      },
+      "Nostalgia": {
+        "name": "Nostalgia",
+        "roster": [
+          "british_xtc",
+          "trackerpro1",
+          "pWnyrface777"
+        ],
+        "standing": "33"
+      },
+      "Onslaught": {
+        "name": "Onslaught",
+        "roster": [
+          "Loomin | Twitch.tv/Ironhype",
+          "Attackerby",
+          "J.RAx",
+          "ColemanA"
+        ],
+        "standing": "33"
+      },
+      "Pink Panthers": {
+        "name": "Pink Panthers",
+        "roster": [
+          "plague",
+          "Carsillas",
+          "malakiss",
+          "Tres Comas"
+        ],
+        "standing": "9"
+      },
+      "Polaris Gaming": {
+        "name": "Polaris Gaming",
+        "roster": [
+          "Floppy Donger",
+          "Redgrin Grumble",
+          "Yeezus"
+        ],
+        "standing": "5"
+      },
+      "Prodigy Red": {
+        "name": "Prodigy Red",
+        "roster": [
+          "Prodigy | JSpaZ",
+          "Prodigy | Jujubee",
+          "Prodigy | sumlol",
+          "Prodigy | LilJonny11",
+          "Stribly"
+        ],
+        "standing": "33"
+      },
+      "Proruption Gaming": {
+        "name": "Proruption Gaming",
+        "roster": [
+          "PuffTheDargon",
+          "Nao Tomori",
+          "Agoney",
+          "Gagey12842"
+        ],
+        "standing": "17"
+      },
+      "Recursive": {
+        "name": "Recursive",
+        "roster": [
+          "Albino Peacock",
+          "FreshPrince7or8",
+          "Notorious Satchel"
+        ],
+        "standing": "17"
+      },
+      "Reddit Randoms": {
+        "name": "Reddit Randoms",
+        "roster": [
+          "T3chnicianVC15",
+          "Firewire777",
+          "Adwowzer"
+        ],
+        "standing": "17"
+      },
+      "Remedy": {
+        "name": "Remedy",
+        "roster": [
+          "Sm0k5ever",
+          "Flinney McMillon",
+          "Morsias",
+          "Origin_K",
+          "Falcon"
+        ],
+        "standing": "5"
+      },
+      "Rising Storm": {
+        "name": "Rising Storm",
+        "roster": [
+          "PiNcH_sCoRpIo",
+          "PWNSAUCE",
+          "Velixas"
+        ],
+        "standing": "17"
+      },
+      "Rocketo PAAAANCH!": {
+        "name": "Rocketo PAAAANCH!",
+        "roster": [
+          "TheArsenal1414",
+          "DeviousBoy8",
+          "vicdamoun_10",
+          "AlkaSulz5",
+          "SanguineAssasin7",
+          "Herp-Uhh-Derp",
+          "Killzonerare",
+          "TheLastAvenger5",
+          "BIGWHEEL",
+          "Hydro-_-Ponic"
+        ],
+        "standing": "33"
+      },
+      "Sad Cats": {
+        "name": "Sad Cats",
+        "roster": [
+          "SirJumpOnStuff",
+          "StiffWizard",
+          "Pizzle"
+        ],
+        "standing": "3"
+      },
+      "Seven Leagues eSports": {
+        "name": "Seven Leagues eSports",
+        "roster": [
+          "itsnorth",
+          "Music",
+          "GoingHAM"
+        ],
+        "standing": "17"
+      },
+      "Slippery Lizards": {
+        "name": "Slippery Lizards",
+        "roster": [
+          "Zackshot",
+          "Jmill",
+          "Luhkey",
+          "j6ar",
+          "Sab34rz"
+        ],
+        "standing": "17"
+      },
+      "Stage 1 Hypertension": {
+        "name": "Stage 1 Hypertension",
+        "roster": [
+          "InanimateJ",
+          "Minamacky",
+          "Turtlebear",
+          "Sneaux"
+        ],
+        "standing": "9"
+      },
+      "Superposition": {
+        "name": "Superposition",
+        "roster": [
+          "Klexic",
+          "Nomad",
+          "Pepper"
+        ],
+        "standing": "9"
+      },
+      "TeamProdigy C Team": {
+        "name": "TeamProdigy C Team",
+        "roster": [
+          "Prodigy | sumlol",
+          "Prodigy | Purg",
+          "stribly"
+        ],
+        "standing": "9"
+      },
+      "The Nice Guys": {
+        "name": "The Nice Guys",
+        "roster": [
+          "Johansenburg",
+          "Badb0yz143",
+          "rfdghhj"
+        ],
+        "standing": "33"
+      },
+      "The Warriors of Rocket League": {
+        "name": "The Warriors of Rocket League",
+        "roster": [
+          "|TWR| Bruno_Neves\u2122",
+          "|TWR| Ranger Azul",
+          "|TWR| KODAA",
+          "|TWR| GuriSapeka_",
+          "TwR| Jvlb ;)",
+          "TwR| Ranger Vermelho",
+          "TwR| Knust",
+          "|TWR| Kaatiaau",
+          "TwR| Subzero",
+          "TwR | Lyphir"
+        ],
+        "standing": "17"
+      },
+      "Unknown": {
+        "name": "Unknown",
+        "roster": [
+          "Sticker",
+          "Crispen",
+          "Preloa"
+        ],
+        "standing": "17"
+      },
+      "Valar  Morgoalis": {
+        "name": "Valar  Morgoalis",
+        "roster": [
+          "dvdpoola",
+          "Skanky Leg",
+          "El Duderino"
+        ],
+        "standing": "17"
+      },
+      "VeloxGG": {
+        "name": "VeloxGG",
+        "roster": [
+          "VeloxGG | MD22",
+          "VeloxGG | The_Marshal",
+          "VeloxGG | Malecko [1 John 5:5]",
+          "VeloxGG | Maui"
+        ],
+        "standing": "5"
+      },
+      "Weebs on Wheels": {
+        "name": "Weebs on Wheels",
+        "roster": [
+          "Homebad",
+          "Hato",
+          "Conundrum Effect"
+        ],
+        "standing": "2"
+      },
+      "dotline": {
+        "name": "dotline",
+        "roster": [
+          "new_snake7",
+          "CinnamonGravy",
+          "xl-Chef-lx"
+        ],
+        "standing": "9"
+      },
+      "vVv Gaming": {
+        "name": "vVv Gaming",
+        "roster": [
+          "Sneaky",
+          "Azazel",
+          "Ecko",
+          "Alcapwn",
+          "HadABradDay"
+        ],
+        "standing": "3"
+      }
+    }
+  }
+}
