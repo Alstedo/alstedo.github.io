@@ -18,11 +18,9 @@ def rosters(file):
 
         team = line[0]
         player = line[1]
-        checkin = line[2]
+        # checkin = line[2]
 
-        if not checkin:
-            continue
-        elif team in data:
+        if team in data:
             data[team].append(player)
         else:
             data[team] = [ player ]

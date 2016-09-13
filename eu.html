@@ -6,7 +6,7 @@ permalink: /eu/
 
 {% assign posts = site.posts | where: "category", "EU"%}
 
-{% capture sitetime %} {{ site.time | date: '%s' }} {% endcapture %}
+{% capture sitetime %} {{ 'now' | date: '%s' }} {% endcapture %}
 {% for post in posts %}
 
 {% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}

@@ -1,5 +1,6 @@
 import sys
 import re
+import html
 import json
 
 def standings(file):
@@ -7,20 +8,30 @@ def standings(file):
     f = open(file, "r", encoding="utf8")
     raw = f.read()
 
+    pattern = "bf-top-bar-title-tournament-name.*>(.+)<"
+    name = re.search(pattern, raw).groups()[0]
+
+    # pattern = "fa fa-calendar-o.*>(.+)<"
+    # date = re.search(pattern, raw).groups()[0]
+    # print("DATE: {}".format(date))
+
     pattern = "text-muted.*>(.+)<.*\n.*td>(.+)<"
     results = re.findall(pattern, raw)
 
-    data = { }
+    data = {
+        'name': name,
+        'standings': { }
+    }
 
     for result in results:
         standing = result[0]
-        team = result[1]
+        team = html.unescape(result[1])
 
-        data[team] = { 'standing': standing }
+        data['standings'][team] = { 'standing': standing }
 
     return data
 
-    
+
 
 if __name__ == "__main__":
 
