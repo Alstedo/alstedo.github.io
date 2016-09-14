@@ -1,12 +1,12 @@
 import sys
 import json
 
-def tournament(name, date, rosters, standings):
+def tournament(date, rosters, standings):
 
     data = {
         'date': date,
-        'name': name,
-        'teams': standings
+        'name': standings['name'],
+        'teams': standings['standings']
     }
     for team in rosters:
         if team in data['teams']:
@@ -19,14 +19,13 @@ def tournament(name, date, rosters, standings):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 5:
-        print('./{} name date <rosters>.json <standings>.json'.format(sys.argv[0]))
+    if len(sys.argv) != 4:
+        print('./{} date <rosters>.json <standings>.json'.format(sys.argv[0]))
         sys.exit()
 
-    name = sys.argv[1]
-    date = sys.argv[2]
-    rostersFile = sys.argv[3]
-    standingsFile = sys.argv[4]
+    date = sys.argv[1]
+    rostersFile = sys.argv[2]
+    standingsFile = sys.argv[3]
 
     f = open(rostersFile, "r", encoding="utf8")
     rosters = json.load(f)
@@ -36,5 +35,5 @@ if __name__ == "__main__":
     standings = json.load(f)
     f.close()
 
-    data = tournament(name, date, rosters, standings)
+    data = tournament(date, rosters, standings)
     json.dump(data, sys.stdout, indent=2)

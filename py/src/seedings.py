@@ -5,11 +5,27 @@ import json
 
 def seedings(tournaments, weights):
 
-    for key in tournaments:
-        team = tournaments[key]
-        team['points'] = get_seed_points(weights, team)
+    data = tournaments
+    for key in data:
+        data[key]['points'] = get_seed_points(weights, data[key])
 
     return data
+
+def get_seed_points(weights, team):
+    points = 0
+
+    for week in team['week']:
+        standing = team['week'][week]
+
+        if standing >= 33:
+            standing = 33
+
+        standing = str(standing)
+        week = str(week)
+
+        points = points + weights['weights'][standing]['weeks'][week]
+
+    return points
 
 
 
