@@ -19,24 +19,23 @@ layout: default
         <h1 class="visible-md-block visible-lg-block">Welcome to Shift Pro League!</h1>
         <h3 class="visible-xs-block visible-sm-block">Welcome to Shift Pro League!</h3>
 
-        <!-- <div class="container">
-          <div class="row">
-              <div class="span12 text-center">
-                  <a href="" class="share-icon facebook" title="Share on facebook">
-                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png" />
-                  </a>
-                  <a href="" class="share-icon twitter" title="Share on twitter">
-                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
-                  </a>
-                  <a href="" class="share-icon email" title="Share in an email">
-                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
-                  </a>
-                  <a href="" class="share-icon email" title="Share in an email">
-                    <img src="{{ site.baseurl }}/img/social/twitter-icon.png"/>
-                  </a>
-              </div>
-          </div>
-        </div> -->
+        <!-- <ul id="social">
+          <li>
+            <a href="https://discord.me/{{ site.discord_username }}">
+              <img src="{{ site.baseurl }}/img/social/discord-logo.png" height="25px;" width="25px;">
+            </a>
+          </li>
+          <li>
+            <a href="https://patreon.com/{{ site.patreon_username }}">
+              <img src="{{ site.baseurl }}/img/social/patreon-logo.png" height="25px;" width="25px;">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <img src="{{ site.baseurl }}/img/social/twitter-logo.png" height="25px;" width="25px;">
+            </a>
+          </li>
+        </ul> -->
 
       </div>
     </div>
@@ -60,9 +59,6 @@ layout: default
 
       </div>
     </div>
-    <!-- <p>First</p>
-    <p>Second</p>
-    <p>Third</p> -->
   </div>
 
   <!-- Controls -->
@@ -78,24 +74,25 @@ layout: default
 
 <div class="container-fluid pane">
 
-  <div class="row">
+  <div class="row row-eq-height">
     <div class="col-lg-6">
 
       {% assign eu = site.posts | where:"category","EU" %}
-      {% include next-tourney-thumbnail.html posts=eu %}
+      {% include next-tourney-thumbnail.html posts=eu id="eu" %}
 
     </div>
 
     <div class="col-lg-6">
 
       {% assign na = site.posts | where:"category","NA" %}
-      {% include next-tourney-thumbnail.html posts=na %}
+      {% include next-tourney-thumbnail.html posts=na id="na" %}
 
     </div>
 
   </div>
 </div>
 
+<!-- Discord embed -->
 <!-- <div class="container-fluid pane">
   <div class="row">
     <div class="col-lg-offset-1 col-lg-10">

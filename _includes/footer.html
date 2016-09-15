@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="footer">
 
   <div class="container-fluid">
 
@@ -7,6 +7,35 @@
         <p>{{ site.description }}</p>
       </div>
     </div> -->
+
+    <div class="row" style="padding-bottom: 20px;">
+      <div class="col-lg-12">
+        <div class="text-center">
+
+          <ul id="social">
+            <li>
+              <a href="https://discord.me/{{ site.discord_username }}">
+                <!-- Discord -->
+                <img src="{{ site.baseurl }}/img/social/discord-logo.png" height="25px;" width="25px;">
+              </a>
+            </li>
+            <li>
+              <a href="https://patreon.com/{{ site.patreon_username }}">
+                <!-- Patreon -->
+                <img src="{{ site.baseurl }}/img/social/patreon-logo.png" height="25px;" width="25px;">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}">
+                <!-- Twitter -->
+                <img src="{{ site.baseurl }}/img/social/twitter-logo.png" height="25px;" width="25px;">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
 
     <div class="row" style="padding-bottom: 20px;">
       <div class="col-lg-12">
@@ -22,6 +51,7 @@
   <script src="{{ site.baseurl }}/js/jquery-3.1.0.min.js"></script>
   <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
   <script src="{{ site.baseurl }}/js/google-analytics.js"></script>
+  <script src="{{ site.baseurl }}/js/util.js"></script>
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   <script src="{{ site.baseurl }}/js/app.js"></script> -->

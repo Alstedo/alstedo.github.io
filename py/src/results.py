@@ -24,12 +24,12 @@ def results(tournaments):
             for k in teams:
                 team = teams[k]
 
-                a = [name.lower() for name in team['roster']]
-                b = [name.lower() for name in tournTeam['roster']]
+                # a = [name.lower() for name in team['roster']]
+                # b = [name.lower() for name in tournTeam['roster']]
+                #
+                # intersection = set(a) & set(b)
 
-                intersection = set(a) & set(b)
-
-                print("{} <-> {} : {}".format(tournTeam['roster'], team['roster'], len(intersection) >= 2))
+                # print("{} <-> {} : {}".format(tournTeam['roster'], team['roster'], len(intersection) >= 2))
 
 
                 isSimilarRoster = isSimilar(tournTeam['roster'], team['roster'])

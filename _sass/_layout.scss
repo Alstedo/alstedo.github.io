@@ -47,10 +47,30 @@ article {
   background-color: $background-color-light;
 }
 
-// .panel-heading {
-//   background-color: $background-color-light;
+#social {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#social li {
+  display: inline;
+}
+
+// http://getbootstrap.com.vn/examples/equal-height-columns/
+// .row-eq-height {
+//   display: -webkit-box;
+//   display: -webkit-flex;
+//   display: -ms-flexbox;
+//   display:         flex;
 // }
-//
-// .panel-default>.panel-heading {
-//   background-image: $background-color-light;
+
+// http://stackoverflow.com/questions/10099422/flushing-footer-to-bottom-of-the-page-twitter-bootstrap
+// .footer {
+//   position: relative;
+//   margin-top: -150px; /* negative value of footer height */
+//   height: 150px;
+//   clear:both;
+//   padding-top:20px;
 // }
