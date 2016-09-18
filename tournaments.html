@@ -15,6 +15,7 @@ title: Tournaments
           <th>Tournament</th>
           <th>Region</th>
           <th id="date">Date</th>
+          <th>Open</th>
         </tr>
         {% for post in site.posts %}
         <tr>
@@ -26,6 +27,17 @@ title: Tournaments
             </td>
             <td>
               <span> {{ post.date | date: "%b %-d, %Y" }} </span>
+            </td>
+            <td>
+              {% capture sitetime %} {{ 'now' | date: '%s' }} {% endcapture %}
+              {% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
+              <span>
+                {% if posttime > sitetime %}
+                 Yes
+                {% else %}
+                 No
+                {% endif %}
+              </span>
             </td>
         </tr>
         {% endfor %}
