@@ -215,6 +215,13 @@ a.btn {
   color: $text-color;
 }
 
+#social a {
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #9d9d9d;
 }

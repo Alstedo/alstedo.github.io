@@ -13,24 +13,7 @@
         <div class="text-center">
 
           <ul id="social">
-            <li>
-              <a href="https://discord.me/{{ site.discord_username }}">
-                <!-- Discord -->
-                <img src="{{ site.baseurl }}/img/social/discord-logo.png" height="25px;" width="25px;">
-              </a>
-            </li>
-            <li>
-              <a href="https://patreon.com/{{ site.patreon_username }}">
-                <!-- Patreon -->
-                <img src="{{ site.baseurl }}/img/social/patreon-logo.png" height="25px;" width="25px;">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/{{ site.twitter_username }}">
-                <!-- Twitter -->
-                <img src="{{ site.baseurl }}/img/social/twitter-logo.png" height="25px;" width="25px;">
-              </a>
-            </li>
+            {% include social.html %}
           </ul>
 
         </div>

@@ -5,11 +5,22 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="container">
+
+    {% if page.banner %}
+    <div class="row" style="padding-bottom: 20px;">
+      <div class="col-lg-offset-2 col-lg-8 col-sm-12 col-xs-12">
+        <img src="{{ site.baseurl }}/img/banners/{{ page.banner }}" alt="banner" class="img-responsive">
+      </div>
+    </div>
+    {% endif %}
+
     <div class="row">
       <div class="col-lg-12">
 
         <header class="post-header">
-          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
+          <h1 class="post-title visible-md-block visible-lg-block" itemprop="name headline">{{ page.title }}</h1>
+          <h3 class="post-title visible-xs-block visible-sm-block" itemprop="name headline">{{ page.title }}</h3>
           <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
         </header>
 
@@ -34,6 +45,5 @@ layout: default
 
       </div>
     </div>
-  </div>
 
 </article>

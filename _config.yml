@@ -14,12 +14,12 @@ description: > # ignore newlines until next property
 repository: shift/willis2342.github.io
 
 # Social Media
-battlefy_username: shift-pro-league
-discord_username: shiftpl
-# matcherino:
-patreon_username: shiftpl
-twitch_username: ShiftProLeague
-twitter_username: ShiftProLeague
+battlefy_username:   shift-pro-league
+discord_username:    shiftpl
+matcherino_username: shiftproleague
+patreon_username:    shiftpl
+twitch_username:     ShiftProLeague
+twitter_username:    ShiftProLeague
 
 # Filtering Content
 show_drafts: null
@@ -49,3 +49,7 @@ permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-assets
+  # - react-jsx-sprockets

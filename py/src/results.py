@@ -11,7 +11,10 @@ def isSimilar(rosterA, rosterB):
 def results(tournaments):
     dates = sorted(tournaments.keys())
 
-    teams = { }
+    results = {
+        'count': 0,
+        'teams': { }
+    }
     for weekIndex, date in enumerate(dates):
         week = weekIndex+1
         tournament = tournaments[date]
@@ -21,22 +24,15 @@ def results(tournaments):
             standing = int(tournTeam['standing'])
 
             isSimilarRoster = False
-            for k in teams:
-                team = teams[k]
-
-                # a = [name.lower() for name in team['roster']]
-                # b = [name.lower() for name in tournTeam['roster']]
-                #
-                # intersection = set(a) & set(b)
-
-                # print("{} <-> {} : {}".format(tournTeam['roster'], team['roster'], len(intersection) >= 2))
-
+            for _id in results['teams']:
+                team = results['teams'][_id]
 
                 isSimilarRoster = isSimilar(tournTeam['roster'], team['roster'])
                 if isSimilarRoster:
-                    teams[k]['name'] = tournTeam['name']
-                    teams[k]['roster'] = tournTeam['roster']
-                    teams[k]['week'][week] = standing
+                    results['teams'][_id]['name'] = tournTeam['name']
+                    results['teams'][_id]['roster'] = tournTeam['roster']
+                    results['teams'][_id]['week'][week] = standing
+
                     break
 
             if isSimilarRoster:
@@ -49,6 +45,9 @@ def results(tournaments):
                     week: standing
                 }
             }
-            teams[key] = obj
 
-    return teams
+            _id = str(results['count'])
+            results['teams'][_id] = obj
+            results['count'] = results['count'] + 1
+
+    return results

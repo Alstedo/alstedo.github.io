@@ -20,6 +20,7 @@ dataPath = srcPath + "/../data"
 
 ROSTERS_FILE_NAME = "rosters.csv"
 STANDINGS_FILE_NAME = "standings.html"
+TOURNAMENT_FILE_NAME = "tournament.json"
 TOURNAMENTS_FILE_NAME = "tournaments.json"
 WEIGHTS_FILES_NAME = "weights.json"
 
@@ -45,8 +46,7 @@ f.close()
 for f in dataDirs:
     path = "{}/{}/".format(dataPath, f)
 
-    # if f in _tournaments:
-    #     continue
+    TOURNAMENT_PATH = path + TOURNAMENT_FILE_NAME
 
     rostersFile = path + ROSTERS_FILE_NAME
     standingsFile = path + STANDINGS_FILE_NAME
@@ -55,10 +55,16 @@ for f in dataDirs:
     _tournament = tournament(f, _rosters, _standings)
     _tournaments = tournaments(_tournaments, _tournament)
 
-# json.dump(_tournaments, sys.stdout, indent=2, sort_keys=True)
+    f = open(TOURNAMENT_PATH, "w", encoding="utf8")
+    json.dump(_tournaments, f, indent=2, sort_keys=True, ensure_ascii=True)
+    f.close()
+
+f = open(TOURNAMENTS_PATH, "w", encoding="utf8")
+json.dump(_tournaments, f, indent=2, sort_keys=True)
+f.close()
 
 _results = results(_tournaments)
-# json.dump(_results, sys.stdout, indent=2, sort_keys=True)
+json.dump(_results, sys.stdout, indent=2, sort_keys=True)
 
 # Get monthly (with points) json
 # _monthly = monthly(_tournaments)
