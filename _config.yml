@@ -35,8 +35,8 @@ gems:      []
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/shift" # does not include hostname
-url: "https://willis2342.github.io/shift/"
+baseurl: "" # does not include hostname
+url: "https://willis2342.github.io"
 
 # Outputting
 permalink: /:categories/:title/
@@ -52,4 +52,4 @@ markdown: kramdown
 
 gems:
   - jekyll-assets
-  # - react-jsx-sprockets
+  - jekyll-feed
