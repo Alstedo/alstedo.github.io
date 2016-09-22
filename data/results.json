@@ -1,0 +1,4479 @@
+{
+  "numTeams": 367,
+  "numWeeks": 14,
+  "teams": [
+    {
+      "name": "Breakfast Club",
+      "roster": [
+        "[BC] A Cereal Box",
+        "[BC] Papa Dean",
+        "BreadlessToast",
+        "[BC] Ethom"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "Invictus2",
+      "roster": [
+        "RedemptionHound",
+        "iOghma",
+        "Haku"
+      ],
+      "weeks": {
+        "1": 1,
+        "10": 5,
+        "12": 17
+      }
+    },
+    {
+      "name": "The Bro Legion",
+      "roster": [
+        "McTim_85",
+        "D-CliffTheKing",
+        "B-l-u-e-4-2-0---"
+      ],
+      "weeks": {
+        "1": 9
+      }
+    },
+    {
+      "name": "The Alphas or Whatever",
+      "roster": [
+        "jboyum84",
+        "HiTmAn1104",
+        "Chaboy_Freddie"
+      ],
+      "weeks": {
+        "1": 5
+      }
+    },
+    {
+      "name": "Steel City Blaze",
+      "roster": [
+        "FluxPanda",
+        "shayne1342",
+        "Mitchmole18",
+        "xAngelicVenoMx"
+      ],
+      "weeks": {
+        "1": 13
+      }
+    },
+    {
+      "name": "Wiff City United",
+      "roster": [
+        "|wCu| BioS",
+        "|wCu| J A X",
+        "|wCu| Cxmbustion",
+        "|wCu| TAKu"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "Se liga nos Dibres",
+      "roster": [
+        "MrTozatto",
+        "Sr.Gizmo#iBP Kronovi",
+        "Brebs"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "The Frozen North",
+      "roster": [
+        "Breakfast Goodies",
+        "ape af",
+        "ninjasebfan"
+      ],
+      "weeks": {
+        "1": 13,
+        "3": 33
+      }
+    },
+    {
+      "name": "Make 'em Pay",
+      "roster": [
+        "KiNG",
+        "C0M0D0",
+        "jabroke",
+        "Absilute"
+      ],
+      "weeks": {
+        "1": 7,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 33,
+        "6": 33,
+        "10": 33,
+        "11": 17
+      }
+    },
+    {
+      "name": "Gold Rush",
+      "roster": [
+        "DESGADELHADO",
+        "Mephistofes",
+        "fredd97"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "Land Sharks",
+      "roster": [
+        "BoomerSoonerNJ",
+        "cediesmalls96",
+        "NjSoonner"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "BGX Gaming",
+      "roster": [
+        "xanderdagr8",
+        "Scala ->",
+        "Ghost-k"
+      ],
+      "weeks": {
+        "1": 9
+      }
+    },
+    {
+      "name": "Royal Flush",
+      "roster": [
+        "Jentsov",
+        "King Clutch",
+        "Stazzi"
+      ],
+      "weeks": {
+        "1": 13
+      }
+    },
+    {
+      "name": "Montage In Action",
+      "roster": [
+        "xAmericanNinjax",
+        "CorruptSniping",
+        "expirement9"
+      ],
+      "weeks": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "name": "Viper gaming",
+      "roster": [
+        "Docdumbnub",
+        "Coolwalters",
+        "Nick4life802"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "vVv Gaming",
+      "roster": [
+        "Azazel",
+        "Alcapwn",
+        "HadABradDay"
+      ],
+      "weeks": {
+        "1": 4,
+        "3": 5,
+        "8": 2,
+        "9": 17,
+        "10": 17,
+        "11": 17,
+        "12": 17,
+        "13": 3,
+        "14": 17
+      }
+    },
+    {
+      "name": "Quasar Knights",
+      "roster": [
+        "Takashiro",
+        "Dirrty Harry",
+        "Agent207",
+        "bearsmwx10"
+      ],
+      "weeks": {
+        "1": 13,
+        "2": 5,
+        "3": 33
+      }
+    },
+    {
+      "name": "Slay the Weak",
+      "roster": [
+        "Jackson",
+        "Skizze",
+        "Valor"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "Proruption Gaming",
+      "roster": [
+        "Chaotyk",
+        "Nao Tomori",
+        "Agoney",
+        "Gagey12842",
+        "Puffthedargon"
+      ],
+      "weeks": {
+        "1": 9,
+        "2": 17,
+        "3": 33,
+        "13": 17,
+        "14": 33
+      }
+    },
+    {
+      "name": "Hardcore Boostiality",
+      "roster": [
+        "Rito_Dorito",
+        "Velum",
+        "Dat Boi",
+        "Bam Bam",
+        "greamer"
+      ],
+      "weeks": {
+        "1": 5,
+        "2": 5,
+        "3": 9,
+        "4": 5,
+        "6": 9,
+        "7": 17,
+        "8": 17,
+        "9": 5,
+        "10": 17,
+        "11": 9,
+        "13": 9
+      }
+    },
+    {
+      "name": "Tommy's Angels",
+      "roster": [
+        "Zephren",
+        "Zephren",
+        "DrCanadaEh",
+        "DrCanadaEh",
+        "Filthy Casual",
+        "Filthy Casual"
+      ],
+      "weeks": {
+        "1": 9,
+        "2": 9
+      }
+    },
+    {
+      "name": "The Big Bad Johns",
+      "roster": [
+        "White Mamba",
+        "Fatman",
+        "Jordan"
+      ],
+      "weeks": {
+        "1": 17
+      }
+    },
+    {
+      "name": "Demonic Army ESports NA",
+      "roster": [
+        "Zak_Hucks_Disc",
+        "Gliem06",
+        "SWISHER157",
+        "thepainless_1",
+        "zThonY",
+        "levonpet123"
+      ],
+      "weeks": {
+        "1": 7,
+        "2": 33
+      }
+    },
+    {
+      "name": "Divinity",
+      "roster": [
+        "Qbert",
+        "MrChaotyk | div",
+        "Vexyn | div",
+        "bhshad"
+      ],
+      "weeks": {
+        "1": 3,
+        "2": 9,
+        "5": 17
+      }
+    },
+    {
+      "name": "POLLONES FC",
+      "roster": [
+        "Rivarola8dex",
+        "MuchachoPlisDont",
+        "Manque68"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "Espionage RL",
+      "roster": [
+        "Dosma",
+        "Caudark",
+        "Luink",
+        "Ghent"
+      ],
+      "weeks": {
+        "2": 5,
+        "3": 9,
+        "12": 33
+      }
+    },
+    {
+      "name": "Blues",
+      "roster": [
+        "CurlyPwn",
+        "Deago",
+        "Justhuss"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "The Factory",
+      "roster": [
+        "litho_guy",
+        "FIR3BOII",
+        "DyNAmIc_WoNDeR_-"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "MGD",
+      "roster": [
+        "Genzo Wakabayash",
+        "d4RKO",
+        "Marv"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Aerial Autonomy",
+      "roster": [
+        "Marc.",
+        "Lazarus",
+        "Javuh"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "MaddWheelz",
+      "roster": [
+        "nighthawklol",
+        "DwSkillz72",
+        "Corn Bread",
+        "Fooch"
+      ],
+      "weeks": {
+        "2": 9,
+        "3": 33,
+        "4": 17,
+        "5": 9
+      }
+    },
+    {
+      "name": "FrostBlade",
+      "roster": [
+        "FBL - Monkey",
+        "C4",
+        "FBL - Meck"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Beggars, not choosers",
+      "roster": [
+        "Ravens4life81",
+        "Zachelleithy0514",
+        "Sparrow5765"
+      ],
+      "weeks": {
+        "2": 9
+      }
+    },
+    {
+      "name": "Maximum Effort",
+      "roster": [
+        "Doughnut King",
+        "Sisco",
+        "Red"
+      ],
+      "weeks": {
+        "2": 2,
+        "3": 5
+      }
+    },
+    {
+      "name": "LOS ROCKETEERS",
+      "roster": [
+        "SR LOCK",
+        "Coelho_Gusta",
+        "TNT-L\u00d8G\u2122 T.Silva 154"
+      ],
+      "weeks": {
+        "2": 9
+      }
+    },
+    {
+      "name": "Rangers",
+      "roster": [
+        "kingdrew1010",
+        "DWright032002",
+        "Sportchampion15"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Rusher",
+      "roster": [
+        "alexhockey",
+        "ThecampingBudy",
+        "Jerhockey2001"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "The Holy Trinity",
+      "roster": [
+        "Jesus",
+        "The Holy Spirit",
+        "God"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Barely Legal",
+      "roster": [
+        "[BL] Brotaetachip",
+        "[BL] ZW Kesler",
+        "[BL] Connor"
+      ],
+      "weeks": {
+        "2": 9
+      }
+    },
+    {
+      "name": "TheRocketLeagueKings",
+      "roster": [
+        "{RLM} [S*R] TTGLKami",
+        "destroyer541",
+        "abbas1902"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "ZIVI",
+      "roster": [
+        "Krispunk",
+        "seiya",
+        "BoltPlayer"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "The Uber Spuds",
+      "roster": [
+        "Hawnray",
+        "The Wonderful Wizard of Beans",
+        "TheKingKobra"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "GamezRFun",
+      "roster": [
+        "Dcavederps",
+        "HankDaTank",
+        "Cohnnor"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "New Era",
+      "roster": [
+        "CBKxNinja",
+        "LilPlayer-V3",
+        "byHalcyon"
+      ],
+      "weeks": {
+        "2": 33,
+        "12": 33,
+        "14": 9
+      }
+    },
+    {
+      "name": "Momentum",
+      "roster": [
+        "Watsupmijo_24",
+        "Timi_f",
+        "Dappur",
+        "J_knaps"
+      ],
+      "weeks": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 5,
+        "8": 1,
+        "10": 5,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "name": "Overdrive",
+      "roster": [
+        "DoCtor SavAgE",
+        "Lava [Aerial Autonomy]",
+        "Muhngkee"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "HYPE Gaming",
+      "roster": [
+        "macPSU",
+        "Munchkinator",
+        "Javi Sweatpants",
+        "Kaiijuu",
+        "getsomeual"
+      ],
+      "weeks": {
+        "2": 3,
+        "3": 33,
+        "4": 9,
+        "5": 17,
+        "6": 9,
+        "7": 17,
+        "9": 17,
+        "10": 17,
+        "13": 33
+      }
+    },
+    {
+      "name": "( \u0361\u00b0( \u0361\u00b0 \u035c\u0296( \u0361\u00b0 \u035c\u0296 \u0361\u00b0)\u0296 \u0361\u00b0) \u0361\u00b0)",
+      "roster": [
+        "BeatBoxer DaFiren",
+        "Geoff Shreeves",
+        "pmag"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "Osprey",
+      "roster": [
+        "Bendr",
+        "[Osp] Killington",
+        "Zed",
+        "Ethom",
+        "NinjaWaffle"
+      ],
+      "weeks": {
+        "2": 17,
+        "8": 9,
+        "9": 33
+      }
+    },
+    {
+      "name": "Crown & Jewels",
+      "roster": [
+        "xxKhaelanxx",
+        "Masterio",
+        "Yeezy"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "TheFatCacks",
+      "roster": [
+        "Zerenity",
+        "Venum",
+        "BigD",
+        "E@Zy_D",
+        "iNSanity"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "SavvySquad",
+      "roster": [
+        "C14ssy sHark",
+        "Ninjawarrior",
+        "Savvy"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "AlienatedBanana",
+      "roster": [
+        "[AB] Christian4361",
+        "[AB] FPxGamer",
+        "[AB] Shadow"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "Little Einsteins",
+      "roster": [
+        "/\\/imbus",
+        "Rocketpower",
+        "Monster"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Banana Squad",
+      "roster": [
+        "Hydra",
+        "blaze",
+        "Kattastrophy",
+        "ASUHborg"
+      ],
+      "weeks": {
+        "2": 33,
+        "3": 33,
+        "4": 33,
+        "5": 33,
+        "7": 5,
+        "10": 33
+      }
+    },
+    {
+      "name": "The Randoms",
+      "roster": [
+        "pro_gam-er7",
+        "TheExtremeTroll",
+        "RekingNoobs",
+        "MarioFan8",
+        "zPhyloh"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Los Lobos Locos",
+      "roster": [
+        "L3 Juscouz",
+        "RiskyGambit",
+        "L3 FishMckilla",
+        "L3 torodo"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Dishonored",
+      "roster": [
+        "killrnite",
+        "Disgruntled 1800's Industialist",
+        "tr0b",
+        "Are Memes An Instrument?",
+        "Kitchens",
+        "Qlimax"
+      ],
+      "weeks": {
+        "2": 9,
+        "6": 9
+      }
+    },
+    {
+      "name": "DestroyersOnPlay",
+      "roster": [
+        "IcarianG",
+        "Danelx7",
+        "Grenuille"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "TwisteD eSports",
+      "roster": [
+        "CivicHB",
+        "Colt",
+        "Can't Do Aerials"
+      ],
+      "weeks": {
+        "2": 33,
+        "3": 17
+      }
+    },
+    {
+      "name": "DynastyGaming",
+      "roster": [
+        "Husky Harris",
+        "Guss",
+        "Shades"
+      ],
+      "weeks": {
+        "2": 33
+      }
+    },
+    {
+      "name": "The Wet Dream",
+      "roster": [
+        "Triplet29",
+        "Gweeds95",
+        "XJUMPGANGX"
+      ],
+      "weeks": {
+        "2": 5,
+        "3": 17
+      }
+    },
+    {
+      "name": "Team I.A.B",
+      "roster": [
+        "Lordbonz2152",
+        "UnbentHealer159",
+        "Mikeas321"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Rock'em Block'em Probots",
+      "roster": [
+        "honeybear",
+        "intrepid",
+        "MaceOfSpades"
+      ],
+      "weeks": {
+        "2": 17
+      }
+    },
+    {
+      "name": "Gayboys",
+      "roster": [
+        "Trentgator",
+        "JuCurls",
+        "MattyMatt97"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Fusion",
+      "roster": [
+        "Jarl",
+        "Sm0k",
+        "MarzRL",
+        "Glaxo"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "FakeOut Nation",
+      "roster": [
+        "Nexate",
+        "CorruptedG",
+        "Haku"
+      ],
+      "weeks": {
+        "3": 2
+      }
+    },
+    {
+      "name": "Welcome to Moe's",
+      "roster": [
+        "Siideliinehero",
+        "Leduar19",
+        "Ike_Knight"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Don't Steal My Rice Bowl",
+      "roster": [
+        "Nagano Chuck",
+        "AniLuHen",
+        "No1bountyhunter"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Onslaught",
+      "roster": [
+        "Loomin | Twitch.tv/Ironhype",
+        "Attackerby",
+        "J.RAx",
+        "ColemanA"
+      ],
+      "weeks": {
+        "3": 17,
+        "6": 33,
+        "7": 2,
+        "8": 5,
+        "10": 9,
+        "11": 5,
+        "12": 9,
+        "13": 33
+      }
+    },
+    {
+      "name": "Turtle Squad",
+      "roster": [
+        "felixgg123",
+        "Trainmon",
+        "BMX_TOBIN"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Last Minute Team",
+      "roster": [
+        "Brebs",
+        "Sucellos",
+        "Paco Sinbad"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Ethereal",
+      "roster": [
+        "FamiliarLeaf",
+        "Zaps",
+        "Sneaky"
+      ],
+      "weeks": {
+        "3": 9
+      }
+    },
+    {
+      "name": "SxEs Squad",
+      "roster": [
+        "Wolfie",
+        "PrezonCraft",
+        "Calculated"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Rubber Ducks",
+      "roster": [
+        "Loge_Bird",
+        "RocketMenVaioFox",
+        "satthew"
+      ],
+      "weeks": {
+        "3": 5
+      }
+    },
+    {
+      "name": "Elysian eSports",
+      "roster": [
+        "Araussi",
+        "Jerry",
+        "HeFty"
+      ],
+      "weeks": {
+        "3": 5
+      }
+    },
+    {
+      "name": "TeamProdigy",
+      "roster": [
+        "Prodigy | Aegis",
+        "Prodigy | Heist",
+        "Prodigy | Ill",
+        "Prodigy | Conceal"
+      ],
+      "weeks": {
+        "3": 33,
+        "4": 5,
+        "5": 17,
+        "6": 9,
+        "8": 9,
+        "9": 9,
+        "10": 9,
+        "12": 17
+      }
+    },
+    {
+      "name": "OS CARA LA",
+      "roster": [
+        "OCL | IBRAKAYQUEOVIC",
+        "OCL | KAUAN",
+        "LeviFernandes",
+        "|LOS| Gemios98"
+      ],
+      "weeks": {
+        "3": 33,
+        "5": 17
+      }
+    },
+    {
+      "name": "Meade St. Mauraders",
+      "roster": [
+        "TbqhFamSmdh1",
+        "FoxxyGrandma22",
+        "ryhartattack"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Locomotives",
+      "roster": [
+        "Roughknite",
+        "-_Zomb_-",
+        "doodlefolks"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "SUIT Goes Rocket",
+      "roster": [
+        "wagass",
+        "Darkxant",
+        "Qwebb102"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Whiff City United",
+      "roster": [
+        "A_Cat_Wrangler",
+        "KYDA",
+        "Papa Johns",
+        "Ntkiller"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Cursed Legion",
+      "roster": [
+        "[PVG]Scopus",
+        "Rinzler",
+        "[LOST]WarDog360"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "2 Goals 1 Cup",
+      "roster": [
+        "DebatablyClutch",
+        "Chubby Unicorn",
+        "A Chumbawumba"
+      ],
+      "weeks": {
+        "3": 9,
+        "4": 2
+      }
+    },
+    {
+      "name": "Empyreal",
+      "roster": [
+        "EMP Vince",
+        "EMP Bell",
+        "EMP Fireworks",
+        "EMP Dareyck"
+      ],
+      "weeks": {
+        "3": 4,
+        "8": 9
+      }
+    },
+    {
+      "name": "Black Dragons",
+      "roster": [
+        "G O D A N",
+        "Freedom",
+        "Krames",
+        "DuO"
+      ],
+      "weeks": {
+        "3": 17,
+        "4": 17,
+        "5": 33,
+        "6": 17,
+        "7": 5,
+        "8": 9,
+        "9": 33,
+        "12": 17
+      }
+    },
+    {
+      "name": "Lost Connection Team",
+      "roster": [
+        "GrandDorko",
+        "Hipster Rambo",
+        "Wolf O'Donnell"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "StormBreakers",
+      "roster": [
+        "Ninja903xx",
+        "Emperor_Ghost",
+        "TheBreadenator",
+        "James-Lee-Ginja",
+        "James-Lee-Ginja"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Lucky Bounce",
+      "roster": [
+        "J_knaps",
+        "Torment",
+        "Timbathy",
+        "DarkFire"
+      ],
+      "weeks": {
+        "3": 3,
+        "4": 17,
+        "5": 2
+      }
+    },
+    {
+      "name": "Quantum",
+      "roster": [
+        "dudeuncharted",
+        "xerfs",
+        "illuminati confirmed"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Identity Crisis",
+      "roster": [
+        "IC | Alec",
+        "IC | Sona",
+        "E_M_E_T",
+        "IC | Blore"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "A Passing Fancy",
+      "roster": [
+        "chucknorrispwns",
+        "Hypnagogia0",
+        "Jerry",
+        "2 kids in a trench coat",
+        "Andy"
+      ],
+      "weeks": {
+        "3": 9,
+        "10": 17,
+        "13": 9
+      }
+    },
+    {
+      "name": "Cupcake Bandits",
+      "roster": [
+        "PatrickORourke",
+        "Myself",
+        "Tufguy"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "WRECKnation",
+      "roster": [
+        "JacobRC02",
+        "geaux1234",
+        "|WN| Miloka",
+        "DEADSOLDIER0001"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Dedicated Few",
+      "roster": [
+        "FEW Iceman",
+        "{FEW} Mystical",
+        "{FEW} Cash",
+        "{Few} Kain"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Maneaters",
+      "roster": [
+        "Urll Bunyon",
+        "Hollywood Bobo",
+        "klickityclacks"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Hart Foundation",
+      "roster": [
+        "Bret \"The Hitman\" Hart",
+        "Davey Boy Smith",
+        "Jim \"The Anvil\" Neidhart"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "SCRVB Life",
+      "roster": [
+        "SCRVB-JDUB_306",
+        "SCRVB-RJReid",
+        "SCRVB-jwutke"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Trashbags",
+      "roster": [
+        "Derposaurus",
+        "Babirusa",
+        "Castallo"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Barely Legal",
+      "roster": [
+        "KW Kesler",
+        "TheWittleGuy",
+        "Shamu"
+      ],
+      "weeks": {
+        "3": 9
+      }
+    },
+    {
+      "name": "Blacklight Gaming",
+      "roster": [
+        "CrazyUncleWillie",
+        "MOJO",
+        "QBean13"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Lost Marbles",
+      "roster": [
+        "Ewok_360",
+        "DesertRose",
+        "DeadRose"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Unknown",
+      "roster": [
+        "Gatoscrim",
+        "SoulHunter",
+        "Reigns"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Cowboys from Hell",
+      "roster": [
+        "Doc_Duder",
+        "effnTEXAS",
+        "TexasTigerz281"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Blue Smurf Squad",
+      "roster": [
+        "ExAssassin",
+        "Fishirboy",
+        "Tony Cheese",
+        "Keveyy"
+      ],
+      "weeks": {
+        "3": 9
+      }
+    },
+    {
+      "name": "The Gassy Mexicans",
+      "roster": [
+        "Expozzia",
+        "SeekNDstroy",
+        "MLG_TacoBELL_CA$H!ER",
+        "KCurse"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Noobar",
+      "roster": [
+        "Saif",
+        "RvdSebaz",
+        "Blackniss_"
+      ],
+      "weeks": {
+        "3": 17
+      }
+    },
+    {
+      "name": "Tableround Carries",
+      "roster": [
+        "Matoro",
+        "Tableround",
+        "elrel",
+        "JC",
+        "Andus"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "Aerial Acrobats",
+      "roster": [
+        "SaberisHere",
+        "Ballin'",
+        "\ud83d\udc09 Dodo\u00bbNL\u00ab \ud83d\udc09"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Legends",
+      "roster": [
+        "Worm_God | TL",
+        "D.kZ ||Alpha||",
+        "Swoona"
+      ],
+      "weeks": {
+        "3": 33
+      }
+    },
+    {
+      "name": "The Mafia",
+      "roster": [
+        "Slade",
+        "1Assassin",
+        "Hawkie"
+      ],
+      "weeks": {
+        "4": 17,
+        "5": 33
+      }
+    },
+    {
+      "name": "Ball Bandits",
+      "roster": [
+        "RixBT64",
+        "SergioBarillas26",
+        "Thunder_Plug"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "Lucidity",
+      "roster": [
+        "tC tyKilla",
+        "Reezy",
+        "OHN0"
+      ],
+      "weeks": {
+        "4": 5
+      }
+    },
+    {
+      "name": "Hazard Zone",
+      "roster": [
+        "RubyHeart",
+        "Spairow",
+        "Knabster"
+      ],
+      "weeks": {
+        "4": 33
+      }
+    },
+    {
+      "name": "Maximum Booty",
+      "roster": [
+        "H4iiRy_GaRRy",
+        "cbolt3113",
+        "kenny_boy676",
+        "Balthierxiii"
+      ],
+      "weeks": {
+        "4": 17,
+        "12": 33,
+        "13": 33,
+        "14": 17
+      }
+    },
+    {
+      "name": "Fulham FC",
+      "roster": [
+        "LX-DJAL-XI",
+        "NinjaKylie25",
+        "HazeXterminate"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "ALLHAILdemboiz",
+      "roster": [
+        "rfdghhj",
+        "SunnyPancake49",
+        "ALLHAILBEN7"
+      ],
+      "weeks": {
+        "4": 33
+      }
+    },
+    {
+      "name": "PLAY5 Gaming",
+      "roster": [
+        "PLAY5.EpicSolutionZ",
+        "PLAY5.Eddyy *Kinguin",
+        "PLAY5.Meliodas"
+      ],
+      "weeks": {
+        "4": 3
+      }
+    },
+    {
+      "name": "Bandnoobs",
+      "roster": [
+        "Lawhill1986",
+        "zavalaclan",
+        "extromondo"
+      ],
+      "weeks": {
+        "4": 9
+      }
+    },
+    {
+      "name": "Rocket Stars",
+      "roster": [
+        "InmortalChaos771",
+        "MartaLaPrende",
+        "Mendoza_TEAM_PR",
+        "xboxsux13",
+        "Titan211132"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "Outkast",
+      "roster": [
+        "Roflcatbbq",
+        "xisco",
+        "Snorklecraft64",
+        "Roflcatbbq"
+      ],
+      "weeks": {
+        "4": 33
+      }
+    },
+    {
+      "name": "Remedy",
+      "roster": [
+        "Sm0k5ever",
+        "Flinney McMillon",
+        "Morsias",
+        "Origin_K",
+        "Falcon"
+      ],
+      "weeks": {
+        "4": 9,
+        "5": 17,
+        "6": 5,
+        "7": 9,
+        "9": 9,
+        "10": 17,
+        "11": 17,
+        "12": 17,
+        "13": 5,
+        "14": 9
+      }
+    },
+    {
+      "name": "Prodigy Red",
+      "roster": [
+        "Prodigy | JSpaZ",
+        "Prodigy | Jujubee",
+        "Prodigy | sumlol",
+        "Prodigy | LilJonny11",
+        "Stribly"
+      ],
+      "weeks": {
+        "4": 9,
+        "8": 17,
+        "11": 9,
+        "12": 33,
+        "13": 33
+      }
+    },
+    {
+      "name": "The strikers",
+      "roster": [
+        "SidedMirror1081",
+        "VividPlatypus79",
+        "VividPlatypus79",
+        "GlibIntergel691",
+        "SidedMirror1081",
+        "GlibIntergel691"
+      ],
+      "weeks": {
+        "4": 33
+      }
+    },
+    {
+      "name": "Quasar Knights",
+      "roster": [
+        "[QK]Takashiro",
+        "[QK] Dirrty Harry",
+        "Agent207",
+        "[QK] |APx| B\u00e4renMWx10",
+        "[QK]DxCubed"
+      ],
+      "weeks": {
+        "4": 17,
+        "7": 9,
+        "8": 17,
+        "9": 17
+      }
+    },
+    {
+      "name": "DragonsFury",
+      "roster": [
+        "aaronsolis666",
+        "Dot_Of_Doom",
+        "xXDelirious200Xx"
+      ],
+      "weeks": {
+        "4": 17,
+        "5": 17
+      }
+    },
+    {
+      "name": "Dude AF",
+      "roster": [
+        "Goldenkale",
+        "Jdjd17@sbcglobal.net",
+        "40fontainez@gmail.com",
+        "slap_city_"
+      ],
+      "weeks": {
+        "4": 9,
+        "5": 33,
+        "6": 17
+      }
+    },
+    {
+      "name": "golden",
+      "roster": [
+        "GrimReaper_Q8Y",
+        "iSWAT-kw",
+        "qo_eXampL_op"
+      ],
+      "weeks": {
+        "4": 9
+      }
+    },
+    {
+      "name": "Chef",
+      "roster": [
+        "Wildee",
+        "ODJoey",
+        "HeFty"
+      ],
+      "weeks": {
+        "4": 5,
+        "5": 5
+      }
+    },
+    {
+      "name": "The U",
+      "roster": [
+        "xSTR8xSNiP3Zx",
+        "fafnirrl",
+        "nitro5718",
+        "bjens25"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "Retrograde",
+      "roster": [
+        "Monster",
+        "Hawkshot",
+        "TheClasse"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "EliteStrategy",
+      "roster": [
+        "BrandonMcfc2421",
+        "decieboi1999",
+        "Leon_The_Boss_99"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "NA Bae",
+      "roster": [
+        "Expozzia",
+        "Faded Filipino",
+        "Wubbytubz",
+        "SeleneSalami"
+      ],
+      "weeks": {
+        "4": 4
+      }
+    },
+    {
+      "name": "TearDroppaz",
+      "roster": [
+        "AP24_",
+        "Crease352",
+        "Shellshokk_jeffe"
+      ],
+      "weeks": {
+        "4": 17,
+        "5": 33
+      }
+    },
+    {
+      "name": "Gr1fnorius",
+      "roster": [
+        "faeldopao",
+        "The Necro",
+        "Undefite",
+        "Irm\u00e3o Do Fael Do P\u00e3o"
+      ],
+      "weeks": {
+        "4": 17
+      }
+    },
+    {
+      "name": "The Legends",
+      "roster": [
+        "Hydra | TL",
+        "Ace Balthazar",
+        "Oblivion | TL"
+      ],
+      "weeks": {
+        "4": 9
+      }
+    },
+    {
+      "name": "The  Squad Legendary",
+      "roster": [
+        "Exodial [TSL]",
+        "NickoLDM [TSL]",
+        "Jere [TSL]",
+        "Yashiro [TSL]",
+        "Alanwhitefulcito [TSL]"
+      ],
+      "weeks": {
+        "5": 5
+      }
+    },
+    {
+      "name": "Its like GFA, But NOT GFA",
+      "roster": [
+        "skibs010",
+        "TheLastNinjaCow",
+        "GFA-Apollo",
+        "GFA-Bartzilla",
+        "JammyAntics67"
+      ],
+      "weeks": {
+        "5": 17,
+        "7": 33
+      }
+    },
+    {
+      "name": "Literally",
+      "roster": [
+        "JOHN1138",
+        "xbLeU",
+        "JWismont"
+      ],
+      "weeks": {
+        "5": 5,
+        "6": 3,
+        "7": 1,
+        "12": 4,
+        "13": 1,
+        "14": 2
+      }
+    },
+    {
+      "name": "Its like GFA, But NOT GFA",
+      "roster": [
+        "elyodah1",
+        "skibs010",
+        "TheLastNinjaCow",
+        "recall9",
+        "JammyAntics67"
+      ],
+      "weeks": {
+        "5": 4,
+        "6": 33
+      }
+    },
+    {
+      "name": "Xenify",
+      "roster": [
+        "Kastro | XENIFY",
+        "Lamix | XENIFY",
+        "Manu | XENIFY"
+      ],
+      "weeks": {
+        "5": 9
+      }
+    },
+    {
+      "name": "Stage 1 Hypertension",
+      "roster": [
+        "InanimateJ",
+        "Minamacky",
+        "Turtlebear",
+        "Sneaux"
+      ],
+      "weeks": {
+        "5": 17,
+        "6": 17,
+        "7": 9,
+        "10": 17,
+        "11": 5,
+        "12": 9,
+        "13": 9
+      }
+    },
+    {
+      "name": "moist boiz",
+      "roster": [
+        "Jaeger",
+        "Super Chair",
+        "Prodigy Havok"
+      ],
+      "weeks": {
+        "5": 5
+      }
+    },
+    {
+      "name": "Eric Has a Little Spoon",
+      "roster": [
+        "Walden",
+        "ericbordage",
+        "SPOONyou"
+      ],
+      "weeks": {
+        "5": 17,
+        "7": 9
+      }
+    },
+    {
+      "name": "CantHandleMySkills.com",
+      "roster": [
+        "CHMS.com | Pierre",
+        "CHMS.com | Misstah J",
+        "vortex|yogert999"
+      ],
+      "weeks": {
+        "5": 33,
+        "6": 9
+      }
+    },
+    {
+      "name": "Panda Squad",
+      "roster": [
+        "KillaNinja",
+        "Little Foot *LFT*",
+        "Pegi 13"
+      ],
+      "weeks": {
+        "5": 17
+      }
+    },
+    {
+      "name": "GPM",
+      "roster": [
+        "Chutamor",
+        "Matheus",
+        "Philipe"
+      ],
+      "weeks": {
+        "5": 33
+      }
+    },
+    {
+      "name": "No Capes!",
+      "roster": [
+        "Saint LFT",
+        "Nc! Dark Demise",
+        "Nc! Tyme",
+        "Nc! Emptiness"
+      ],
+      "weeks": {
+        "5": 9
+      }
+    },
+    {
+      "name": "Karma Whores",
+      "roster": [
+        "Serser0",
+        "Barrax",
+        "Mr_Lovette"
+      ],
+      "weeks": {
+        "5": 33,
+        "10": 9
+      }
+    },
+    {
+      "name": "Wiff City United Orange",
+      "roster": [
+        "|wCu| Verbluten",
+        "|wCu| Dunkas",
+        "|xCu| Xander"
+      ],
+      "weeks": {
+        "5": 9
+      }
+    },
+    {
+      "name": "Dzair",
+      "roster": [
+        "felixgg123",
+        "\"9arsa\"AzizNeSenfuiPas",
+        "JeSuisSucr\u00e9",
+        "WolfMynd | JSCO"
+      ],
+      "weeks": {
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "name": "PigeonToedOrangePeel",
+      "roster": [
+        "Roado",
+        "RedRooster",
+        "Hold The Door"
+      ],
+      "weeks": {
+        "5": 17
+      }
+    },
+    {
+      "name": "Jinx",
+      "roster": [
+        "Liquid",
+        "Sub'n",
+        "Kubsniped"
+      ],
+      "weeks": {
+        "5": 3
+      }
+    },
+    {
+      "name": "Stuck in Challenger",
+      "roster": [
+        "Fafnir",
+        "Cacamaa",
+        "Psyclone",
+        "Left Shark"
+      ],
+      "weeks": {
+        "5": 17,
+        "7": 33,
+        "9": 9
+      }
+    },
+    {
+      "name": "BAM",
+      "roster": [
+        "iijakeyii",
+        "har1eydog1904",
+        "sadiemae14"
+      ],
+      "weeks": {
+        "5": 17
+      }
+    },
+    {
+      "name": "Jeremy And His Cats",
+      "roster": [
+        "Cat",
+        "Cat",
+        "Jeremy"
+      ],
+      "weeks": {
+        "5": 9
+      }
+    },
+    {
+      "name": "Arse n' All",
+      "roster": [
+        "expozzia",
+        "BAE Faded Filipino",
+        "BAE Wubbytubz",
+        "BAE SeleneSalami"
+      ],
+      "weeks": {
+        "5": 17
+      }
+    },
+    {
+      "name": "Ludicrous Display",
+      "roster": [
+        "Skyzen",
+        "Aeros",
+        "Sisyphus"
+      ],
+      "weeks": {
+        "5": 9
+      }
+    },
+    {
+      "name": "Tryptamine Junkies",
+      "roster": [
+        "Trebel360",
+        "Rubix",
+        "DivinePsilocybin"
+      ],
+      "weeks": {
+        "5": 33
+      }
+    },
+    {
+      "name": "ohlarac aob",
+      "roster": [
+        "Firefox",
+        "Freedom",
+        "theKillah!"
+      ],
+      "weeks": {
+        "5": 9,
+        "8": 17,
+        "9": 9,
+        "10": 5
+      }
+    },
+    {
+      "name": "The Gassy Mexicans",
+      "roster": [
+        "Phantasmal",
+        "Dist0rTioN",
+        "GeamGe"
+      ],
+      "weeks": {
+        "5": 17
+      }
+    },
+    {
+      "name": "TeamSavage",
+      "roster": [
+        "Crivv sV",
+        "Dominic sV",
+        "[GetKrunkT] Explosivcorn sV",
+        "Mory Mango"
+      ],
+      "weeks": {
+        "5": 9,
+        "8": 17
+      }
+    },
+    {
+      "name": "AIR PLS",
+      "roster": [
+        "Vafele",
+        "AirRejectz-",
+        "PreM"
+      ],
+      "weeks": {
+        "6": 17,
+        "12": 5
+      }
+    },
+    {
+      "name": "Shots Fired",
+      "roster": [
+        "Aeros",
+        "TheGazel",
+        "Mykoo"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "Prevale",
+      "roster": [
+        "kyletrolol0",
+        "SpikoPlays",
+        "oZxffy"
+      ],
+      "weeks": {
+        "6": 33
+      }
+    },
+    {
+      "name": "Shift Kickers",
+      "roster": [
+        "devildog_237",
+        "ImJustBuck",
+        "HammerPinger",
+        "SnizosaurusRex23",
+        "ChrisTheOKCFan35"
+      ],
+      "weeks": {
+        "6": 9,
+        "7": 17,
+        "8": 5
+      }
+    },
+    {
+      "name": "Mystery eSports",
+      "roster": [
+        "Mystery | FORfallenTROOPS.tv",
+        "Mystery | OatmealRL.tv",
+        "Mystery | Complex"
+      ],
+      "weeks": {
+        "6": 5,
+        "7": 3
+      }
+    },
+    {
+      "name": "Blame Dark",
+      "roster": [
+        "Arraussi",
+        "Dark Demise",
+        "Tyme",
+        "Saint",
+        "Nc! Emptiness"
+      ],
+      "weeks": {
+        "6": 17,
+        "11": 17
+      }
+    },
+    {
+      "name": "Three Musketeers",
+      "roster": [
+        "Grant>>>Live@TheRealR3zM",
+        "Happy",
+        "Gumpy",
+        "Happy"
+      ],
+      "weeks": {
+        "6": 5
+      }
+    },
+    {
+      "name": "Im6ued",
+      "roster": [
+        "PrimeThunder",
+        "Karma",
+        "APE"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "uzzy",
+      "roster": [
+        "Impaler426",
+        "Stunsity",
+        "MiTheBeast"
+      ],
+      "weeks": {
+        "6": 33
+      }
+    },
+    {
+      "name": "Revival",
+      "roster": [
+        "Genocop",
+        "Chrome",
+        "HWS"
+      ],
+      "weeks": {
+        "6": 17,
+        "14": 1
+      }
+    },
+    {
+      "name": "Projeto Rocketeer",
+      "roster": [
+        "DarkMirroR",
+        "giroba",
+        "Alexandre_Junior",
+        "Rotiv Sinid"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "Red Lotus",
+      "roster": [
+        "gibsorya",
+        "Taylor Swift",
+        "Troy"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "Exodus",
+      "roster": [
+        "Moses",
+        "Garrett G",
+        "Turtle"
+      ],
+      "weeks": {
+        "6": 1
+      }
+    },
+    {
+      "name": "Team Last Minute",
+      "roster": [
+        "JO3_YOUN9",
+        "Robo",
+        "Rocketpower"
+      ],
+      "weeks": {
+        "6": 9
+      }
+    },
+    {
+      "name": "Jzeus eSports",
+      "roster": [
+        "Jzs | Posh Croc",
+        "Jzs | Kesler",
+        "Jzs | Connor"
+      ],
+      "weeks": {
+        "6": 5,
+        "8": 17
+      }
+    },
+    {
+      "name": "Team Wild",
+      "roster": [
+        "Outsid3_Shoot3r",
+        "KillWill72",
+        "G1oryManU402",
+        "Scooby_Dube22"
+      ],
+      "weeks": {
+        "6": 33,
+        "7": 17
+      }
+    },
+    {
+      "name": "Boost > Ball",
+      "roster": [
+        "Skinner",
+        "SMGschwind",
+        "Araussi"
+      ],
+      "weeks": {
+        "6": 4
+      }
+    },
+    {
+      "name": "Boost Buds",
+      "roster": [
+        "Liefx",
+        "chucknorrispwns",
+        "Lawler"
+      ],
+      "weeks": {
+        "6": 9
+      }
+    },
+    {
+      "name": "The Rocket Pod",
+      "roster": [
+        "Nagz",
+        "MixonDixon",
+        "Senor Flippy Floppy"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "Team Super Saiyan",
+      "roster": [
+        "2Vac Shakur",
+        "Zytox",
+        "TeamVieze013"
+      ],
+      "weeks": {
+        "6": 33
+      }
+    },
+    {
+      "name": "The Warriors of Rocket League",
+      "roster": [
+        "|TWR| Bruno_Neves\u2122",
+        "|TWR| Ranger Azul",
+        "|TWR| KODAA",
+        "|TWR| GuriSapeka_",
+        "TwR| Jvlb ;)",
+        "TwR| Ranger Vermelho",
+        "TwR| Knust",
+        "|TWR| Kaatiaau",
+        "TwR| Subzero",
+        "TwR | Lyphir"
+      ],
+      "weeks": {
+        "6": 33,
+        "9": 17,
+        "10": 33,
+        "11": 33,
+        "13": 17
+      }
+    },
+    {
+      "name": "Event horizon",
+      "roster": [
+        "Walitelo",
+        "Rkamari",
+        "Pro"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "We Hoop It In Purrfectly",
+      "roster": [
+        "Walden",
+        "ericbordago",
+        "Ace Ablaze"
+      ],
+      "weeks": {
+        "6": 17
+      }
+    },
+    {
+      "name": "Firebrand eSports Blaze",
+      "roster": [
+        "Decibel",
+        "Chaotyk",
+        "Billyscape",
+        "Makro",
+        "SigmaBlack"
+      ],
+      "weeks": {
+        "6": 17,
+        "8": 9,
+        "11": 9
+      }
+    },
+    {
+      "name": "Wings",
+      "roster": [
+        "R\u00e9pi",
+        "Ninja23509",
+        "Diplex",
+        "Liberato"
+      ],
+      "weeks": {
+        "6": 17,
+        "10": 9,
+        "11": 33,
+        "12": 33
+      }
+    },
+    {
+      "name": "Argentinos por el mundo",
+      "roster": [
+        "juanchop10",
+        "acho",
+        "ivantito18",
+        "gambetita latorre"
+      ],
+      "weeks": {
+        "7": 9,
+        "8": 17
+      }
+    },
+    {
+      "name": "Team Team",
+      "roster": [
+        "Baked Potato King",
+        "Aphrodite",
+        "Amythir"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "The Neon Dragons",
+      "roster": [
+        "|TND| Phantasmal",
+        "|TND| Di$t0rTioN",
+        "|TND| PleaseStandBy"
+      ],
+      "weeks": {
+        "7": 9
+      }
+    },
+    {
+      "name": "Boost Brothers",
+      "roster": [
+        "Munarb",
+        "Stev",
+        "Kovanel"
+      ],
+      "weeks": {
+        "7": 5
+      }
+    },
+    {
+      "name": "Amexino",
+      "roster": [
+        "NoMayo",
+        "OneKickDude",
+        "Versatility",
+        "Ar7ic",
+        "Panda"
+      ],
+      "weeks": {
+        "7": 17,
+        "8": 17
+      }
+    },
+    {
+      "name": "The Trap Squad",
+      "roster": [
+        "Jamestomek57",
+        "Marq_10",
+        "Killergrip",
+        "Thomus1216"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "WE DEM NOOBS",
+      "roster": [
+        "FROOOSS",
+        "CRAZY_BOOOY_F-15",
+        "iAL_TAWEEL17"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "Who's Your Doctor",
+      "roster": [
+        "[KOS] Reaper",
+        "D a n k P l a n k",
+        "C H R O N I C J O H N N Y"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "#feelsbackflip",
+      "roster": [
+        "AceGraham",
+        "CharlieFoxtrot",
+        "Greenzoid2"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "Off the Crossbar",
+      "roster": [
+        "Matthu23",
+        "Joyner413",
+        "Pur3sight",
+        "Oh_cha_yo",
+        "xCorp_90x"
+      ],
+      "weeks": {
+        "7": 17,
+        "9": 9
+      }
+    },
+    {
+      "name": "Squid Squad",
+      "roster": [
+        "Gilthanes",
+        "squid",
+        "Noobru"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "Bang Bang",
+      "roster": [
+        "2B | Forsaken [YT]",
+        "2B | Spicy",
+        "2B | Pooge"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "Discipline",
+      "roster": [
+        "Liquid",
+        "Zolhay",
+        "Filberto",
+        "xZEROAMAZE"
+      ],
+      "weeks": {
+        "7": 33,
+        "11": 4
+      }
+    },
+    {
+      "name": "Velocity",
+      "roster": [
+        "Hedgy870",
+        "Barter99",
+        "Lildwolf44"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "aMERCica",
+      "roster": [
+        "SumLol",
+        "TreakingFypo",
+        "Jaegar"
+      ],
+      "weeks": {
+        "7": 9
+      }
+    },
+    {
+      "name": "Invictos",
+      "roster": [
+        "[IVT] JoelRC14",
+        "[IVT] DRMS",
+        "[IVT] Kcin_Legend",
+        "[IVT] Big Nana",
+        "[IVT] BEAST"
+      ],
+      "weeks": {
+        "7": 33,
+        "9": 17,
+        "10": 17,
+        "11": 33,
+        "12": 17,
+        "13": 17,
+        "14": 9
+      }
+    },
+    {
+      "name": "So Close",
+      "roster": [
+        "NickoLDM",
+        "Pulga Nob",
+        "RC | Makf",
+        "MAKEOVER"
+      ],
+      "weeks": {
+        "7": 9,
+        "10": 33,
+        "11": 17,
+        "14": 17
+      }
+    },
+    {
+      "name": "XPLODE",
+      "roster": [
+        "[XPD] Moustache",
+        "[XPD] Blackalbino",
+        "[XPD] Zebra"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "Defex",
+      "roster": [
+        "Matt4ttacks",
+        "cantbmad",
+        "baynoc"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "SpawnKilled",
+      "roster": [
+        "Pizzle",
+        "Doughnut King",
+        "molokoa"
+      ],
+      "weeks": {
+        "7": 4,
+        "9": 17
+      }
+    },
+    {
+      "name": "Retrograde",
+      "roster": [
+        "Krouch",
+        "TheClasse",
+        "Kelso",
+        "Dunksley",
+        "heshfromtexas",
+        "Icicicle"
+      ],
+      "weeks": {
+        "7": 17,
+        "14": 9
+      }
+    },
+    {
+      "name": "Coppertones",
+      "roster": [
+        "moverperfect",
+        "BKDizzle",
+        "El Mucho Ding Dong"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "Shmozo",
+      "roster": [
+        "PRL | Nick",
+        "Proxying",
+        "Xwaffle"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "Brasil Elite",
+      "roster": [
+        "_joalzz_",
+        "miojomal",
+        "SrAlpha"
+      ],
+      "weeks": {
+        "7": 33
+      }
+    },
+    {
+      "name": "SideStep",
+      "roster": [
+        "SideStep WiZarD",
+        "Expozzia",
+        "SideStep Duzx",
+        "SideStep W!SH"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "The Tilted Kilts",
+      "roster": [
+        "TTK Conceal",
+        "TTK FLip",
+        "TTK Steel"
+      ],
+      "weeks": {
+        "7": 17
+      }
+    },
+    {
+      "name": "Under Pressure",
+      "roster": [
+        "ColdAsIce",
+        "Phaxxy",
+        "ENIGMA_PLEASE"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "Rocket Rats",
+      "roster": [
+        "::::)",
+        "CoreyDare",
+        "Bird"
+      ],
+      "weeks": {
+        "8": 4
+      }
+    },
+    {
+      "name": "Bloodlust E- Sports",
+      "roster": [
+        "Haberkamper",
+        "oDias_",
+        "ZanWeder",
+        "DuduBrHue"
+      ],
+      "weeks": {
+        "8": 17,
+        "14": 17
+      }
+    },
+    {
+      "name": "S U P R E M E",
+      "roster": [
+        "Skrrt",
+        "IzzyTheGreat",
+        "Bootles"
+      ],
+      "weeks": {
+        "8": 33
+      }
+    },
+    {
+      "name": "NAS",
+      "roster": [
+        "tankrgh",
+        "Presty1",
+        "Supes"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "SEO Moves",
+      "roster": [
+        "DESGADELHADO",
+        "heade",
+        "irpho"
+      ],
+      "weeks": {
+        "8": 3
+      }
+    },
+    {
+      "name": "Sparkz",
+      "roster": [
+        "[SPZ] Gooseman245",
+        "[SPZ] SwayedCandy",
+        "[SPZ] Rhipstr"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "Poach Lives Matter",
+      "roster": [
+        "FTBALLisFUN",
+        "IKillGiants24",
+        "Blue_Rooster_"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "TFC",
+      "roster": [
+        "Javuh",
+        "JadedLeaf",
+        "Slim Shadey",
+        "Javuh"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "GFA e-Sports NA",
+      "roster": [
+        "GFA-Skibs",
+        "TheLastNinjaCow",
+        "GFA-Recall",
+        "GFA-Yodah",
+        "Monarch"
+      ],
+      "weeks": {
+        "8": 33
+      }
+    },
+    {
+      "name": "Boost > Ball",
+      "roster": [
+        "SMGschwind",
+        "Wampominater",
+        "Timmyk"
+      ],
+      "weeks": {
+        "8": 5,
+        "9": 2
+      }
+    },
+    {
+      "name": "not team rocket",
+      "roster": [
+        "CHEEKYlad",
+        "mattyHs",
+        "Kogeth"
+      ],
+      "weeks": {
+        "8": 9
+      }
+    },
+    {
+      "name": "Leviathans of Rocket Drifting",
+      "roster": [
+        "LoRD Sylanthus",
+        "LoRD mokio",
+        "LoRD HoraryHellfire",
+        "Jlorenzi5"
+      ],
+      "weeks": {
+        "8": 9,
+        "9": 17,
+        "10": 17,
+        "11": 9,
+        "12": 9,
+        "13": 33
+      }
+    },
+    {
+      "name": "QWERTYUIOPASDFGHJKLZXCVBNM",
+      "roster": [
+        "Raze",
+        "Red",
+        "The Googler"
+      ],
+      "weeks": {
+        "8": 5
+      }
+    },
+    {
+      "name": "i don't know",
+      "roster": [
+        "Knack",
+        "Shawckz",
+        "maconex"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "Insurgents eSports",
+      "roster": [
+        "twitch.tv/king_of_walruses",
+        "twitch.tv/bpls",
+        "k1llltacular"
+      ],
+      "weeks": {
+        "8": 17
+      }
+    },
+    {
+      "name": "The Neon Dragons",
+      "roster": [
+        "|TND| Glitch",
+        "|TND| Karios",
+        "|TND| Ruin"
+      ],
+      "weeks": {
+        "8": 9
+      }
+    },
+    {
+      "name": "Identity Crisis",
+      "roster": [
+        "IC | Sona",
+        "IC | E_M_E_T",
+        "IC | BIOS"
+      ],
+      "weeks": {
+        "9": 5,
+        "12": 17
+      }
+    },
+    {
+      "name": "Firebrand Esports NA (B)",
+      "roster": [
+        "Saltie LFT",
+        "Fir3 | Billyscape",
+        "Fir3 | AcrewOfMidgets",
+        "Biddles",
+        "HiroLord"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "Singularity",
+      "roster": [
+        "FreelyNoodles",
+        "IceKingBob",
+        "Justice Robo",
+        "Wolfeeyyy"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "Delco",
+      "roster": [
+        "Sharkiesha",
+        "Ta'naeshia Kewlaide",
+        "Watermalon Drea"
+      ],
+      "weeks": {
+        "9": 17
+      }
+    },
+    {
+      "name": "Breakfast At 9",
+      "roster": [
+        "Outsid3_Shoot3r",
+        "Achlys15",
+        "Silver_Saviior"
+      ],
+      "weeks": {
+        "9": 17,
+        "10": 17,
+        "13": 33,
+        "14": 9
+      }
+    },
+    {
+      "name": "Lemonade For Turtles",
+      "roster": [
+        "Squishy Muffinz",
+        "Epicjonny",
+        "Skyzz"
+      ],
+      "weeks": {
+        "9": 1
+      }
+    },
+    {
+      "name": "Sky & Beyond",
+      "roster": [
+        "GalactixJR",
+        "tmandoeswork",
+        "EpicSeanDC"
+      ],
+      "weeks": {
+        "9": 17
+      }
+    },
+    {
+      "name": "Synergized",
+      "roster": [
+        "Schmaltz92",
+        "cinamon22",
+        "cinamon22",
+        "beezycareezy",
+        "Mark__Jones"
+      ],
+      "weeks": {
+        "9": 17,
+        "12": 33
+      }
+    },
+    {
+      "name": "Team Expozzia",
+      "roster": [
+        "Headwad",
+        "Expozzia",
+        "DudeWithTheNose"
+      ],
+      "weeks": {
+        "9": 9
+      }
+    },
+    {
+      "name": "Last Minute Team",
+      "roster": [
+        "gumpy",
+        "Intercept",
+        "jorolelin"
+      ],
+      "weeks": {
+        "9": 4
+      }
+    },
+    {
+      "name": "Nostalgia",
+      "roster": [
+        "british_xtc",
+        "trackerpro1",
+        "pWnyrface777"
+      ],
+      "weeks": {
+        "9": 17,
+        "13": 33
+      }
+    },
+    {
+      "name": "Hot Sauce",
+      "roster": [
+        "HeFty",
+        "ENIGMA_PLEASE",
+        "Fatality",
+        "Knuggs",
+        "Kazoo"
+      ],
+      "weeks": {
+        "9": 5,
+        "10": 17,
+        "11": 33,
+        "12": 3,
+        "14": 5
+      }
+    },
+    {
+      "name": "TBD",
+      "roster": [
+        "killerican",
+        "Choxic",
+        "Baynoc"
+      ],
+      "weeks": {
+        "9": 9
+      }
+    },
+    {
+      "name": "Horizon Rocket League",
+      "roster": [
+        "kingFritto",
+        "The_Franchise760",
+        "the_a_rab_bomber",
+        "the_a_rab_gunner"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "Finger Puppet Mafia",
+      "roster": [
+        "KingWizard",
+        "Scaper",
+        "Grouchy"
+      ],
+      "weeks": {
+        "9": 3
+      }
+    },
+    {
+      "name": "The Weekend Warriors",
+      "roster": [
+        "Rhino",
+        "FarazH7",
+        "BroFather",
+        "j0SH"
+      ],
+      "weeks": {
+        "9": 5
+      }
+    },
+    {
+      "name": "Firebrand eSports NA",
+      "roster": [
+        "Decibel",
+        "Chaotyk",
+        "Lazarus",
+        "Makro",
+        "SigmaBlack"
+      ],
+      "weeks": {
+        "9": 17,
+        "10": 17
+      }
+    },
+    {
+      "name": "Fatality",
+      "roster": [
+        "SwaggFTL",
+        "YettieFTL",
+        "UncannyFTL",
+        "UncannyFTL"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "Sympathy eSports",
+      "roster": [
+        "Symp | Catalyst",
+        "Symp | Doughnut",
+        "Symp | Kesler",
+        "Symp | Rayden",
+        "Symp | Connor"
+      ],
+      "weeks": {
+        "9": 9,
+        "10": 33
+      }
+    },
+    {
+      "name": "Three Muffketeers",
+      "roster": [
+        "Sgtgillesderais",
+        "Ekar21",
+        "Smitty-Licious"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "DId you not have boost?",
+      "roster": [
+        "{SyN}Valkier",
+        "RyanL",
+        "{SyN}Fablevil",
+        "Grenaid",
+        "Bandicoot"
+      ],
+      "weeks": {
+        "9": 17,
+        "14": 17
+      }
+    },
+    {
+      "name": "Squid Squad",
+      "roster": [
+        "imaninja9977",
+        "roswell_a51",
+        "theWILEYcayote0",
+        "Guitar_Slayer",
+        "FoS_R3COv3ry"
+      ],
+      "weeks": {
+        "9": 33
+      }
+    },
+    {
+      "name": "Free Ballerz",
+      "roster": [
+        "Imp",
+        "Toe the Goat",
+        "theLiNtY"
+      ],
+      "weeks": {
+        "9": 17
+      }
+    },
+    {
+      "name": "Team Cyprus",
+      "roster": [
+        "BlackEyePlayz",
+        "panosnearchou",
+        "Mastros007"
+      ],
+      "weeks": {
+        "9": 17
+      }
+    },
+    {
+      "name": "A Spoon and some utensils",
+      "roster": [
+        "WiZarD",
+        "felixgg123",
+        "Expozzia",
+        "s3b"
+      ],
+      "weeks": {
+        "10": 9
+      }
+    },
+    {
+      "name": "Superposition",
+      "roster": [
+        "Klexic",
+        "Nomad",
+        "Pepper"
+      ],
+      "weeks": {
+        "10": 4,
+        "11": 9,
+        "12": 33,
+        "13": 9
+      }
+    },
+    {
+      "name": "Backflips Anonymous",
+      "roster": [
+        "D-rekt",
+        "chatt324",
+        "Mohulis"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Velocity",
+      "roster": [
+        "Antheboss23",
+        "shidoniplays",
+        "Zach535",
+        "AllInNoRubber",
+        "ChippyParticle"
+      ],
+      "weeks": {
+        "10": 33,
+        "11": 17
+      }
+    },
+    {
+      "name": "Hail FC",
+      "roster": [
+        "king-azoz-11188",
+        "ali-666ss",
+        "arabian--sparta"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Firebrand eSports Inferno",
+      "roster": [
+        "billyscape",
+        "Jarrrrl",
+        "September",
+        "MrChaotyk"
+      ],
+      "weeks": {
+        "10": 17
+      }
+    },
+    {
+      "name": "ZeN",
+      "roster": [
+        "Kai Micah Mills",
+        "Rocife",
+        "Swoops"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Funky Gorrillaz",
+      "roster": [
+        "Yoda100400",
+        "Pizzadude206",
+        "Rguo",
+        "Yoda100400"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "VAPE",
+      "roster": [
+        "KODAK",
+        "yungtangl0rd",
+        "BRESVI"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "TheBattleBeer",
+      "roster": [
+        "TBB | Kugi",
+        "TBB | RubiiksHD",
+        "TBB | #Mooose",
+        "TBB | Kazeq"
+      ],
+      "weeks": {
+        "10": 17
+      }
+    },
+    {
+      "name": "Vendetta",
+      "roster": [
+        "Torment",
+        "Lethamyr",
+        "SquishyMuffinz"
+      ],
+      "weeks": {
+        "10": 1,
+        "11": 5,
+        "12": 2
+      }
+    },
+    {
+      "name": "Okay.",
+      "roster": [
+        "Onion",
+        "Charter",
+        "Mawile"
+      ],
+      "weeks": {
+        "10": 17
+      }
+    },
+    {
+      "name": "0 Facts Given",
+      "roster": [
+        "Jacobgw45",
+        "Mr_fureee",
+        "Chicago"
+      ],
+      "weeks": {
+        "10": 9
+      }
+    },
+    {
+      "name": "Team Lag Triangle [NAE]",
+      "roster": [
+        "trebel360",
+        "jives13",
+        "blastifize"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Empyreal eSports",
+      "roster": [
+        "Phat Man",
+        "Calik",
+        "Rocket van Persie"
+      ],
+      "weeks": {
+        "10": 3,
+        "11": 5,
+        "12": 17,
+        "13": 9
+      }
+    },
+    {
+      "name": "One Round and Down",
+      "roster": [
+        "SarcasticMind",
+        "Mitch-Rass",
+        "NickKnack15"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "No Hands Gaming",
+      "roster": [
+        "NoH | mynameis1496",
+        "NoH | Ghent",
+        "NoH | Checopster",
+        "NoH | Roylan"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "All Boys School",
+      "roster": [
+        "MeatMarkets",
+        "Chelios22",
+        "ChoppingLemons"
+      ],
+      "weeks": {
+        "10": 17
+      }
+    },
+    {
+      "name": "Taco geek rule",
+      "roster": [
+        "Sir Kitboard",
+        "Derka",
+        "enestor27",
+        "M3alem"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Deception",
+      "roster": [
+        "Bell",
+        "Fireworks",
+        "Vince",
+        "CorruptedG"
+      ],
+      "weeks": {
+        "10": 2,
+        "14": 3
+      }
+    },
+    {
+      "name": "October Sky",
+      "roster": [
+        "MythicPinkMist",
+        "DietBroccoli",
+        "mdico91",
+        "SwimsWithTurtles"
+      ],
+      "weeks": {
+        "10": 17,
+        "12": 33,
+        "14": 33
+      }
+    },
+    {
+      "name": "Rocketo PAAAANCH!",
+      "roster": [
+        "TheArsenal1414",
+        "DeviousBoy8",
+        "vicdamoun_10",
+        "AlkaSulz5",
+        "SanguineAssasin7",
+        "Herp-Uhh-Derp",
+        "Killzonerare",
+        "TheLastAvenger5",
+        "BIGWHEEL",
+        "Hydro-_-Ponic"
+      ],
+      "weeks": {
+        "10": 33,
+        "11": 17,
+        "12": 33,
+        "13": 33,
+        "14": 33
+      }
+    },
+    {
+      "name": "Cosmic Unicorn",
+      "roster": [
+        "Moltapor",
+        "Urbegon",
+        "Armagedon123123",
+        "Dark_asterix",
+        "xxraligunxx"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "MoDz",
+      "roster": [
+        "StratoGeorge",
+        "chano",
+        "IkerRmz"
+      ],
+      "weeks": {
+        "10": 33,
+        "11": 33
+      }
+    },
+    {
+      "name": "Definitely NOT iBuyPower Cosmic",
+      "roster": [
+        "Jayb1234_",
+        "Jayson_G12",
+        "Tysmooth3"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Winkeys Out for Monkey Man",
+      "roster": [
+        "Oshnataur",
+        "MyrC Stabbers",
+        "Dismembers",
+        "Colt"
+      ],
+      "weeks": {
+        "10": 9,
+        "11": 9
+      }
+    },
+    {
+      "name": "Flaming Meatballs",
+      "roster": [
+        "AlexC",
+        "Yung Walrus [Lf Inner Peace]",
+        "Gotta Go...Fast"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Calculated",
+      "roster": [
+        "StarcraftAlaska",
+        "RobertLovesGames",
+        "Thehate"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "The Weekend Warriors",
+      "roster": [
+        "j0SHw",
+        "SlimSchadey",
+        "Science Museum"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Classic Stanley",
+      "roster": [
+        "King Wizard",
+        "byrdman",
+        "sir timbers"
+      ],
+      "weeks": {
+        "10": 5,
+        "12": 5,
+        "14": 3
+      }
+    },
+    {
+      "name": "The Calculators",
+      "roster": [
+        "Sp4rkz_Will_Fly",
+        "darknight56783",
+        "konaintayab",
+        "hasthebants",
+        "JJLudwig"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Advancing Challenges",
+      "roster": [
+        "Haseo",
+        "Szaro",
+        "MANG0",
+        "mmossmann"
+      ],
+      "weeks": {
+        "10": 9,
+        "11": 17
+      }
+    },
+    {
+      "name": "Stuck in Challenger",
+      "roster": [
+        "jtskinz",
+        "Fafnir",
+        "Skrrt",
+        "Kyle"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Mythic",
+      "roster": [
+        "Ohcoolstorybruh",
+        "Sigma",
+        "Cheiffa",
+        "toohn45"
+      ],
+      "weeks": {
+        "10": 33,
+        "11": 17,
+        "12": 9
+      }
+    },
+    {
+      "name": "Uh Oh, Here We Go!",
+      "roster": [
+        "Bruce_2k11",
+        "InvaderZed",
+        "gibmireinfas"
+      ],
+      "weeks": {
+        "10": 33
+      }
+    },
+    {
+      "name": "Inertia",
+      "roster": [
+        "Kerupt",
+        "Zednine",
+        "weedwizard"
+      ],
+      "weeks": {
+        "11": 2,
+        "12": 17
+      }
+    },
+    {
+      "name": "Novelty Prize",
+      "roster": [
+        "IKILLYOU!!!",
+        "Aaron",
+        "eskimoje4sus"
+      ],
+      "weeks": {
+        "11": 33
+      }
+    },
+    {
+      "name": "I'm not good with creativity [NAE]",
+      "roster": [
+        "neocow",
+        "8Poosniffer9",
+        "Tallgeese87"
+      ],
+      "weeks": {
+        "11": 17,
+        "12": 33
+      }
+    },
+    {
+      "name": "Nefarious",
+      "roster": [
+        "Ptownicus",
+        "Darby",
+        "A Ficus Plant"
+      ],
+      "weeks": {
+        "11": 17
+      }
+    },
+    {
+      "name": "Watch My Screen",
+      "roster": [
+        "Ghost",
+        "Tyler15263",
+        "jeffsays"
+      ],
+      "weeks": {
+        "11": 33
+      }
+    },
+    {
+      "name": "Finger Suckers",
+      "roster": [
+        "pringlicious",
+        "Gooseman",
+        "Infamouse"
+      ],
+      "weeks": {
+        "11": 9
+      }
+    },
+    {
+      "name": "Legendary Style",
+      "roster": [
+        "LGS I Fubuki",
+        "LGS I GustoBr",
+        "LGS I Flasheeyy"
+      ],
+      "weeks": {
+        "11": 33
+      }
+    },
+    {
+      "name": "NoX.LD",
+      "roster": [
+        "SaladKing | NOX.LD",
+        "Lancek1ng | NOX.LD",
+        "CAIOTG1 | NOX.LD",
+        "frotA | NOX.LD"
+      ],
+      "weeks": {
+        "11": 9,
+        "12": 9
+      }
+    },
+    {
+      "name": "Oblivion Blade",
+      "roster": [
+        "Andomals",
+        "Blaka",
+        "General Disarray",
+        "Chipwreck"
+      ],
+      "weeks": {
+        "11": 17
+      }
+    },
+    {
+      "name": "Sympathy eSports",
+      "roster": [
+        "CheeseTrap",
+        "Shammy",
+        "* Catalyst`",
+        "Symp | Rayden769",
+        "Jakarr Sampson",
+        "Doughnut King",
+        "Symp | Kesler"
+      ],
+      "weeks": {
+        "11": 17
+      }
+    },
+    {
+      "name": "Dark Matter",
+      "roster": [
+        "DudeWithTheNose",
+        "DM | BB",
+        "DM | Bird"
+      ],
+      "weeks": {
+        "11": 17,
+        "12": 9
+      }
+    },
+    {
+      "name": "Bums of Beckwith Park",
+      "roster": [
+        "Satthew",
+        "Sub'n",
+        "sQuillis"
+      ],
+      "weeks": {
+        "11": 3,
+        "12": 5
+      }
+    },
+    {
+      "name": "I'd Leave Too",
+      "roster": [
+        "JO3_YOUN9",
+        "Bagz",
+        "Science Museum"
+      ],
+      "weeks": {
+        "11": 17
+      }
+    },
+    {
+      "name": "TeamSavage",
+      "roster": [
+        "AreYMad",
+        "ZenNh",
+        "Da Buddha B"
+      ],
+      "weeks": {
+        "11": 17
+      }
+    },
+    {
+      "name": "Victorious Secret",
+      "roster": [
+        "Saltie LFT",
+        "Dynamo",
+        "marz"
+      ],
+      "weeks": {
+        "11": 33
+      }
+    },
+    {
+      "name": "Muted",
+      "roster": [
+        "Corn Bread",
+        "Muted | UM4R3X",
+        "Bond_Brother",
+        "VonJiggles",
+        "jiffyjake"
+      ],
+      "weeks": {
+        "12": 17
+      }
+    },
+    {
+      "name": "Lief, Tyrus Up Sexay",
+      "roster": [
+        "GrandMaster Sexay",
+        "Liefx",
+        "Tyrus"
+      ],
+      "weeks": {
+        "12": 17
+      }
+    },
+    {
+      "name": "Beyond Incorperation",
+      "roster": [
+        "[BIC]MA",
+        "[BIC]OomerShadow",
+        "[BIC]reineifersucht"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "ARA",
+      "roster": [
+        "Alex",
+        "Austra",
+        "Reblotic"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "HYPE Gaming",
+      "roster": [
+        "Javi Sweatpants",
+        "GetsomeUAL",
+        "Munchkinator"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "Mexican Space Program",
+      "roster": [
+        "Dragonslayer955",
+        "Chillers",
+        "Flying Squirrel"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "Goal Security",
+      "roster": [
+        "El Snootchador",
+        "Jordan of the Jungle",
+        "Oshnatour"
+      ],
+      "weeks": {
+        "12": 17
+      }
+    },
+    {
+      "name": "No Thanks",
+      "roster": [
+        "Edge",
+        "Thundah",
+        "Rilo",
+        "knives"
+      ],
+      "weeks": {
+        "12": 17,
+        "13": 33,
+        "14": 33
+      }
+    },
+    {
+      "name": "Hey guys",
+      "roster": [
+        "Values",
+        "Squishy",
+        "Kevpert",
+        "Drakerake"
+      ],
+      "weeks": {
+        "12": 17,
+        "13": 17
+      }
+    },
+    {
+      "name": "Defiants",
+      "roster": [
+        "javi2489",
+        "MrYisus92",
+        "theadrian1033"
+      ],
+      "weeks": {
+        "12": 33,
+        "13": 33
+      }
+    },
+    {
+      "name": "2 Be Determined",
+      "roster": [
+        "RAWGREGHxC",
+        "mysterydude12",
+        "eirenman28"
+      ],
+      "weeks": {
+        "12": 17
+      }
+    },
+    {
+      "name": "Prime Example",
+      "roster": [
+        "HitTheJim",
+        "Justice",
+        "Dom"
+      ],
+      "weeks": {
+        "12": 17,
+        "14": 5
+      }
+    },
+    {
+      "name": "The Machos",
+      "roster": [
+        "maycon",
+        "joaocisquim",
+        "Guar\u00e1 Vita"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "GAF",
+      "roster": [
+        "Stiff",
+        "Kevo",
+        "Goalie"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "Galleon",
+      "roster": [
+        "Primethunder",
+        "Eveh",
+        "Skyzz"
+      ],
+      "weeks": {
+        "12": 5
+      }
+    },
+    {
+      "name": "Whiffs n' Waffles",
+      "roster": [
+        "Jordraino",
+        "Mrs. Buttrworthh",
+        "Demy the Demolitionist"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "Pink Panthers",
+      "roster": [
+        "plague",
+        "Carsillas",
+        "malakiss",
+        "Tres Comas"
+      ],
+      "weeks": {
+        "12": 9,
+        "13": 9
+      }
+    },
+    {
+      "name": "Delirium",
+      "roster": [
+        "Sisco",
+        "JO3_YOUN9",
+        "maconex"
+      ],
+      "weeks": {
+        "12": 9
+      }
+    },
+    {
+      "name": "Voltage",
+      "roster": [
+        "Netflix?",
+        "Saltie",
+        "Marz"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "One Shot",
+      "roster": [
+        "Aj16",
+        "skibs",
+        "|OS| elyodah",
+        "|OS| Onyx"
+      ],
+      "weeks": {
+        "12": 33
+      }
+    },
+    {
+      "name": "Angry Nuggets",
+      "roster": [
+        "Null",
+        "Classic",
+        "bebeJ",
+        "bebeJ"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Reddit Randoms",
+      "roster": [
+        "Adwowzer",
+        "Firewire777",
+        "T3chnicianVC15",
+        "dustyk21",
+        "dustyk21"
+      ],
+      "weeks": {
+        "13": 17,
+        "14": 33
+      }
+    },
+    {
+      "name": "Seven Leagues eSports",
+      "roster": [
+        "itsnorth",
+        "Music",
+        "GoingHAM"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Sad Cats",
+      "roster": [
+        "SirJumpOnStuff",
+        "StiffWizard",
+        "Pizzle"
+      ],
+      "weeks": {
+        "13": 3
+      }
+    },
+    {
+      "name": "Weebs on Wheels",
+      "roster": [
+        "Homebad",
+        "Hato",
+        "Conundrum Effect"
+      ],
+      "weeks": {
+        "13": 2,
+        "14": 9
+      }
+    },
+    {
+      "name": "Get Schwifty",
+      "roster": [
+        "surelyitsriggs",
+        "sturg29",
+        "efchiefs",
+        "anfi3ld"
+      ],
+      "weeks": {
+        "13": 33
+      }
+    },
+    {
+      "name": "Frosbite",
+      "roster": [
+        "Octagon",
+        "Crown",
+        "Triangle",
+        "Cross"
+      ],
+      "weeks": {
+        "13": 33
+      }
+    },
+    {
+      "name": "Whiffs N' Waffles",
+      "roster": [
+        "Jordraino",
+        "Domino's Delivery Guy",
+        "Demy"
+      ],
+      "weeks": {
+        "13": 17,
+        "14": 33
+      }
+    },
+    {
+      "name": "Nemesis",
+      "roster": [
+        "Liente",
+        "Centri",
+        "Bluebrain",
+        "KJ"
+      ],
+      "weeks": {
+        "13": 5
+      }
+    },
+    {
+      "name": "\u272aHOTWIN",
+      "roster": [
+        "Zackshot",
+        "Jmill",
+        "LuckE",
+        "Sab34rz",
+        "CJBakerrr"
+      ],
+      "weeks": {
+        "13": 17,
+        "14": 33
+      }
+    },
+    {
+      "name": "BustaevoM",
+      "roster": [
+        "HohoMcAngles",
+        "alonzi401",
+        "Aroh11"
+      ],
+      "weeks": {
+        "13": 33
+      }
+    },
+    {
+      "name": "Angels34",
+      "roster": [
+        "Agura",
+        "GamerPlay_26_",
+        "Digo_14"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Recursive",
+      "roster": [
+        "Albino Peacock",
+        "FreshPrince7or8",
+        "Notorious Satchel"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Polaris",
+      "roster": [
+        "Yeezus",
+        "Redgrin Grumble",
+        "Floppy Donger",
+        "r3nn0c"
+      ],
+      "weeks": {
+        "13": 5,
+        "14": 17
+      }
+    },
+    {
+      "name": "Bumping Baboons",
+      "roster": [
+        "VikingKing17",
+        "Twice The Tang",
+        "Watupz"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "The Nice Guys",
+      "roster": [
+        "Johansenburg",
+        "Badb0yz143",
+        "rfdghhj"
+      ],
+      "weeks": {
+        "13": 33
+      }
+    },
+    {
+      "name": "dotline",
+      "roster": [
+        "new_snake7",
+        "CinnamonGravy",
+        "xl-Chef-lx"
+      ],
+      "weeks": {
+        "13": 9
+      }
+    },
+    {
+      "name": "Unknown",
+      "roster": [
+        "Sticker",
+        "Crispen",
+        "Preloa"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Boricuas plus one",
+      "roster": [
+        "laveron",
+        "zeroflux",
+        "xstream587"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "Valar  Morgoalis",
+      "roster": [
+        "dvdpoola",
+        "Skanky Leg",
+        "El Duderino"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "VeloxGG",
+      "roster": [
+        "VeloxGG | MD22",
+        "VeloxGG | The_Marshal",
+        "VeloxGG | Malecko [1 John 5:5]",
+        "VeloxGG | Maui"
+      ],
+      "weeks": {
+        "13": 5,
+        "14": 5
+      }
+    },
+    {
+      "name": "Rising Storm",
+      "roster": [
+        "PiNcH_sCoRpIo",
+        "PWNSAUCE",
+        "Velixas"
+      ],
+      "weeks": {
+        "13": 17
+      }
+    },
+    {
+      "name": "WHIFF CITY[NA]",
+      "roster": [
+        "levonpet123",
+        "LONEWOLF_7-7-7",
+        "jewwaffles",
+        "MJSon35",
+        "Hazordous_Red383"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Tune Squad",
+      "roster": [
+        "Broncobuster30",
+        "The Velour Fog",
+        "Jakarr Sampson"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Tree Fiddy",
+      "roster": [
+        "tahko14",
+        "DJPlasticCup",
+        "ac110597"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "NAS",
+      "roster": [
+        "NAS | Presty1",
+        "NAS | Impulse",
+        "Skytale"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "autobachs",
+      "roster": [
+        "lil bach",
+        "expozzia",
+        "classylfbach",
+        "Bubbabach"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Soggy Oreos",
+      "roster": [
+        "Czexmix",
+        "Professor Janks",
+        "Batman"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "Reflex",
+      "roster": [
+        "Absolute",
+        "DoctorDeSutter",
+        "Chicago"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "Gods of Fury",
+      "roster": [
+        "Dezfy",
+        "Arex",
+        "Kevin"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "K'nex",
+      "roster": [
+        "eag424",
+        "TNDxCENTRIC",
+        "CVX-Stoked"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "WPI Rocket League",
+      "roster": [
+        "Root Beer Ice Cubes",
+        "WhiteHawk",
+        "SneakySalmon",
+        "Smurf Wars",
+        "Seanogon"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Mondongo FC{EAST}",
+      "roster": [
+        "marcelodiaz",
+        "MrJhassen314",
+        "freddy07RM"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "Fusion Gaming",
+      "roster": [
+        "fG_Icicle",
+        "fG_Brohan",
+        "fG_Baydough"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "SkyLine",
+      "roster": [
+        "[CyS] Dab Master! #DominusGT",
+        "trndsttr masi",
+        "GeilerHelopter"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "EpicGimminz",
+      "roster": [
+        "Gimmick",
+        "SquishyMuffinz",
+        "EpicJonny",
+        "SquishyMuffinz"
+      ],
+      "weeks": {
+        "14": 5
+      }
+    },
+    {
+      "name": "The Dooperinos",
+      "roster": [
+        "Gaz",
+        "Plink",
+        "BigBird"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "Team OMNI",
+      "roster": [
+        "OMNI | Rito_Dorito",
+        "OMNI | Heist",
+        "OMNI | JSpaZ",
+        "OMNI | LilJonny11"
+      ],
+      "weeks": {
+        "14": 33
+      }
+    },
+    {
+      "name": "Nexus",
+      "roster": [
+        "Skibs010",
+        "Zoticus",
+        "EdgarGarcia9804"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Heroes of Tomorrow",
+      "roster": [
+        "Dukenator76",
+        "alecstorm8",
+        "Clowd",
+        "alaindodger",
+        "SpeedyWalrus"
+      ],
+      "weeks": {
+        "14": 9
+      }
+    },
+    {
+      "name": "The Meatmen",
+      "roster": [
+        "Jyoungdeer",
+        "Tannur",
+        "ZAgrizzgreen"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    },
+    {
+      "name": "Anti Armed Flying Mortal Penguins",
+      "roster": [
+        "Kesler",
+        "Connor",
+        "Nick",
+        "Catalyst`",
+        "Jakarr Simpson",
+        "FREEL0!!",
+        "Connnor"
+      ],
+      "weeks": {
+        "14": 9
+      }
+    },
+    {
+      "name": "[Your Ad Here]",
+      "roster": [
+        "Decibel",
+        "Heybg",
+        "awd > trading Skyblue bursts"
+      ],
+      "weeks": {
+        "14": 17
+      }
+    }
+  ]
+}

@@ -1,38 +1,41 @@
 ---
 layout: page
 title: History
-published: false
 ---
 
-<div class="container-fluid">
+<div class="container" style="padding-top: 20px;" ng-app="App">
+
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12" ng-controller="ResultsController">
+      <div class="panel panel-default">
 
-      <div class="panel panel-primary">
-        <!-- Default panel contents -->
-        <div class="panel-heading">
-          <b>Teams</b>
-        </div>
-
-        <!-- Table -->
-        <table class="table">
-          <tr>
-            <th>Name</th>
-            <th>Date</th>
+        <table class="table table-bordered table-hover">
+          <tr class="table-header bg-primary">
+            <th>Rank</th>
+            <th>Team</th>
+            <th ng-click="_sort('topFours')">Top Fours</th>
+            <th ng-click="_sort('firstCount')">First</th>
+            <th ng-click="_sort('secondCount')">Second</th>
+            <th ng-click="_sort('thirdCount')">Third</th>
+            <th ng-click="_sort('fourthCount')">Fourth</th>
+            <th ng-click="_sort('average')">Average</th>
+            <!-- <th data-ng-repeat="i in [] | range: numWeeks">Week {(i+1)}</th> -->
           </tr>
-          {% for team in site.data.tournaments %}
-          <tr>
-              <td>
-                <span> {{ team.name }} </span>
-              </td>
-              <td>
-                <span> {{ team.date | date: "%b %-d, %Y" }} </span>
-              </td>
+          <tr ng-repeat="team in filteredTeams">
+            <th>{($index+1)}</th>
+            <td>{(team.name)}</td>
+            <td>{(team.stats.topFours)}</td>
+            <td>{(team.stats.firstCount)}</td>
+            <td>{(team.stats.secondCount)}</td>
+            <td>{(team.stats.thirdCount)}</td>
+            <td>{(team.stats.fourthCount)}</td>
+            <td>{(team.stats.average)}</td>
+            <!-- <td data-ng-repeat="i in [] | range: numWeeks">{(team['weeks'][i+1])}</td> -->
           </tr>
-          {% endfor %}
         </table>
+        
       </div>
-
     </div>
   </div>
+
 </div>
