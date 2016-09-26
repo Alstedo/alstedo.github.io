@@ -46,6 +46,32 @@ var topFourCompare = function(a, b) {
   return value;
 }
 
+// var firstCompare = function(a, b) {
+//   var value = 0;
+//
+//   value = b['stats']['firstCount'] - a['stats']['firstCount'];
+//   if (value != 0)
+//     return value;
+//
+//   value = b['stats']['topFours'] - a['stats']['topFours'];
+//   if (value != 0)
+//     return value;
+//
+//   value = b['stats']['secondCount'] - a['stats']['secondCount'];
+//   if (value != 0)
+//     return value;
+//
+//   value = b['stats']['thirdCount'] - a['stats']['thirdCount'];
+//   if (value != 0)
+//     return value;
+//
+//   value = b['stats']['fourthCount'] - a['stats']['fourthCount'];
+//   if (value != 0)
+//     return value;
+//
+//   return value;
+// }
+
 var keyCompare = function(key) {
   return function(a, b) { return b['stats'][key] - a['stats'][key]; };
 }
@@ -70,6 +96,11 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
     filteredTeams = filteredTeams.slice(0, range);
     $scope.filteredTeams = filteredTeams;
   }
+
+  $http.get('../data/weights.json')
+    .then(function(response) {
+        $scope.weights = response.data;
+    });
 
   $http.get('../data/results.json')
     .then(function(response) {
@@ -119,9 +150,53 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
         $scope.numWeeks = results.numWeeks;
         $scope.numTeams = results.numTeams;
         $scope.teams = teams;
-        $scope._sort('topFours')
+        $scope._sort('topFours');
+        // var filteredTeams = teams;
+        // filteredTeams.sort(sort_by("stats.topFours"));
+        // filteredTeams = filteredTeams.slice(0, 32);
+        // $scope.filteredTeams = filteredTeams;
     });
 
+});
 
+
+// Define the `PostsController` controller on the `PostsApp` module
+App.controller('PostsController', function PostsController($scope, $http) {
+
+  $http.get('../data/posts.json')
+    .then(function(response) {
+        $scope.posts = response.data.posts;
+        console.log($scope.posts);
+
+        $scope.posts.sort(function(a, b) {
+          var aDate = new Date(a.date);
+          var bDate = new Date(b.date);
+          return aDate < bDate ? 1 : -1;
+        });
+        $scope.posts.map(function(value) {
+          var date = new Date(value.date);
+          value.prettyDate = date.toDateString();
+          return value;
+        });
+
+        var currentDate = new Date();
+        $scope.posts.map(function(value) {
+          var date = new Date(value.date);
+          value.open = currentDate < date;
+          value.openPretty = value.open ? "Yes" : "No";
+          return value;
+        });
+
+        $scope.eu = $scope.posts.filter(function(value) { return value.category === "EU"; });
+        $scope.na = $scope.posts.filter(function(value) { return value.category === "NA"; });
+
+        var future;
+
+        future = $scope.eu.filter(function(value) { return value.open; });
+        $scope.euNext = future.length === 0 ? $scope.eu[$scope.eu.length-1] : future[0];
+
+        future = $scope.na.filter(function(value) { return value.open; });
+        $scope.naNext = future.length === 0 ? $scope.na[$scope.na.length-1] : future[0];
+    });
 
 });

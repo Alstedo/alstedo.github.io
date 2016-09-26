@@ -12,8 +12,7 @@ def results(tournaments):
     dates = sorted(tournaments.keys())
 
     results = {
-        'count': 0,
-        'teams': { }
+        'teams': []
     }
     for weekIndex, date in enumerate(dates):
         week = weekIndex+1
@@ -24,14 +23,13 @@ def results(tournaments):
             standing = int(tournTeam['standing'])
 
             isSimilarRoster = False
-            for _id in results['teams']:
-                team = results['teams'][_id]
+            for index in range(len(results['teams'])):
 
-                isSimilarRoster = isSimilar(tournTeam['roster'], team['roster'])
+                isSimilarRoster = isSimilar(tournTeam['roster'], results['teams'][index]['roster'])
                 if isSimilarRoster:
-                    results['teams'][_id]['name'] = tournTeam['name']
-                    results['teams'][_id]['roster'] = tournTeam['roster']
-                    results['teams'][_id]['week'][week] = standing
+                    results['teams'][index]['name'] = tournTeam['name']
+                    results['teams'][index]['roster'] = tournTeam['roster']
+                    results['teams'][index]['weeks'][week] = standing
 
                     break
 
@@ -41,13 +39,13 @@ def results(tournaments):
             obj = {
                 'name': tournTeam['name'],
                 'roster': tournTeam['roster'],
-                'week': {
+                'weeks': {
                     week: standing
                 }
             }
 
-            _id = str(results['count'])
-            results['teams'][_id] = obj
-            results['count'] = results['count'] + 1
+            results['teams'].append(obj)
 
+    results['numTeams'] = len(results['teams'])
+    results['numWeeks'] = len(dates)
     return results

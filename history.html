@@ -1,7 +1,7 @@
 ---
 layout: page
 title: History
-published: false
+published: true
 ---
 
 <div class="container" style="padding-top: 20px;" ng-app="App">
@@ -14,12 +14,25 @@ published: false
           <tr class="table-header bg-primary">
             <th>Rank</th>
             <th>Team</th>
-            <th ng-click="_sort('topFours')">Top Fours</th>
-            <th ng-click="_sort('firstCount')">First</th>
-            <th ng-click="_sort('secondCount')">Second</th>
-            <th ng-click="_sort('thirdCount')">Third</th>
-            <th ng-click="_sort('fourthCount')">Fourth</th>
-            <th ng-click="_sort('average')">Average</th>
+            <th ng-click="_sort('topFours')">
+              Top Fours
+            </th>
+            <th ng-click="_sort('firstCount')">
+              <span>First</span>
+              <!-- <span>First<span class="caret"></span></span> -->
+            </th>
+            <th ng-click="_sort('secondCount')">
+              Second
+            </th>
+            <th ng-click="_sort('thirdCount')">
+              Third
+            </th>
+            <th ng-click="_sort('fourthCount')">
+              Fourth
+            </th>
+            <th ng-click="_sort('average')">
+              Average
+            </th>
             <!-- <th data-ng-repeat="i in [] | range: numWeeks">Week {(i+1)}</th> -->
           </tr>
           <tr ng-repeat="team in filteredTeams">

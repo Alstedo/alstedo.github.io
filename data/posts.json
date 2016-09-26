@@ -4,10 +4,14 @@
   "posts": [
     {% for post in site.posts %}
     {
-      "title"    : "{{ post.title }}",
-      "url"     : "{{ post.url }}",
-      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
-      "content"  : "{{ post.content | escape }}"
+      "url"        : "{{ post.url | prepend: site.baseurl }}",
+      "title"      : "{{ post.title }}",
+      "date"       : "{{ post.date }}",
+      "banner"     : "{{ post.banner }}",
+      "info_url"   : "{{ post.info_url }}",
+      "bracket_url": "{{ post.bracket_url }}",
+      "category"   : "{{ post.category }}",
+      "content"    : "{{ post.content | escape | strip | strip_newlines }}"
     } {% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
   ]
