@@ -28,6 +28,10 @@ def results(tournaments):
                 isSimilarRoster = isSimilar(tournTeam['roster'], results['teams'][index]['roster'])
                 if isSimilarRoster:
                     results['teams'][index]['name'] = tournTeam['name']
+
+                    if tournTeam['name'] not in results['teams'][index]['alternateNames']:
+                        results['teams'][index]['alternateNames'].append(tournTeam['name'])
+
                     results['teams'][index]['roster'] = tournTeam['roster']
                     results['teams'][index]['weeks'][week] = standing
 
@@ -38,6 +42,7 @@ def results(tournaments):
 
             obj = {
                 'name': tournTeam['name'],
+                'alternateNames': [ tournTeam['name'] ],
                 'roster': tournTeam['roster'],
                 'weeks': {
                     week: standing

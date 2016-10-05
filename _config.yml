@@ -49,6 +49,7 @@ permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
+exclude: [ 'py' ]
 
 gems:
   - jekyll-assets

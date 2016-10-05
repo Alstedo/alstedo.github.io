@@ -1,54 +1,74 @@
 ---
 layout: page
-title: History
-published: false
+title: Stats
+published: true
 ---
+
+
 
 <div class="container" style="padding-top: 20px;" ng-app="App">
 
   <div class="row">
     <div class="col-lg-12" ng-controller="ResultsController">
-      <div class="panel panel-default">
 
-        <table class="table table-bordered table-hover">
-          <tr class="table-header bg-primary">
-            <th>Rank</th>
-            <th>Team</th>
-            <th ng-click="_sort('topFours')">
-              Top Fours
-            </th>
-            <th ng-click="_sort('firstCount')">
-              <span>First</span>
-              <!-- <span>First<span class="caret"></span></span> -->
-            </th>
-            <th ng-click="_sort('secondCount')">
-              Second
-            </th>
-            <th ng-click="_sort('thirdCount')">
-              Third
-            </th>
-            <th ng-click="_sort('fourthCount')">
-              Fourth
-            </th>
-            <th ng-click="_sort('average')">
-              Average
-            </th>
-            <!-- <th data-ng-repeat="i in [] | range: numWeeks">Week {(i+1)}</th> -->
-          </tr>
-          <tr ng-repeat="team in filteredTeams">
-            <th>{($index+1)}</th>
-            <td>{(team.name)}</td>
-            <td>{(team.stats.topFours)}</td>
-            <td>{(team.stats.firstCount)}</td>
-            <td>{(team.stats.secondCount)}</td>
-            <td>{(team.stats.thirdCount)}</td>
-            <td>{(team.stats.fourthCount)}</td>
-            <td>{(team.stats.average)}</td>
-            <!-- <td data-ng-repeat="i in [] | range: numWeeks">{(team['weeks'][i+1])}</td> -->
-          </tr>
-        </table>
+      <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#rankings" aria-controls="rankings" role="tab" data-toggle="tab">Rankings</a></li>
+          <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="rankings">
+
+          </div>
+          <div role="tabpanel" class="tab-pane" id="history">
+            <div class="panel panel-default">
+
+              <table class="table table-bordered table-hover">
+                <tr class="table-header bg-primary">
+                  <th>Rank</th>
+                  <th>Team</th>
+                  <th ng-click="">
+                    Top Fours
+                  </th>
+                  <th ng-click="">
+                    First
+                  </th>
+                  <th ng-click="">
+                    Second
+                  </th>
+                  <th ng-click="">
+                    Third
+                  </th>
+                  <th ng-click="">
+                    Fourth
+                  </th>
+                  <th ng-click="">
+                    Average
+                  </th>
+                </tr>
+                <tr ng-repeat="team in filteredTeams">
+                  <th>{($index+1)}</th>
+                  <td>{(team.name)}</td>
+                  <td>{(team.stats.topFours)}</td>
+                  <td>{(team.stats.firstCount)}</td>
+                  <td>{(team.stats.secondCount)}</td>
+                  <td>{(team.stats.thirdCount)}</td>
+                  <td>{(team.stats.fourthCount)}</td>
+                  <td>{(team.stats.average)}</td>
+                </tr>
+              </table>
+
+            </div>
+
+          </div>
+        </div>
 
       </div>
+
     </div>
   </div>
 
