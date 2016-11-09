@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Ignition"
-date: 2016-07-28
+date: Thu 21 Jul 2016 17:00:00 +0000
 bracket_url: "https://battlefy.com/embeds/5784444f9c1c3b71114d65ed/stage/5784444f9c1c3b71114d65ee"
 category: EU
 description: "SPL 3v3"

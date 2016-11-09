@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Orbit"
-date: 2016-07-08
+date: Fri 08 Jul 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/5776abc79242f4210c31c160/stage/5776abc79242f4210c31c161"
 category: NA
 description: "SPL 3v3 Weekly"

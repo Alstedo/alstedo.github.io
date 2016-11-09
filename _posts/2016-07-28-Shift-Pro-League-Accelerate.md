@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Accelerate"
-date: 2016-07-28
+date: Thu 28 Jul 2016 17:00:00 +0000
 bracket_url: "https://battlefy.com/embeds/57920e8d6712085f0c90476e/stage/57920e8d6712085f0c90476f"
 category: EU
 description: "SPL 3v3"

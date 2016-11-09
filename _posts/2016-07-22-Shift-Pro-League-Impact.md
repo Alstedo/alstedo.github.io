@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Impact"
-date: 2016-07-22
+date: Fri 22 Jul 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/577983831d04d2cb0d85b8d5/stage/577983831d04d2cb0d85b8d6"
 category: NA
 description: "SPL 3v3 Weekly"

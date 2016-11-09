@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Blast Off"
-date: 2016-05-13
+date: Fri 05 May 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/5705be8bc9b0e48912731959/stage/5705c1dc5962927e12f1f431"
 category: NA
 description: "SPL 3v3 Weekly"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Rebirth"
-date: 2016-07-29
+date: Fri 29 Jul 2016 19:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/577985cc44e75d2a0c91b301/stage/577985cc44e75d2a0c91b302"
 category: NA
 description: "SPL 3v3 Weekly"

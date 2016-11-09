@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Altitude"
-date: 2016-06-03
+date: Fri 03 Jun 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/573d16cd282cb08a12efa305/stage/573d183805f05f7912ee94a6"
 category: NA
 description: "SPL 3v3 Weekly"

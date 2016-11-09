@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Gravity"
-date: 2016-07-15
+date: Fri 15 Jul 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/5779804d84390c1d0c133725/stage/5779804d84390c1d0c133726"
 category: NA
 description: "SPL 3v3 Weekly"

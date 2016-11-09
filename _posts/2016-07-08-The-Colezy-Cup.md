@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Colezy Cup"
-date: 2016-07-08
+date: Thu 08 Jul 2016 17:00:00 +0000
 bracket_url: "https://battlefy.com/embeds/5776b1b884390c1d0c131c08/stage/5776b1b884390c1d0c131c09"
 category: EU
 description: "SPL 3v3"

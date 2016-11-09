@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Pro League: Velocity"
-date: 2016-06-17
+date: Fri 16 Jun 2016 20:00:00 -0400
 bracket_url: "https://battlefy.com/embeds/5758c2c41892c583120e164e/stage/5758c2e95bab178212108aa6"
 category: NA
 description: "SPL 3v3 Weekly"
