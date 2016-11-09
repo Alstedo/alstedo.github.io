@@ -11,7 +11,7 @@
       "info_url"   : "{{ post.info_url }}",
       "bracket_url": "{{ post.bracket_url }}",
       "category"   : "{{ post.category }}",
-      "content"    : "{{ post.content | escape | strip | strip_newlines }}"
+      "content"    : "{{ post.content | strip_html | escape | strip_newlines | strip }}"
     } {% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
   ]

@@ -25,6 +25,9 @@ def results(tournaments):
             isSimilarRoster = False
             for index in range(len(results['teams'])):
 
+                print("tourn team: {}".format(tournTeam['roster']))
+                print("results team: {}".format(results['teams'][index]['roster']))
+
                 isSimilarRoster = isSimilar(tournTeam['roster'], results['teams'][index]['roster'])
                 if isSimilarRoster:
                     results['teams'][index]['name'] = tournTeam['name']

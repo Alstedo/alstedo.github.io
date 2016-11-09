@@ -58,20 +58,53 @@ layout: default
   </a>
 </div>
 
-<div class="container-fluid pane">
+<div class="container-fluid pane" ng-app="App">
 
-  <div class="row">
+  <div class="row" ng-controller="PostsController">
     <div class="col-lg-6">
 
-      {% assign eu = site.posts | where:"category","EU" %}
-      {% include next-tourney-thumbnail.html posts=eu id="eu" %}
+      <div class="thumbnail" id="eu-thumbnail">
+        <a href="{( euNext.url )}">
+          <img src="/img/banners/{( euNext.banner )}" alt="banner" class="img-responsive">
+        </a>
+
+        <div class="caption">
+          <a href="{( euNext.url )}">
+            <h3> {( euNext.title )} </h3>
+          </a>
+          <p>
+            <span> {( euNext.prettyDate )} </span>
+            <p id="eu-content">{( euNext.content )}</p>
+            <div class="text-center">
+              <a class="btn btn-lg btn-primary" href="{( euNext.info_url )}" role="button">Join Tournament</a>
+            </div>
+          </p>
+        </div>
+      </div>
+
 
     </div>
 
     <div class="col-lg-6">
 
-      {% assign na = site.posts | where:"category","NA" %}
-      {% include next-tourney-thumbnail.html posts=na id="na" %}
+      <div class="thumbnail" id="na-thumbnail">
+        <a href="{( naNext.url )}">
+          <img src="/img/banners/{( naNext.banner )}" alt="banner" class="img-responsive">
+        </a>
+
+        <div class="caption">
+          <a href="{( naNext.url )}">
+            <h3> {( naNext.title )} </h3>
+          </a>
+          <p>
+            <span> {( naNext.prettyDate )} </span>
+            <p id="na-content">{( naNext.content )}</p>
+            <div class="text-center">
+              <a class="btn btn-lg btn-primary" href="{( naNext.info_url )}" role="button">Join Tournament</a>
+            </div>
+          </p>
+        </div>
+      </div>
 
     </div>
 

@@ -166,16 +166,29 @@ App.controller('PostsController', function PostsController($scope, $http) {
   $http.get('../data/posts.json')
     .then(function(response) {
         $scope.posts = response.data.posts;
-        console.log($scope.posts);
 
         $scope.posts.sort(function(a, b) {
           var aDate = new Date(a.date);
           var bDate = new Date(b.date);
           return aDate < bDate ? 1 : -1;
         });
+
         $scope.posts.map(function(value) {
           var date = new Date(value.date);
-          value.prettyDate = date.toDateString();
+
+          var locale = 'en';
+          var options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          }
+          value.prettyDate = date.toLocaleString(locale, options);
+
+          options = {
+            hour: 'numeric',
+            timeZoneName: 'short'
+          }
+          value.prettyTime = date.toLocaleString(locale, options);
           return value;
         });
 
@@ -193,10 +206,14 @@ App.controller('PostsController', function PostsController($scope, $http) {
         var future;
 
         future = $scope.eu.filter(function(value) { return value.open; });
-        $scope.euNext = future.length === 0 ? $scope.eu[$scope.eu.length-1] : future[0];
+        $scope.euNext = future.length === 0 ? $scope.eu[0] : future[future.length-1];
 
         future = $scope.na.filter(function(value) { return value.open; });
-        $scope.naNext = future.length === 0 ? $scope.na[$scope.na.length-1] : future[0];
+        $scope.naNext = future.length === 0 ? $scope.na[0] : future[future.length-1];
+
+        $scope.euRedirect = function() {
+          $window.location.href = $scope.euNext.url;
+        }
     });
 
 });

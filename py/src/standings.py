@@ -1,7 +1,7 @@
 import sys
 import re
-import html
 import json
+import html
 
 def standings(file):
 

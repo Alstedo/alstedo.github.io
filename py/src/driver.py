@@ -56,7 +56,7 @@ for f in dataDirs:
     _tournaments = tournaments(_tournaments, _tournament)
 
     f = open(TOURNAMENT_PATH, "w", encoding="utf8")
-    json.dump(_tournaments, f, indent=2, sort_keys=True, ensure_ascii=True)
+    json.dump(_tournament, f, indent=2, sort_keys=True, ensure_ascii=True)
     f.close()
 
 f = open(TOURNAMENTS_PATH, "w", encoding="utf8")

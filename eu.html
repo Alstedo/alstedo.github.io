@@ -1,24 +1,13 @@
 ---
-layout: redirect
+layout: default
 sitemap: false
 permalink: /eu/
 ---
 
-{% assign posts = site.posts | where: "category", "EU"%}
+<div ng-app="App">
+  <div ng-controller="PostsController">
 
-{% capture sitetime %} {{ 'now' | date: '%s' }} {% endcapture %}
-{% for post in posts %}
+    <div ng-init="euRedirect()"></div>
 
-{% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
-
-{% if posttime > sitetime %}
- {% assign next = post %}
-{% else %}
- {% break %}
-{% endif %}
-
-{% endfor %}
-
-{% assign tourney = next | default: posts.first %}
-
-{{ tourney.url | prepend: site.baseurl }}
+  </div>
+</div>
