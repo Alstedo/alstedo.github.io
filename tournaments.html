@@ -3,49 +3,53 @@ layout: page
 title: Tournaments
 ---
 
-<div class="container" style="padding-top: 20px;">
-  <div class="row">
+<div class="container" style="padding-top: 20px;" ng-app="App">
 
-    <div class="col-lg-12">
-
+  <div class="row" ng-controller="PostsController">
+    <div class="col-lg-12" >
       <div class="panel panel-default">
 
-        <table id="tournaments" class="table table-bordered table-hover">
+        <table class="table table-bordered table-hover">
           <tr class="table-header bg-primary">
             <th>Tournament</th>
             <th>Region</th>
-            <th id="date">Date</th>
+            <th>Date</th>
+            <th>Time</th>
             <th>Open</th>
           </tr>
-          {% for post in site.posts %}
-          <tr>
-              <td>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </td>
-              <td>
-                <span> {{ post.category }} </span>
-              </td>
-              <td>
-                <span> {{ post.date | date: "%b %-d, %Y" }} </span>
-              </td>
-              <td>
-                {% capture sitetime %} {{ 'now' | date: '%s' }} {% endcapture %}
-                {% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
-                <span>
-                  {% if posttime > sitetime %}
-                   Yes
-                  {% else %}
-                   No
-                  {% endif %}
-                </span>
-              </td>
+          <tr ng-repeat="post in posts">
+            <td>
+              <span><a href="{( post.url )}">{( post.title )}</a></span>
+            </td>
+            <td>
+              <span>{( post.category )}</span>
+            </td>
+            <td>
+              <span>{( post.prettyDate )}</span>
+            </td>
+            <td>
+              <span>{( post.prettyTime )}</span>
+            </td>
+            <td>
+              <span>{( post.openPretty )}</span>
+            </td>
           </tr>
-          {% endfor %}
         </table>
 
       </div>
-
     </div>
 
+    <!-- <div class="col-lg-2">
+      <p>Filter by:
+        <p>Open:
+
+        </p>
+        <p>Region:
+
+        </p>
+      </p>
+
+    </div> -->
   </div>
+
 </div>
