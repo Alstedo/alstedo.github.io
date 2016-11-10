@@ -97,6 +97,10 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
     $scope.filteredTeams = filteredTeams;
   }
 
+  $scope.display = function(team) {
+    $scope.displayedTeam = team;
+  }
+
   $http.get('../data/weights.json')
     .then(function(response) {
         $scope.weights = response.data;
@@ -151,6 +155,7 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
         $scope.numTeams = results.numTeams;
         $scope.teams = teams;
         $scope._sort('topFours');
+        $scope.display($scope.teams[0]);
         // var filteredTeams = teams;
         // filteredTeams.sort(sort_by("stats.topFours"));
         // filteredTeams = filteredTeams.slice(0, 32);
