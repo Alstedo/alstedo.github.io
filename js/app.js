@@ -161,7 +161,7 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
 
 
 // Define the `PostsController` controller on the `PostsApp` module
-App.controller('PostsController', function PostsController($scope, $http) {
+App.controller('PostsController', function PostsController($scope, $http, $window) {
 
   $http.get('../data/posts.json')
     .then(function(response) {
@@ -207,12 +207,31 @@ App.controller('PostsController', function PostsController($scope, $http) {
 
         future = $scope.eu.filter(function(value) { return value.open; });
         $scope.euNext = future.length === 0 ? $scope.eu[0] : future[future.length-1];
+        $scope.euRedirect = function() {
+          console.log($scope.euNext.url)
+          $window.location.href = $scope.euNext.url;
+        }
 
         future = $scope.na.filter(function(value) { return value.open; });
         $scope.naNext = future.length === 0 ? $scope.na[0] : future[future.length-1];
+        $scope.naRedirect = function() {
+          console.log($scope.naNext.url)
+          $window.location.href = $scope.naNext.url;
+        }
 
-        $scope.euRedirect = function() {
-          $window.location.href = $scope.euNext.url;
+        var element = document.getElementById("eu-redirect");
+        if (element !== null) {
+          angular.element().ready(function() {
+            $scope.euRedirect();
+          });
+        }
+
+
+        var element = document.getElementById("na-redirect");
+        if (element !== null) {
+          angular.element(element).ready(function() {
+            $scope.naRedirect();
+          });
         }
     });
 

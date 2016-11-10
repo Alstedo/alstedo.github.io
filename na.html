@@ -1,24 +1,7 @@
 ---
-layout: redirect
+layout: default
 sitemap: false
 permalink: /na/
 ---
 
-{% assign posts = site.posts | where: "category", "NA"%}
-
-{% capture sitetime %} {{ 'now' | date: '%s' }} {% endcapture %}
-{% for post in posts %}
-
-{% capture posttime %} {{ post.date | date: '%s' }} {% endcapture %}
-
-{% if posttime > sitetime %}
- {% assign next = post %}
-{% else %}
- {% break %}
-{% endif %}
-
-{% endfor %}
-
-{% assign tourney = next | default: posts.first %}
-
-{{ tourney.url | prepend: site.baseurl }}
+<div ng-app="App" ng-controller="PostsController" ng-init="naRedirect()" id="na-redirect"></div>
