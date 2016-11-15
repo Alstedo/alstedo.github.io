@@ -20,85 +20,35 @@ App.filter('range', function() {
   };
 });
 
-var topFourCompare = function(a, b) {
-  var value = 0;
-
-  value = b['stats']['topFours'] - a['stats']['topFours'];
-  if (value != 0)
-    return value;
-
-  value = b['stats']['firstCount'] - a['stats']['firstCount'];
-  if (value != 0)
-    return value;
-
-  value = b['stats']['secondCount'] - a['stats']['secondCount'];
-  if (value != 0)
-    return value;
-
-  value = b['stats']['thirdCount'] - a['stats']['thirdCount'];
-  if (value != 0)
-    return value;
-
-  value = b['stats']['fourthCount'] - a['stats']['fourthCount'];
-  if (value != 0)
-    return value;
-
-  return value;
-}
-
-// var firstCompare = function(a, b) {
-//   var value = 0;
-//
-//   value = b['stats']['firstCount'] - a['stats']['firstCount'];
-//   if (value != 0)
-//     return value;
-//
-//   value = b['stats']['topFours'] - a['stats']['topFours'];
-//   if (value != 0)
-//     return value;
-//
-//   value = b['stats']['secondCount'] - a['stats']['secondCount'];
-//   if (value != 0)
-//     return value;
-//
-//   value = b['stats']['thirdCount'] - a['stats']['thirdCount'];
-//   if (value != 0)
-//     return value;
-//
-//   value = b['stats']['fourthCount'] - a['stats']['fourthCount'];
-//   if (value != 0)
-//     return value;
-//
-//   return value;
-// }
-
-var keyCompare = function(key) {
-  return function(a, b) { return b['stats'][key] - a['stats'][key]; };
-}
-
-var averageCompare = function(a, b) {
-  return a['stats']['average'] - b['stats']['average'];
-}
-
-// Define the `ResultsController` controller on the `App` module
-App.controller('ResultsController', function ResultsController($scope, $http) {
-  $scope._sort = function(key, range=32) {
-    var compare;
-    if ( key === 'topFour' )
-      compare = topFourCompare;
-    else if ( key === 'average' )
-      compare = averageCompare;
-    else
-      compare = keyCompare(key);
-
-    var filteredTeams = $scope.teams;
-    filteredTeams.sort(compare);
-    filteredTeams = filteredTeams.slice(0, range);
-    $scope.filteredTeams = filteredTeams;
-  }
+// Define the `HistoryController` controller on the `App` module
+App.controller('HistoryController', function ResultsController($scope, $http) {
 
   $scope.display = function(team) {
+    console.log(team);
+    team.previousRosterStr = team.previousRoster.join(', ');
     $scope.displayedTeam = team;
+  }
+
+  $scope.compare = function(a, b) {
+    // return a['stats']['average'] - b['stats']['average'];
+    var cmp, isSorted;
+
+    cmp = b['stats']['first'] - a['stats']['first'];
+    isSorted = (cmp !== 0);
+    if ( isSorted )
+      return cmp;
+
+    cmp = b['stats']['second'] - a['stats']['second'];
+    isSorted = (cmp !== 0);
+    if ( isSorted )
+      return cmp;
+
+    cmp = b['stats']['third'] - a['stats']['third'];
+    isSorted = (cmp !== 0);
+    if ( isSorted )
+      return cmp;
+
+    return a['stats']['average'] - b['stats']['average'];
   }
 
   $http.get('../data/weights.json')
@@ -106,60 +56,67 @@ App.controller('ResultsController', function ResultsController($scope, $http) {
         $scope.weights = response.data;
     });
 
-  $http.get('../data/results.json')
+  $http.get('../data/tournaments.json')
     .then(function(response) {
-        var results = response.data;
+        var tournaments = response.data;
 
-        teams = results.teams;
-        for ( var i = 0; i < teams.length; i++ )
+        var teams = Object.keys(tournaments.teams).map(function (key) { return tournaments.teams[key]; });
+        var count = 0;
+
+        for ( var key in teams )
         {
-          var weeks = teams[i]['weeks'];
+          var team = teams[key];
+
+          teams[key]['nameShort'] = teams[key]['name'].slice(0, 15);
+
+          var weeks = teams[key]['weeks'];
 
           var numWeeks = Object.keys(weeks).length;
-          if ( numWeeks == 0 )
+          if ( numWeeks === 0 )
             continue;
 
-          teams[i]['stats'] = {
+          teams[key]['stats'] = {
             'average': 0,
-            'topFours': 0,
-            'firstCount': 0,
-            'secondCount': 0,
-            'thirdCount': 0,
-            'fourthCount': 0,
+            'topThrees': 0,
+            'first': 0,
+            'second': 0,
+            'third': 0,
             'numWeeks': numWeeks
           }
 
           var sum = 0;
-          for ( key in weeks )
+          for ( var k in weeks )
           {
-            standing = weeks[key];
+            standing = parseInt(weeks[k]);
+
+            if ( standing === 1 )
+              teams[key]['stats']['first'] += 1;
+            if ( standing === 2 )
+              teams[key]['stats']['second'] += 1;
+            if ( standing === 3 )
+              teams[key]['stats']['third'] += 1;
 
             sum += standing;
-            if ( standing == 1 )
-              teams[i]['stats']['firstCount'] += 1
-            if ( standing == 2 )
-              teams[i]['stats']['secondCount'] += 1
-            if ( standing == 3 )
-              teams[i]['stats']['thirdCount'] += 1
-            if ( standing == 4 )
-              teams[i]['stats']['fourthCount'] += 1
-            if ( standing >= 1 && standing <= 4 )
-              teams[i]['stats']['topFours'] += 1
           }
+          teams[key]['stats']['topThrees'] =
+            teams[key]['stats']['first'] +
+            teams[key]['stats']['second'] +
+            teams[key]['stats']['third'];
+
 
           var average = sum / numWeeks;
-          teams[i]['stats']['average'] = average.toFixed(2);
+          teams[key]['stats']['average'] = average.toFixed(2);
+
+          count += 1;
         }
 
-        $scope.numWeeks = results.numWeeks;
-        $scope.numTeams = results.numTeams;
+        teams.sort($scope.compare)
+
+        $scope.numWeeks = tournaments.weeks.length;
+        $scope.numTeams = count;
         $scope.teams = teams;
-        $scope._sort('topFours');
         $scope.display($scope.teams[0]);
-        // var filteredTeams = teams;
-        // filteredTeams.sort(sort_by("stats.topFours"));
-        // filteredTeams = filteredTeams.slice(0, 32);
-        // $scope.filteredTeams = filteredTeams;
+        $scope.list(teams);
     });
 
 });

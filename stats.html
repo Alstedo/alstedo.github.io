@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Stats
-published: false
+permalink: /stats/
+published: true
 ---
 
 <div class="container" style="padding-top: 20px;" ng-app="App">
 
-  <div class="row" ng-controller="ResultsController">
+  <div class="row" ng-controller="HistoryController">
     <div class="col-lg-8">
 
       <div class="panel panel-default">
@@ -15,33 +16,29 @@ published: false
           <tr class="table-header bg-primary">
             <th>Rank</th>
             <th>Team</th>
-            <th ng-click="">
-              Top Fours
+            <th class="hidden-xs hidden-sm">
+              Top Three's
             </th>
-            <th ng-click="">
+            <th class="hidden-xs hidden-sm">
               First
             </th>
-            <th ng-click="">
+            <th class="hidden-xs hidden-sm">
               Second
             </th>
-            <th ng-click="">
+            <th class="hidden-xs hidden-sm">
               Third
             </th>
-            <th ng-click="">
-              Fourth
-            </th>
-            <th ng-click="">
+            <th>
               Average
             </th>
           </tr>
-          <tr ng-repeat="team in filteredTeams" ng-mouseover="display(team)">
+          <tr ng-repeat="team in teams | filter:searchText" ng-mouseover="display(team)">
             <td>{($index+1)}</td>
-            <td>{(team.name)}</td>
-            <td>{(team.stats.topFours)}</td>
-            <td>{(team.stats.firstCount)}</td>
-            <td>{(team.stats.secondCount)}</td>
-            <td>{(team.stats.thirdCount)}</td>
-            <td>{(team.stats.fourthCount)}</td>
+            <td>{(team.nameShort)}</td>
+            <td class="hidden-xs hidden-sm">{(team.stats.topThrees)}</td>
+            <td class="hidden-xs hidden-sm">{(team.stats.first)}</td>
+            <td class="hidden-xs hidden-sm">{(team.stats.second)}</td>
+            <td class="hidden-xs hidden-sm">{(team.stats.third)}</td>
             <td>{(team.stats.average)}</td>
           </tr>
         </table>
@@ -50,17 +47,24 @@ published: false
 
     </div>
 
-    <div class="col-lg-4">
-      <div class="panel panel-default">
+    <div class="col-lg-4" >
+      <label>Search: <input style="color: black;" ng-model="searchText"></label>
+      <div class="panel panel-default hidden-xs hidden-sm" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 
-        <table class="table table-bordered table-hover">
-          <tr class="table-header bg-primary">
-            <th>{(displayedTeam.name)}</th>
-          </tr>
-          <tr ng-repeat="player in displayedTeam.roster">
-            <td>{(player)}</td>
-          </tr>
-        </table>
+        <div class="panel-heading bg-primary">
+          <h1 class="panel-title">{(displayedTeam.name)}</h1>
+        </div>
+        <div class="panel-body">
+          <div class="col-lg-6" ng-repeat="player in displayedTeam.roster track by $index">
+            {(player)}
+          </div>
+          <div class="col-lg-6" ng-repeat="(week, standing) in displayedTeam.weeks">
+            {(week)} {(standing)}
+          </div>
+          <div class="col-lg-12">
+            {(displayedTeam.previousRosterStr)}
+          </div>
+        </div>
 
       </div>
     </div>
